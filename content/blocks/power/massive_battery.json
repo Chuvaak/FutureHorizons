@@ -1,0 +1,15 @@
+{
+    "type": "battery",
+    "size": 4,
+    "health":750,
+    "consumes": {
+      "powerBuffered": 500000
+    },
+    "category": "power",
+"requirements": 	[
+		{ "item": "silicon", "amount": 210},
+		{ "item": "surge-alloy", "amount": 160},
+		{ "item": "electrum", "amount": 70},
+		{ "item": "lithium", "amount": 90}
+					]
+}

@@ -1,0 +1,8 @@
+{
+ "type": "material",
+ "color": "#E1DFDFFF"
+ "radioactivity": 0,
+ "charge": 0,
+ "cost": 1,
+ "alwaysUnlocked": true
+}

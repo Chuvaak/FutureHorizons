@@ -1,0 +1,54 @@
+{
+	"type": "GenericCrafter",
+	"health": 120,
+	"size": 2,
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+   {
+    "type": "drawRegion",
+    "suffix": "-bottom"    
+   },  
+   {
+    "type": "DrawLiquidTile",
+    "drawLiquid": "liquid_electrum"
+   },
+   {
+	"type": "DrawRegion",
+		"suffix": "-rotator",
+		"rotateSpeed": -3,
+		"spinSprite": true
+   },
+   {
+    "type": "DrawDefault"
+   }
+               ]
+          },
+	"requirements": 	[
+    { "item": "copper", "amount": 120},
+    { "item": "lead", "amount": 80},
+    { "item": "electrum", "amount": 50},
+	{ "item": "silicon", "amount": 60},
+    { "item": "surge-alloy", "amount": 40},
+					]
+	"alwaysUnlocked": true,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 60,
+	"consumes": {
+    "power": 5,
+	"items": {
+		"items":	[
+      { "item": "electrum", "amount": 1},
+					]
+    }
+	},
+	"updateEffect": "melting",
+	"category": "crafting",
+	"ambientSound": "flux",
+	"ambientSoundVolume": 0.1,
+	"itemCapacity": 30,
+	"liquidCapacity": 100,
+	"outputLiquid": {"liquid":"liquid_electrum", "amount": 0.4}
+}

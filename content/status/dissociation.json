@@ -1,0 +1,9 @@
+{
+	"name": "Dissociation",
+	"color": "A2A18F64",
+	"permanent":true,
+	"damage": 12,
+	"healthMultiplier": 0.7,
+	"effectChance": 0.7,
+	"effect": "vapor"
+}

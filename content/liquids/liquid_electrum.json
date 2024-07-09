@@ -1,0 +1,12 @@
+{
+ "type": "liquid",
+ "color": "#D5CD3BFF",
+ "effect":"dissociation",
+ "flammability": 0,
+ "temperature": 0.01,
+ "charge": 12,
+ "heatCapacity": 3,
+ "viscosity": 0.8,
+ "explosiveness": 1.5,
+ "coolant": true
+}

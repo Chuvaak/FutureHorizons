@@ -1,0 +1,12 @@
+{
+    "type": "StorageBlock",
+    "size": 3,
+    "health": 2500,
+    "itemCapacity": 3000,
+    "category": "effect",
+"requirements": 	[
+    { "item": "titanium", "amount": 210},
+    { "item": "thorium", "amount": 160},
+    { "item": "electrum", "amount": 90},
+					],
+  }

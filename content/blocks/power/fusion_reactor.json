@@ -1,0 +1,60 @@
+{
+    "type": "ImpactReactor",
+    "size": 10,
+    "health":9000,
+	"drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+        "type": "drawRegion",
+        "suffix": "-bottom"    
+        },  
+        {
+        "type": "DrawPlasma"
+        },
+        {
+        "type": "DrawDefault"
+        },
+        {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "cryofluid"
+        }
+      ]
+    },
+    "hasPower": true,
+    "hasItems": true,
+
+    "explodeEffect": "impactReactorExplosion",
+    "explodeSound": "explosionbig",
+
+    "powerProduction": 2337,
+    "itemCapacity": 30,
+    "liquidCapacity": 40,
+    "explosionRadius": 120,
+    "explosionDamage": 1600,
+    "itemDuration": 70,
+    "consumes": {
+    "power": 400,
+    "items": [
+			{"item": "tritium_capcule", "amount": 1},
+			{"item": "deuterium_capcule", "amount": 1}
+        ],
+    "liquid": {
+        "liquid": "cryofluid", "amount": 1
+			}
+    },
+    "category": "power",
+    "requirements": 	[
+    { "item": "copper", "amount": 6000},
+    { "item": "lead", "amount": 4000},
+    { "item": "titanium", "amount": 3000},
+	{ "item": "metaglass", "amount": 5000},
+	{ "item": "silicon", "amount": 4000},
+	{ "item": "electrum", "amount": 800},
+	{ "item": "plastanium", "amount": 900}
+					]
+	"ambientSound":"spellLoop",
+	"ambientSoundVolume": 0.45,
+	"alwaysUnlocked": true
+}
+    

@@ -1,0 +1,32 @@
+{
+"type": "OverdriveProjector",
+"health": 1500,
+"size": 4,
+"range": 160,
+"itemCapacity": 25,
+"consumes": { 
+"power": 30,
+"items": {
+		"items":	[
+      { "item": "electrum", "amount": 6.666666},
+					]
+    "booster": false,
+	"optional": false
+}
+"liquid": 
+		{"liquid": "liquid_electrum", "amount": 0.4},
+},
+"speedBoost": 4.5,
+"hasBoost":false,
+"speedBoostPhase": 0,
+"requirements": 	[
+    { "item": "surge-alloy", "amount": 460},
+    { "item": "plastanium", "amount": 200},
+    { "item": "electrum", "amount": 160},
+	{ "item": "silicon", "amount": 280},
+	{ "item": "metaglass", "amount": 340}
+					]
+	"category": "effect",
+	"alwaysUnlocked": true
+
+}

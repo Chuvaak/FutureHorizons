@@ -1,0 +1,24 @@
+{	
+  "type": "MassDriver",
+  "size": 1, 
+  "health": 120,
+  "itemCapacity": 50,
+  "range":200,
+  "reload": 120,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "consumes": {"power": 5
+	},
+  "requirements": 	[
+    { "item": "copper", "amount": 100},
+    { "item": "lead", "amount": 60},
+    { "item": "electrum", "amount": 40},
+	{ "item": "silicon", "amount": 80},
+					]
+	"category": "distribution",
+	"shake": 1,
+	"shootSound": "pew",
+	"elevation":0,
+	"alwaysUnlocked": true
+}

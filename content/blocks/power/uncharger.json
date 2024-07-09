@@ -1,0 +1,37 @@
+{
+	"type": "ConsumeGenerator",
+"health": 80,
+"itemCapacity": 20,
+"size": 1,
+"drawer": {
+	  "type": "DrawMulti",
+	"drawers": 	[
+	{
+	"type": "DrawDefault"
+	},
+	{
+	"type": "DrawFade"
+	}
+				]
+			},
+"requirements": [
+    { "item": "copper", "amount": 70},
+    { "item": "lead", "amount": 80},
+	{ "item": "graphite", "amount": 30},
+	{ "item": "silicon", "amount": 20}
+  ],
+"hasLiquids": false,
+"powerProduction": 5,
+"craftTime": 15,
+"generateEffect": "none",
+"consumes":{
+	"items": {
+		"items": [
+	{"item": "battery", "amount": 1}
+		]
+	}
+},	
+"category": "power"
+"alwaysUnlocked": true,
+"ambientSoundVolume": 0.5
+}

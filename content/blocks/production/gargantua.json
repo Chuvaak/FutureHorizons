@@ -1,0 +1,40 @@
+{
+"type": "Drill",
+"health": 1300,
+"size": 6,
+"tier": 20,
+"drillTime": 150,
+"rotateSpeed": 4,
+"canOverdrive": true,
+"drawRim": true,
+"liquidCapacity": 40,
+"liquidBoostIntensity": 1.5,
+"hardnessDrillMultiplier": 50,
+"itemCapacity": 100,
+"consumes": {
+	"power": 15,
+	"liquid":{
+		"liquid": "cryofluid", "amount": 0.2
+		"booster": true,
+		"optional": true
+	}
+}
+"requirements": 	[
+		{ "item": "surge-alloy", "amount": 490},
+		{ "item": "electrum", "amount": 250},
+		{ "item": "silicon", "amount": 350},
+		{ "item": "titanium", "amount": 280},
+		{ "item": "thorium", "amount": 230}
+			
+					]
+"drillEffect": "mine",
+"drillEffectChance": 100,
+"updateEffectChance":0.08,
+"ambientSound": "machine",
+"ambientSoundVolume": 0.2,
+"category": "production",
+"alwaysUnlocked": true
+	
+	
+	
+}

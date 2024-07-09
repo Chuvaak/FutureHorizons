@@ -1,0 +1,30 @@
+{
+"type": "mendProjector",
+"health": 490,
+"size": 3,
+"reload": 120,
+"range": 220,
+"healPercent": 20,
+"itemCapacity": 15,
+"hasPower": true,
+"consumes": {
+	"power": 15,
+	"items": {
+		"items":	[
+      { "item": "electrum", "amount": 6.666666},
+					]
+    "booster": false,
+	"optional": false
+}
+"liquid": 
+		{"liquid": "liquid_electrum", "amount": 0.4},
+},
+"requirements": 	[
+    { "item": "surge-alloy", "amount": 160},
+    { "item": "titanium", "amount": 190},
+    { "item": "electrum", "amount": 120},
+	{ "item": "silicon", "amount": 280},
+	{ "item": "lead", "amount": 180}
+					],
+"category": "effect"
+}

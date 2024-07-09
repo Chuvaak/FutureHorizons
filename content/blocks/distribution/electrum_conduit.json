@@ -1,0 +1,19 @@
+{
+"type": "liquidBridge",
+"health": 120,
+"size": 1,
+"range": 30,
+"transportTime": 2,
+"canOverdrive": true,
+"liquidCapacity": 15,
+"consumes": {
+	"power": 6
+}
+"requirements": 	[
+		{ "item": "phase-fabric", "amount": 10},
+		{ "item": "metaglass", "amount": 15},
+		{ "item": "electrum", "amount": 10},
+					]
+"category": "liquid",
+"alwaysUnlocked": true
+}

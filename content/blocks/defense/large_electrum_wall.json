@@ -1,0 +1,23 @@
+{
+    "type": "ShieldWall",
+    "health": 6300,
+    "size": 2,
+    "absorbLasers":true,
+	"shieldHealth":4000,
+	"envDisabled": 20,
+    "conductivePower":true,
+	"chanceDeflect": 25,
+	"lightningChance": 0.15,
+	"lightningDamage": 50,
+	"lightningLength": 20,
+    "consumes": {
+    "power": 4
+                },
+    "requirements": [
+    { "item": "electrum", "amount": 60},
+    { "item": "thorium", "amount": 40}
+			],
+    "category": "defense"
+	"baseExplosiveness": 50,
+	"alwaysUnlocked": true
+    }

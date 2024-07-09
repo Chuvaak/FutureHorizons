@@ -1,0 +1,47 @@
+{
+	"type": "GenericCrafter",
+	"health": 380,
+	"size": 4,
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+   {
+    "type": "drawRegion",
+    "suffix": "-bottom"    
+   },  
+   {
+    "type": "DrawLiquidTile",
+    "drawLiquid": "hydrogen"
+   },
+   {
+    "type": "DrawDefault"
+   }
+               ]
+          },
+	"requirements": 	[
+    { "item": "copper", "amount": 230},
+    { "item": "lead", "amount": 160},
+    { "item": "titanium", "amount": 90},
+	{ "item": "silicon", "amount": 180},
+	{ "item": "metaglass", "amount": 100},
+					]
+	"alwaysUnlocked": true,
+	"hasPower": true,
+	"hasItems": false,
+	"hasLiquids": true,
+	"outputsLiquid": true,
+	"craftTime": 60,
+	"consumes": {
+    "power": 10,
+	"liquid": 
+		{"liquid": "water", "amount": 4}
+					
+    
+	},
+	"category": "crafting",
+	"ambientSound": "electricHum",
+	"ambientSoundVolume": 0.1,
+	"itemCapacity": 30,
+	"liquidCapacity": 300,
+	"outputLiquid": {"liquid":"hydrogen", "amount": 2.7}
+}

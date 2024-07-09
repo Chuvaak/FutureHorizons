@@ -1,0 +1,10 @@
+{
+ "type": "liquid",
+ "gas": true,
+ "color": "#E0E0E0FF",
+ "flammability": 1,
+ "viscosity": 0.5,
+ "heatCapacity": 0.5,
+ "temperature": 0.5,
+ "coolant": false
+}
