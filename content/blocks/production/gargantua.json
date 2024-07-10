@@ -33,7 +33,9 @@
 "ambientSound": "machine",
 "ambientSoundVolume": 0.2,
 "category": "production",
-"alwaysUnlocked": true
+"research":{
+		"parent":"airblast-drill"
+	}
 	
 	
 	
