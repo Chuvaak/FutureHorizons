@@ -11,5 +11,6 @@
 		{ "item": "surge-alloy", "amount": 160},
 		{ "item": "electrum", "amount": 70},
 		{ "item": "lithium", "amount": 90}
-					]
+					],
+"alwaysUnlocked": true,
 }
