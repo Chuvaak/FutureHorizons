@@ -13,11 +13,11 @@
 	"hasItems": false,
 	"hasLiquids": true,
 	"outputsItems": true,
-	"craftTime": 19.2,
+	"craftTime": 60,
 	"consumes": {
     "power": 2,
 	"liquid": 
-		{"liquid": "slag", "amount": 0.25}
+		{"liquid": "slag", "amount": 0.5}
 					
     
 	},
