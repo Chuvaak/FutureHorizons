@@ -19,5 +19,7 @@
 			],
     "category": "defense"
 	"baseExplosiveness": 50,
-	"alwaysUnlocked": true
+	"research":{
+		"parent":"electrum_wall"
+	}
     }

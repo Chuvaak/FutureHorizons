@@ -19,5 +19,7 @@
 			],
     "category": "defense"
 	"baseExplosiveness": 25,
-	"alwaysUnlocked": true
+	"research":{
+		"parent":"large-surge-wall"
+	}
     }
