@@ -8,5 +8,8 @@
  "heatCapacity": 3,
  "viscosity": 0.8,
  "explosiveness": 1.5,
- "coolant": true
+ "coolant": true,
+ "research":{
+		"parent":"electrum"
+	}
 }

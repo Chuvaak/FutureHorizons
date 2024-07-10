@@ -6,5 +6,8 @@
  "viscosity": 0.5,
  "heatCapacity": 0.5,
  "temperature": 0.5,
- "coolant": false
+ "coolant": false,
+ "research":{
+		"parent":"lithium"
+	}
 }
