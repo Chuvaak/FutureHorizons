@@ -2,6 +2,6 @@ displayName:"Future Horizons"
 name:"futureHorizons"
 description:"Somewhat advanced endgame technologies. It is recommended to disable vertical synchronization."
 author:"Chuvaak"
-version:"1.0"
+version:"1.12"
 dependencies:[]
 minGameVersion:146
