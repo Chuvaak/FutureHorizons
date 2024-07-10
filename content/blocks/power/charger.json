@@ -19,7 +19,6 @@
 	{ "item": "graphite", "amount": 50},
 	{ "item": "silicon", "amount": 30}
   ],
-  "alwaysUnlocked": true,
   "hasPower": true,
   "hasItems": true,
   "hasLiquids": false,
@@ -36,5 +35,8 @@
   "category": "power",
   "idleSoundVolume": 0.5,
   "itemCapacity": 30,
-  "outputItem": { "item": "battery", "amount": 1}
+  "outputItem": { "item": "sbattery", "amount": 1},
+  "research":{
+		"parent":"battery"
+	}
   }

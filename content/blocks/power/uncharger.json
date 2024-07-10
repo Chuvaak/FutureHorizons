@@ -27,11 +27,13 @@
 "consumes":{
 	"items": {
 		"items": [
-	{"item": "battery", "amount": 1}
+	{"item": "sbattery", "amount": 1}
 		]
 	}
 },	
-"category": "power"
-"alwaysUnlocked": true,
-"ambientSoundVolume": 0.5
+"category": "power",
+"ambientSoundVolume": 0.5,
+"research":{
+		"parent":"battery"
+	}
 }

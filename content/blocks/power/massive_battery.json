@@ -12,5 +12,7 @@
 		{ "item": "electrum", "amount": 70},
 		{ "item": "lithium", "amount": 90}
 					],
-"alwaysUnlocked": true,
+"research":{
+		"parent":"large-battery"
+	}
 }

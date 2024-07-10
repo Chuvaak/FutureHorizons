@@ -55,6 +55,8 @@
 					]
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.45,
-	"alwaysUnlocked": true
+	"research":{
+		"parent":"impact-reactor"
+	}
 }
     
