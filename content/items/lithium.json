@@ -4,5 +4,7 @@
  "radioactivity": 0,
  "charge": 0,
  "cost": 1,
- "alwaysUnlocked": true
+ "research":{
+		"parent":"electrum"
+	}
 }

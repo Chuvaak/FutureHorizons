@@ -7,5 +7,7 @@
  "charge": 12,
  "hardness": 0,
  "cost": 1,
- "alwaysUnlocked": true
+ "research":{
+	 "parent": "phase-fabric"
+ }
 }
