@@ -15,5 +15,7 @@
 		{ "item": "electrum", "amount": 10},
 					]
 "category": "liquid",
-"alwaysUnlocked": true
+"research":{
+		"parent":"phase-conduit"
+	}
 }

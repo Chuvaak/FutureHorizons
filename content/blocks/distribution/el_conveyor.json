@@ -9,5 +9,7 @@
 		{ "item": "plastanium", "amount": 1},
 					]
 	"category": "distribution",
-	"alwaysUnlocked": true
+	"research":{
+		"parent":"plastanium-conveyor"
+	}
   }

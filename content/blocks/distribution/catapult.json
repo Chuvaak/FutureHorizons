@@ -20,5 +20,7 @@
 	"shake": 1,
 	"shootSound": "pew",
 	"elevation":0,
-	"alwaysUnlocked": true
+	"research":{
+		"parent":"mass-driver"
+	}
 }
