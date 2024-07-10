@@ -9,4 +9,5 @@
     { "item": "thorium", "amount": 160},
     { "item": "electrum", "amount": 90},
 					],
+"alwaysUnlocked": true,
   }
