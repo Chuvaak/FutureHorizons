@@ -36,7 +36,6 @@
 	{ "item": "electrum", "amount": 110},
 	{ "item": "metaglass", "amount": 120}
 					]
-	"alwaysUnlocked": true,
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": true,
@@ -65,4 +64,7 @@
 	{"item":"titanium", "amount":4},
 	{"item":"silicon", "amount":5}
 	]
+	"research":{
+		"parent":"disassembler"
+	}
 }

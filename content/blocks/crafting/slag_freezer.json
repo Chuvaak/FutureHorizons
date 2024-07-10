@@ -26,5 +26,8 @@
 	"ambientSoundVolume": 0.1,
 	"itemCapacity": 60,
 	"liquidCapacity": 60,
-	"outputItem": {"item":"scrap", "amount": 15}
+	"outputItem": {"item":"scrap", "amount": 15},
+	"research":{
+		"parent": "separator"
+	}
 }

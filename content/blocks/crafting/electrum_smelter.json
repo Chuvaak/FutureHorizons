@@ -24,16 +24,12 @@
   "requirements": 	[
     { "item": "copper", "amount": 230},
     { "item": "lead", "amount": 160},
-    { "item": "thorium", "amount": 100},
+    { "item": "phase-fabric", "amount": 100},
 	{ "item": "silicon", "amount": 210},
     { "item": "surge-alloy", "amount": 80},
-    { "item": "titanium", "amount": 180}
+    { "item": "plastanium", "amount": 180}
 					]
   
-   
-  
-              
-  "alwaysUnlocked": true,
   "hasPower": true,
   "hasItems": true,
   "hasLiquids": false,
@@ -53,5 +49,8 @@
   "ambientSound":"fuelburn"
   "idleSoundVolume": 0.05,
   "itemCapacity": 30,
-  "outputItem": { "item": "electrum", "amount": 1}
+  "outputItem": { "item": "electrum", "amount": 1},
+  "research":{
+	  "parent": "surge-smelter"
+  }
 }

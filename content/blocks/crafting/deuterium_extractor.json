@@ -28,7 +28,6 @@
 	{ "item": "electrum", "amount": 90},
 	{ "item": "plastanium", "amount": 130},
 					]
-	"alwaysUnlocked": true,
 	"hasPower": true,
 	"hasItems": false,
 	"hasLiquids": true,
@@ -50,5 +49,8 @@
 	"ambientSound": "machine",
 	"ambientSoundVolume": 0.1,
 	"liquidCapacity": 600,
-	"outputItem": {"item":"deuterium_capcule", "amount": 1}
+	"outputItem": {"item":"deuterium_capcule", "amount": 1},
+	 "research":{
+		"parent":"ind_electrolyzer"
+	}
 }

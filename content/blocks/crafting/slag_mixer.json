@@ -21,7 +21,6 @@
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": true,
-	"alwaysUnlocked": true,
 	"outputsLiquid": true,
 	"craftTime": 35,
 	"consumes": {
@@ -49,5 +48,8 @@
 	"ambientSoundVolume": 0.1,
 	"itemCapacity": 30,
 	"liquidCapacity": 100,
-	"outputLiquid": {"liquid": "slag", "amount": 0.25}
+	"outputLiquid": {"liquid": "slag", "amount": 0.25},
+	"research":{
+		"parent":"separator"
+	}
 }

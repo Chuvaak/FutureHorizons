@@ -50,5 +50,7 @@
 	"category": "crafting",
 	"heatOutput": 25,
 	"outputLiquid": {"liquid":"tritium", "amount": 0.02},
-	"alwaysUnlocked": true
+	"research":{
+		"parent":"thorium-reactor"
+	}
 }

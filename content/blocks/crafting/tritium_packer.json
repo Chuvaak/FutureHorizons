@@ -8,7 +8,6 @@
     { "item": "lead", "amount": 120},
 	{ "item": "metaglass", "amount": 60},
 					]
-	"alwaysUnlocked": true,
 	"hasPower": true,
 	"hasItems": false,
 	"hasLiquids": true,
@@ -31,5 +30,8 @@
 	"sound": "click",
 	"SoundVolume": 0.1,
 	"liquidCapacity": 600,
-	"outputItem": {"item":"tritium_capcule", "amount": 1}
+	"outputItem": {"item":"tritium_capcule", "amount": 1},
+	 "research":{
+		"parent":"e_reactor"
+	}
 }

@@ -25,7 +25,6 @@
 	{ "item": "silicon", "amount": 180},
 	{ "item": "metaglass", "amount": 100},
 					]
-	"alwaysUnlocked": true,
 	"hasPower": true,
 	"hasItems": false,
 	"hasLiquids": true,
@@ -43,5 +42,8 @@
 	"ambientSoundVolume": 0.1,
 	"itemCapacity": 30,
 	"liquidCapacity": 300,
-	"outputLiquid": {"liquid":"hydrogen", "amount": 2.7}
+	"outputLiquid": {"liquid":"hydrogen", "amount": 2.7},
+	"research":{
+		"parent":"cryofluid-mixer"
+	}
 }

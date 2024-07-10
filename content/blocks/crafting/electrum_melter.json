@@ -31,7 +31,6 @@
 	{ "item": "silicon", "amount": 60},
     { "item": "surge-alloy", "amount": 40},
 					]
-	"alwaysUnlocked": true,
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": true,
@@ -50,5 +49,8 @@
 	"ambientSoundVolume": 0.1,
 	"itemCapacity": 30,
 	"liquidCapacity": 100,
-	"outputLiquid": {"liquid":"liquid_electrum", "amount": 0.4}
+	"outputLiquid": {"liquid":"liquid_electrum", "amount": 0.4},
+	"research":{
+		"parent":"electrum_smelter"
+	}
 }
