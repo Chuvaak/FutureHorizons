@@ -26,5 +26,6 @@
 	{ "item": "silicon", "amount": 280},
 	{ "item": "lead", "amount": 180}
 					],
-"category": "effect"
+"category": "effect",
+"alwaysUnlocked": true,
 }
