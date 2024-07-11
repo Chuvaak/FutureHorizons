@@ -27,6 +27,8 @@
 	{ "item": "metaglass", "amount": 340}
 					]
 	"category": "effect",
-	"alwaysUnlocked": true
+	"research":{
+		"parent":"overdrive-dome"
+	}
 
 }
