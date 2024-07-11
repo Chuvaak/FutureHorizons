@@ -20,6 +20,6 @@
     "category": "defense"
 	"baseExplosiveness": 25,
 	"research":{
-		"parent":"large-surge-wall"
+		"parent":"surge-wall-large"
 	}
     }
