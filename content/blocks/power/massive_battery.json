@@ -13,6 +13,6 @@
 		{ "item": "lithium", "amount": 90}
 					],
 "research":{
-		"parent":"large-battery"
+		"parent":"battery-large"
 	}
 }
