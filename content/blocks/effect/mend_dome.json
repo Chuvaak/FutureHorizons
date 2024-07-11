@@ -27,5 +27,7 @@
 	{ "item": "lead", "amount": 180}
 					],
 "category": "effect",
-"alwaysUnlocked": true,
+"research":{
+		"parent":"mend-projector"
+	}
 }
