@@ -3,7 +3,7 @@
 "name": "futureHorizons",
 "description": "Somewhat advanced endgame technologies. It is recommended to disable vertical synchronization.",
 "author": "Chuvaak",
-"version": "1.13",
+"version": "1.38",
 "dependencies": []
 "minGameVersion": 146,
 "hidden": false
