@@ -128,5 +128,4 @@
   "category": "turret",
   "research": {
 	  "parent":"swarmer"},
-	 "alwaysUnlocked":true 
 }
