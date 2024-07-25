@@ -1,0 +1,95 @@
+{
+"type": "ItemTurret",
+  "size": 4,
+  "health": 9800,
+  "reload": 6000,
+  "range": 2000,
+  "shootWarmupSpeed": 0.03,
+  "minWarmup": 0.99,
+  "recoil": 3,
+  "rotateSpeed": 3,
+  "shootSound": "missile",
+  "ammoPerShot": 1000,
+  "maxAmmo": 1000,
+  "canOverdrive": false,
+  "canOverdrive": false,
+  "targetAir": true,
+  "recoil": 3,
+  "rotateSpeed": 1,
+  "shootSound": "vine-boom",
+  "unitSort": "strongest",
+  "ammoPerShot": 15,
+  "maxAmmo": 50,
+  "coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.8
+  },
+  "consumes": {
+    "power": 10000
+  },
+  "ammoTypes": {
+    "electrum": {
+      "type": "MissileBulletType",
+	  "ammoMultiplier": 1,
+	  "homingPower": 0.15,
+      "homingRange": 100,
+      "lifetime": 1000000,
+      "damage": 15,
+	  "speed": 1,
+	  "makeFire": true,
+	  "incendAmount": 30,
+      "fromColor": "ffc859",
+      "toColor": "e8b54f",
+      "height": 35,
+      "width": 15,
+      "pierce": false,
+      "smokeEffect": "hitBulletBig",
+	  "trailWidth": 6,
+	  "fragBullets": 15,
+	  "fragVelocityMin": 0.5,
+      "fragVelocityMax": 1,
+      "fragCone": 360,
+      "fragBullet": {
+        "type": "basicBulletType",	
+		"reflectable": false,
+		"hittable": false,
+		"absorbable": false,
+		"homingPower": 2,
+		"homingRange": 10000000000000000000000000,
+        "height": 12,
+		"speed": 8,
+        "width": 8,
+        "lifetime": 18000,
+        "damage": 1200,
+		"hitSound": "metal-pipe"
+        "shrinkY": 1,
+		"smokeEffect": "hitBulletBig",
+        "despawnEffect": "none",
+        "frontColor": "f0ac24",
+        "backColor": "e8b54f",
+        "pierce": true,
+        "pierceBuilding": true,
+		"splashDamageRadius": 40,
+		"splashDamage": 800,
+		"buildingDamageMultiplier": 0.1,
+	  }
+    },
+  },
+ "cooldown": 0.009,
+ "requirements": [
+    {"item": "electrum", "amount": 30000},
+	{"item": "thorium", "amount": 40000},
+	{"item": "silicon", "amount": 45000},
+	{"item": "plastanium", "amount": 36000},
+    {"item": "surge-alloy", "amount": 29000}
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"overthrower",
+	  "objectives": [
+          {
+            "type": "SectorComplete",
+            "preset": "planetaryTerminal"
+        }
+        ]},
+}

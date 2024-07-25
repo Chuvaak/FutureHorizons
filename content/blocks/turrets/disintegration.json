@@ -1,0 +1,73 @@
+{
+  "type": "ContinuousLiquidTurret",
+  "size": 5,
+  "health": 1500,
+  "reload": 2,
+  "range": 210,
+  "outlineColor": "#404049",
+  "targetAir": true,
+  "recoil": 1,
+  "targetInterval": 5,
+  "newTargetInterval": 30,
+  "liquidConsumed": 2,
+  "shootY": 9,
+  "loopSound": "torch",
+  "heatColor": "FF6767FF",
+  "drawer": {
+    "type": "drawTurret",
+	"basePrefix": "oof-",
+	"parts": [
+		  {
+			"type": "RegionPart",
+			"suffix": "-l",
+			"under": true,
+			"recoilIndex": 0,
+			"progress": "warmup",
+			"moveRot": 15,
+			"moveY": -1,
+		  },
+		  {
+			"type": "RegionPart",
+			"suffix": "-r",
+			"under": true,
+			"recoilIndex": 1,
+			"progress": "warmup",
+			"moveRot": -15,
+			"moveY": -1,
+		  }
+
+				]
+  },
+  "ammoTypes": { 
+	"hydrogen": {
+			"type": "ContinuousFlameBulletType",
+			"liquid": "hydrogen",
+			"flareColor": "#d0e4ff",
+			"flareWidth": 5,
+			"colors":[
+			"7abceb8c",
+			"a0c4f2",
+			"92afd6",
+			"91a4ffff",
+			"ffffffff"
+			]
+			"hitColor": "ff8640b2", 
+			"buildingDamageMultiplier": 0.5,
+			"length": 210,
+			"width": 7,
+			"knockback": 2,
+			"damage": 200,
+			"pierceCap": 5
+		}
+  },
+ "requirements": [
+    {"item": "surge-alloy", "amount": 560},
+	{"item": "metaglass", "amount": 430},
+	{"item": "silicon", "amount": 610},
+	{"item": "thorium", "amount": 490},
+    {"item": "electrum", "amount": 380}
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"meltdown"}
+}
