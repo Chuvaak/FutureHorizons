@@ -20,10 +20,6 @@
   "unitSort": "strongest",
   "ammoPerShot": 15,
   "maxAmmo": 50,
-  "coolant": {
-    "type": "ConsumeCoolant",
-    "amount": 0.8
-  },
   "consumes": {
     "power": 10000
   },
