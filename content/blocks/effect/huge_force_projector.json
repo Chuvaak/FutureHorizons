@@ -1,0 +1,33 @@
+{
+	"type": "ForceProjector",
+	"size": 4,
+	"health": 620
+	"radius": 300,
+	"sides": 10,
+	"solid": true,
+	"shieldHealth": 3000,
+	"cooldownNormal": 2,
+	"cooldownLiquid": 1.2,
+	"cooldownBrokenBase": 0.9,
+	"coolantConsumption": 0.2,
+	"consumes":{
+		"power": 100
+				},
+	 "requirements": [
+    {"item": "surge-alloy", "amount": 230},
+	{"item": "metaglass", "amount": 210},
+	{"item": "silicon", "amount": 350},
+	{"item": "titanium", "amount": 160},
+    {"item": "electrum", "amount": 230}
+     ],
+	"category": "effect",
+	"research": {
+	  "parent":"force-projector",
+	  "objectives": [
+          {
+            "type": "SectorComplete",
+            "preset": "nuclearComplex"
+        }
+        ]	
+		}
+}

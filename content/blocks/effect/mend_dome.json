@@ -11,13 +11,13 @@
 	"power": 15,
 	"items": {
 		"items":	[
-      { "item": "electrum", "amount": 6.666666},
+      { "item": "electrum", "amount": 3.333333333},
 					]
     "booster": false,
 	"optional": false
 }
 "liquid": 
-		{"liquid": "liquid_electrum", "amount": 0.4},
+		{"liquid": "liquid_electrum", "amount": 0.2},
 },
 "requirements": 	[
     { "item": "surge-alloy", "amount": 160},
@@ -28,6 +28,12 @@
 					],
 "category": "effect",
 "research":{
-		"parent":"mend-projector"
+		"parent":"mend-projector",
+		"objectives": [
+          {
+            "type": "SectorComplete",
+            "preset": "nuclearComplex"
+        }
+        ]
 	}
 }

@@ -1,0 +1,27 @@
+{
+    "type": "CoreBlock",
+    "health": 11000,
+    "size": 6,
+    "itemCapacity": 21000,
+    "unitCapModifier": 38,
+    "researchCostMultiplier": 0.12,
+    "thrusterLength": 7,
+    "unitType": "defender",
+    "requirements": [
+	{"item": "copper", "amount": 12000},
+	{"item": "lead", "amount": 11000},
+	{"item": "silicon", "amount": 9000},
+	{"item": "electrum", "amount": 8000},
+	{"item": "surge-alloy", "amount": 6000},
+    ],
+    "category": "effect",
+    "research": {
+        "parent": "core-nucleus",
+        "objectives": [
+          {
+            "type": "SectorComplete",
+            "preset": "nuclearComplex"
+        }
+        ]
+      }
+ }
