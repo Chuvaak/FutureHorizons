@@ -1,0 +1,34 @@
+{
+    "type":"GenericCrafter",
+    "health":"320",
+    "size":3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 50,
+	"consumes": {
+    "power": 4,
+	"items": {
+		"items":
+		[
+		{"item": "silicon", "amount": 2},
+		{"item": "plastanium", "amount": 1},
+		{"item": "metaglass", "amount": 1},
+		]
+		}
+	},
+	"requirements": 	[
+    { "item": "copper", "amount": 180},
+    { "item": "lead", "amount": 140},
+    { "item": "titanium", "amount": 110},
+	{ "item": "plastanium", "amount": 70},
+					]
+    "updateEffect": "pulverizeSmall",
+	"category": "crafting",
+	"ambientSound": "machine",
+	"ambientSoundVolume": 0.1,
+	"itemCapacity": 30,
+	"outputItem": {"item": "composite_plate", "amount": 1},
+	"research":{
+		"parent":"plastanium-compressor"
+	}
+}
