@@ -15,7 +15,7 @@
 "buildSpeed": 1.3,
 "engineOffset":7,
 "engineSize": 4,
-"hitsize":15,
+"hitSize":12,
 "weapons": [
     {
         "name": "defender-missiles",
