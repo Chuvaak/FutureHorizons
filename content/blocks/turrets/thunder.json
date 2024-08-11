@@ -205,6 +205,7 @@
  "requirements": [
     {"item": "surge-alloy", "amount": 190},
 	{"item": "thorium", "amount": 180},
+	{"item": "composite_plate", "amount": 130}
 	{"item": "silicon", "amount": 210},
 	{"item": "plastanium", "amount": 160},
     {"item": "metaglass", "amount": 170}

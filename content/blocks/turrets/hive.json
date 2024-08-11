@@ -113,13 +113,14 @@
 			"despawnEffect": "blastExplosion",
 			"lightningDamage": 20,
 			"lightning": 4,
-			"lightningLength": 12
+			"lightningLength": 12,
 	},
    
   },
  "cooldown": 0.009,
  "requirements": [
     {"item": "titanium", "amount": 90},
+	{"item": "composite_plate", "amount": 70},
 	{"item": "thorium", "amount": 85},
 	{"item": "silicon", "amount": 80},
 	{"item": "plastanium", "amount": 70},
@@ -127,5 +128,5 @@
   ],
   "category": "turret",
   "research": {
-	  "parent":"swarmer"},
+	  "parent":"swarmer"}, 
 }
