@@ -46,8 +46,7 @@
 					],
 	"generateEffect": {
 		"MultiEffect":[
-		{"effect":"SwirlEffect"},
-		{"effect":"SwirlEffect"},
+		{"effect":"SwirlEffect" ,"effect":"SwirlEffect"},
 		{"effect":"SwirlEffect"}
 		]
 		},
