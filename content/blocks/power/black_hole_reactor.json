@@ -45,8 +45,8 @@
 	{ "item": "plastanium", "amount": 900}
 					],
 	"generateEffect": {
-		"MultiEffect":[
-		{"effect":"SwirlEffect" ,"effect":"SwirlEffect"},
+		"effects":[
+		{"effect":"SwirlEffect"},
 		{"effect":"SwirlEffect"}
 		]
 		},
