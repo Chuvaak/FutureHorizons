@@ -1,0 +1,10 @@
+{
+
+"type": "material",
+"color": "#AFB29FFF",
+"explosiveness": 0.2,
+"flammability": 0.2,
+"research":{
+		"parent":"plastanium"
+	}
+}
