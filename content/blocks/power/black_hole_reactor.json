@@ -1,0 +1,59 @@
+{
+    "type": "ConsumeGenerator",
+    "size": 15,
+    "health":9000,
+	"drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+        "type": "DrawBlackHole",
+		"size": 42, 
+		"edge": 78,
+		"warmup": true    
+        },  
+      ]
+    },
+    "hasPower": true,
+    "hasItems": true,
+	"explodeOnFull": true,
+    "explodeEffect": "bigShockwave",
+    "explodeSound": "largeExplosion",
+    "warmupSpeed": 0.01
+    "powerProduction": 15000,
+    "itemCapacity": 30,
+    "liquidCapacity": 120,
+    "explosionRadius": 800000000,
+    "explosionDamage": 800000000,
+    "itemDuration": 20,
+    "consumes": {
+    "items": [
+			{"item": "copper", "amount": 1},
+        ],
+    "liquid": {
+        "liquid": "cryofluid", "amount": 1
+			}
+    },
+	"outputLiquid": {"liquid": "slag", "amount": 1},
+    "category": "power",
+    "requirements": 	[
+    { "item": "copper", "amount": 6000},
+    { "item": "lead", "amount": 4000},
+    { "item": "titanium", "amount": 3000},
+	{ "item": "metaglass", "amount": 5000},
+	{ "item": "silicon", "amount": 4000},
+	{ "item": "electrum", "amount": 800},
+	{ "item": "plastanium", "amount": 900}
+					],
+	"generateEffect": {
+		"MultiEffect":[
+		{"effect":"SwirlEffect"}
+		]
+		},
+	"effectChance": 0.5,
+	"ambientSound":"spellLoop",
+	"ambientSoundVolume": 0.45,
+	"research":{
+		"parent":"impact-reactor"
+	}
+}
+    
