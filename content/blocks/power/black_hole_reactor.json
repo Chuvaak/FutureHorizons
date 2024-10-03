@@ -50,7 +50,7 @@
 		]
 		},
 	"effectChance": 0.5,
-	"generateEffectRange": 6,
+	"generateEffectRange": 20,
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.45,
 	"research":{
