@@ -9,6 +9,8 @@
         "type": "DrawBlackHole",
 		"size": 42, 
 		"edge": 78,
+		"starWidth": 10
+		"starHeight": 10
 		"warmup": true    
         },  
       ]
