@@ -51,7 +51,7 @@
 		{"effect":"SwirlEffect"}
 		]
 		},
-	"effectChance": 1,
+	"effectChance": 3,
 	"generateEffectRange": 30,
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.45,
