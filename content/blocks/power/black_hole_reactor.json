@@ -46,12 +46,7 @@
 					],
 	"generateEffect": {
 		"effects":[
-		{"effect":"SwirlEffect"}
-		]
-		},
-	"generateEffect": {
-		"effects":[
-		{"effect":"SwirlEffect"}
+		{"effect":"SwirlEffect", "baseRotation": 1}
 		]
 		},
 	"effectChance": 3,
