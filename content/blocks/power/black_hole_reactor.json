@@ -24,7 +24,7 @@
     "liquidCapacity": 120,
     "explosionRadius": 800000000,
     "explosionDamage": 800000000,
-    "itemDuration": 20,
+    "itemDuration": 10,
     "consumes": {
     "items": [
 			{"item": "copper", "amount": 1},
@@ -50,7 +50,7 @@
 		]
 		},
 	"effectChance": 1,
-	"generateEffectRange": 25,
+	"generateEffectRange": 30,
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.45,
 	"research":{
