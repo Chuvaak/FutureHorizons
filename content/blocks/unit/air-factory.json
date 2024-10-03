@@ -1,0 +1,28 @@
+{
+	"plans":[
+	{
+			"unit": "flare",
+			"requirements": [
+			{"item": "silicon", "amount": 15},
+			],
+			"time": 900
+		},
+	{
+			"unit": "mono",
+			"requirements": [
+			{"item": "lead", "amount": 15},
+			{"item": "silicon", "amount": 25},
+			],
+			"time": 2100
+		},
+			{
+			"unit": "dust",
+			"requirements": [
+			{"item": "silicon", "amount": 40},
+			{"item": "metaglass", "amount": 35},
+			{"item": "titanium", "amount": 30},
+			],
+			"time": 1500
+		}
+		]
+}

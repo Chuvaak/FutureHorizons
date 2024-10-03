@@ -34,7 +34,7 @@
 "ambientSoundVolume": 0.2,
 "category": "production",
 "research":{
-		"parent":"airblast-drill"
+		"parent":"blast-drill"
 	}
 	
 	

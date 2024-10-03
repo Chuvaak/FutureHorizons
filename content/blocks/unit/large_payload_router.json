@@ -1,0 +1,12 @@
+{
+	"type": "PayloadRouter",
+	"size": 5,
+	"payloadLimit": 6,
+	"requirements": [
+	{"item": "plastanium", "amount": 15},
+    {"item": "graphite", "amount": 30}
+  ],
+	"category": "units",
+	"research": {
+	  "parent":"payload-router"},
+}

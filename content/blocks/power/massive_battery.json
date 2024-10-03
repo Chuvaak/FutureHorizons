@@ -2,6 +2,7 @@
     "type": "battery",
     "size": 4,
     "health":750,
+	"baseExplosiveness": 8,
     "consumes": {
       "powerBuffered": 500000
     },

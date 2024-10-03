@@ -5,10 +5,13 @@
 	"drawer": {
       "type": "DrawMulti",
       "drawers": [
+		{
+        "type": "DrawDefault",   
+        },  
         {
         "type": "DrawBlackHole",
-		"size": 42, 
-		"edge": 78,
+		"size": 35, 
+		"edge": 68,
 		"warmup": true    
         },  
       ]
@@ -16,24 +19,31 @@
     "hasPower": true,
     "hasItems": true,
 	"explodeOnFull": true,
-    "explodeEffect": "bigShockwave",
+    "explodeEffect":[
+		"bigShockwave",
+		"titanSmoke"
+		]
     "explodeSound": "largeExplosion",
-    "warmupSpeed": 0.007
+    "warmupSpeed": 0.007,
     "powerProduction": 15000,
     "itemCapacity": 30,
-    "liquidCapacity": 120,
+    "liquidCapacity": 450,
     "explosionRadius": 800000000,
     "explosionDamage": 800000000,
+	"explosionPuddles": 1600,
+	"explosionPuddleRange": 500,
+    "explosionPuddleLiquid": "exotic_matter",
+    "explosionPuddleAmount": 60000,
     "itemDuration": 15,
     "consumes": {
     "items": [
-			{"item": "copper", "amount": 1},
+			{"item": "exotic_capcule", "amount": 1},
         ],
     "liquid": {
         "liquid": "cryofluid", "amount": 1
 			}
     },
-	"outputLiquid": {"liquid": "slag", "amount": 1},
+	"outputLiquid": {"liquid": "overheated_cryofluid", "amount": 1},
     "category": "power",
     "requirements": 	[
     { "item": "copper", "amount": 6000},
@@ -44,11 +54,9 @@
 	{ "item": "electrum", "amount": 800},
 	{ "item": "plastanium", "amount": 900}
 					],
-	"generateEffect": {
-		"effects":[
-		{"effect":"SwirlEffect", "baseRotation": 10}
-		]
-		},
+	"generateEffect": [
+	{"effect": "SwirlEffect"}
+		],
 	"effectChance": 3,
 	"generateEffectRange": 28,
 	"ambientSound":"spellLoop",

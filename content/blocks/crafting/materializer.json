@@ -1,0 +1,41 @@
+{
+	"type": "multicraft.MultiCrafter",
+	"menu": "detailed",
+	"health": 180,
+	"size": 3,
+	"requirements": 	[
+    { "item": "copper", "amount": 90},
+    { "item": "lead", "amount": 120},
+	{ "item": "metaglass", "amount": 60},
+					]
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"recipes": [
+    {
+        "input": {"power": 300}
+        "output":{
+            "items":[
+				{"item": "copper", "amount": 4},
+					]
+				}
+        "craftTime": 60
+    },
+    {
+        "input": {"power": 800}
+        "output":{
+			"fluids":["futurehorizons-exotic_matter/0.25"]
+				}
+        "craftTime": 30
+    },
+	]
+	"category": "crafting",
+	"idleSoundVolume": 0.05,
+	"itemCapacity": 30,
+	"sound": "click",
+	"SoundVolume": 0.1,
+	"liquidCapacity": 600,
+	"research":{
+		"parent":"e_reactor"
+	}
+}

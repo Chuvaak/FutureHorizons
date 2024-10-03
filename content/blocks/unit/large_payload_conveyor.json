@@ -1,0 +1,12 @@
+{
+	"type": "PayloadConveyor",
+	"size": 5,
+	"payloadLimit": 6,
+	"requirements": [
+	{"item": "plastanium", "amount": 10},
+    {"item": "graphite", "amount": 20}
+  ],
+	"category": "units",
+	"research": {
+	  "parent":"payload-conveyor"},
+}

@@ -30,8 +30,8 @@
     "powerProduction": 2337,
     "itemCapacity": 30,
     "liquidCapacity": 40,
-    "explosionRadius": 120,
-    "explosionDamage": 1600,
+    "explosionRadius": 140,
+    "explosionDamage": 3500,
     "itemDuration": 70,
     "consumes": {
     "power": 400,
