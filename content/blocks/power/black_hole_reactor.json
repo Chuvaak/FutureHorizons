@@ -24,7 +24,7 @@
     "liquidCapacity": 120,
     "explosionRadius": 800000000,
     "explosionDamage": 800000000,
-    "itemDuration": 5,
+    "itemDuration": 15,
     "consumes": {
     "items": [
 			{"item": "copper", "amount": 1},
@@ -54,7 +54,7 @@
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.45,
 	"research":{
-		"parent":"impact-reactor"
+		"parent":"fusion-reactor"
 	}
 }
     
