@@ -9,8 +9,6 @@
         "type": "DrawBlackHole",
 		"size": 42, 
 		"edge": 78,
-		"starWidth": 10
-		"starHeight": 10
 		"warmup": true    
         },  
       ]
@@ -20,7 +18,7 @@
 	"explodeOnFull": true,
     "explodeEffect": "bigShockwave",
     "explodeSound": "largeExplosion",
-    "warmupSpeed": 0.01
+    "warmupSpeed": 0.007
     "powerProduction": 15000,
     "itemCapacity": 30,
     "liquidCapacity": 120,
