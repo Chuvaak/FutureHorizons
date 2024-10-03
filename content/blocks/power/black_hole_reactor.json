@@ -46,7 +46,11 @@
 					],
 	"generateEffect": {
 		"effects":[
-		{"effect":"SwirlEffect"},
+		{"effect":"SwirlEffect"}
+		]
+		},
+	"generateEffect": {
+		"effects":[
 		{"effect":"SwirlEffect"}
 		]
 		},
