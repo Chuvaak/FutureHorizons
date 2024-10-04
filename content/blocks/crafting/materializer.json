@@ -16,16 +16,61 @@
         "input": {"power": 300}
         "output":{
             "items":[
-				{"item": "copper", "amount": 4},
+				{"item": "copper", "amount": 6},
 					]
-				}
+			              	}
         "craftTime": 60
+    },
+    {
+        "input": {"power": 340}
+        "output":{
+            "items":[
+				{"item": "lead", "amount": 5},
+					]
+			              	}
+        "craftTime": 60
+    },
+    {
+        "input": {"power": 240}
+        "output":{
+            "items":[
+				{"item": "coal", "amount": 4},
+					]
+				              }
+        "craftTime": 30
+    },
+   {
+        "input": {"power": 270}
+        "output":{
+            "items":[
+				{"item": "sand", "amount": 7},
+					]
+				              }
+        "craftTime": 45
+    },
+    {
+        "input": {"power": 600}
+        "output":{
+            "items":[
+				{"item": "titanium", "amount": 2},
+					]
+			              	}
+        "craftTime": 15
+    },
+    {
+        "input": {"power": 700}
+        "output":{
+            "items":[
+				{"item": "thorium", "amount": 14},
+					]
+			              	}
+        "craftTime": 120
     },
     {
         "input": {"power": 800}
         "output":{
 			"fluids":["futurehorizons-exotic_matter/0.25"]
-				}
+				              }
         "craftTime": 30
     },
 	]
