@@ -5,7 +5,7 @@
  "temperature": 951654985221,
  "charge": 4186454,
  "flammability": 1,
- "viscosity": 0.995,
+ "viscosity": 0.99,
  "explosiveness": 18,
  "coolant": false,
  "research":{
