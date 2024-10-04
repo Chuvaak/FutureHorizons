@@ -13,7 +13,7 @@
 	"hasLiquids": true,
 	"recipes": [
     {
-        "input": {"power": 300}
+        "input": {"power": 310}
         "output":{
             "items":[
 				{"item": "copper", "amount": 9},
@@ -31,7 +31,7 @@
         "craftTime": 60
     },
     {
-        "input": {"power": 240}
+        "input": {"power": 290}
         "output":{
             "items":[
 				{"item": "coal", "amount": 7},
