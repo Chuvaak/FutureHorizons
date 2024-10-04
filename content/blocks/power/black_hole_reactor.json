@@ -25,7 +25,7 @@
 		]
     "explodeSound": "largeExplosion",
     "warmupSpeed": 0.007,
-    "powerProduction": 15000,
+    "powerProduction": 18360,
     "itemCapacity": 30,
     "liquidCapacity": 450,
     "explosionRadius": 800000000,
@@ -60,7 +60,7 @@
 	"effectChance": 3,
 	"generateEffectRange": 28,
 	"ambientSound":"spellLoop",
-	"ambientSoundVolume": 0.45,
+	"ambientSoundVolume": 0.8,
 	"research":{
 		"parent":"fusion-reactor"
 	}
