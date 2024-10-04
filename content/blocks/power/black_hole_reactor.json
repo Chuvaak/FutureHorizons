@@ -25,7 +25,7 @@
 		]
     "explodeSound": "largeExplosion",
     "warmupSpeed": 0.007,
-    "powerProduction": 18360,
+    "powerProduction": 19373,
     "itemCapacity": 30,
     "liquidCapacity": 450,
     "explosionRadius": 800000000,
