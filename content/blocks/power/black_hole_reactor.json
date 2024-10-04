@@ -20,6 +20,7 @@
     "hasItems": true,
 	"explodeOnFull": true,
     "explodeEffect":[
+"impactReactorExplosion",
   "shockwave",
 		"bigShockwave",
 		"titanSmoke"
