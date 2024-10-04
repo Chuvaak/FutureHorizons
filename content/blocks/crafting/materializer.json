@@ -34,7 +34,7 @@
         "input": {"power": 240}
         "output":{
             "items":[
-				{"item": "coal", "amount": 4},
+				{"item": "coal", "amount": 7},
 					]
 				              }
         "craftTime": 30
