@@ -64,7 +64,7 @@
 	"effectChance": 3,
 	"generateEffectRange": 28,
 	"ambientSound":"spellLoop",
-	"ambientSoundVolume": 0.8,
+	"ambientSoundVolume": 1.5,
 	"research":{
 		"parent":"fusion_reactor"
 	}
