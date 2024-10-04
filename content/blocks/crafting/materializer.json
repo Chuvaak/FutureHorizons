@@ -16,7 +16,7 @@
         "input": {"power": 300}
         "output":{
             "items":[
-				{"item": "copper", "amount": 6},
+				{"item": "copper", "amount": 9},
 					]
 			              	}
         "craftTime": 60
@@ -25,7 +25,7 @@
         "input": {"power": 340}
         "output":{
             "items":[
-				{"item": "lead", "amount": 5},
+				{"item": "lead", "amount": 7},
 					]
 			              	}
         "craftTime": 60
