@@ -30,7 +30,7 @@
     "liquidCapacity": 450,
     "explosionRadius": 800000000,
     "explosionDamage": 800000000,
-	"explosionPuddles": 1600,
+	"explosionPuddles": 2400,
 	"explosionPuddleRange": 500,
     "explosionPuddleLiquid": "exotic_matter",
     "explosionPuddleAmount": 60000,
