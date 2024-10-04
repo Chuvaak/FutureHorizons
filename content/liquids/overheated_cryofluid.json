@@ -3,7 +3,7 @@
  "color": "#a81843",
  "effect":"melting",
  "temperature": 1.8,
- "viscosity": 0.9,
+ "viscosity": 0.999,
  "coolant": false,
  "research":{
 		"parent":"cryofluid"
