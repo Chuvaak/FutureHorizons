@@ -34,10 +34,10 @@
     "explosionDamage": 800000000,
     "explosionShake": 30,
     "explosionShakeDuration": 300,
-	   "explosionPuddles": 2400,
-    	"explosionPuddleRange": 500,
+	   "explosionPuddles": 2000,
+    	"explosionPuddleRange": 550,
     "explosionPuddleLiquid": "exotic_matter",
-    "explosionPuddleAmount": 60000,
+    "explosionPuddleAmount": 30000,
     "itemDuration": 15,
     "consumes": {
     "items": [
