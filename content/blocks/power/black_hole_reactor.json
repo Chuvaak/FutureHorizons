@@ -41,7 +41,7 @@
     "itemDuration": 15,
     "consumes": {
     "items":[
-			{"item": "exotic_capcule", "amount": 1},
+			{"item": "exotic_capsule", "amount": 1},
 			],
     "liquid":{
         "liquid": "cryofluid", "amount": 1
