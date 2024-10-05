@@ -49,7 +49,7 @@
 	"ambientSound": "machine",
 	"ambientSoundVolume": 0.1,
 	"liquidCapacity": 600,
-	"outputItem": {"item":"deuterium_capcule", "amount": 1},
+	"outputItem": {"item":"deuterium_capsule", "amount": 1},
 	 "research":{
 		"parent":"ind_electrolyzer"
 	}
