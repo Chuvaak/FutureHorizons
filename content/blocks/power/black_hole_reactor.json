@@ -20,10 +20,10 @@
     "hasItems": true,
 	"explodeOnFull": true,
     "explodeEffect":[
-"impactReactorExplosion",
-  "shockwave",
-		"bigShockwave",
-		"titanSmoke"
+			"impactReactorExplosion",
+			"shockwave",
+			"bigShockwave",
+			"titanSmoke"
 		]
     "explodeSound": "largeExplosion",
     "warmupSpeed": 0.007,
@@ -34,22 +34,22 @@
     "explosionDamage": 800000000,
     "explosionShake": 30,
     "explosionShakeDuration": 300,
-	   "explosionPuddles": 2000,
-    	"explosionPuddleRange": 550,
+	"explosionPuddles": 2000,
+	"explosionPuddleRange": 550,
     "explosionPuddleLiquid": "exotic_matter",
     "explosionPuddleAmount": 30000,
     "itemDuration": 15,
     "consumes": {
-    "items": [
+    "items":[
 			{"item": "exotic_capcule", "amount": 1},
-        ],
-    "liquid": {
+			],
+    "liquid":{
         "liquid": "cryofluid", "amount": 1
-			}
-    },
+				}
+				},
 	"outputLiquid": {"liquid": "overheated_cryofluid", "amount": 1},
     "category": "power",
-    "requirements": 	[
+    "requirements": [
     { "item": "copper", "amount": 6000},
     { "item": "lead", "amount": 4000},
     { "item": "titanium", "amount": 3000},
@@ -58,11 +58,11 @@
 	{ "item": "electrum", "amount": 800},
 	{ "item": "plastanium", "amount": 900}
 					],
-	"generateEffect": [
+	"generateEffect":[
 	{"effect": "SwirlEffect"}
-		],
+					],
 	"effectChance": 3,
-	"generateEffectRange": 28,
+	"generateEffectRange": 30,
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 1.5,
 	"research":{
