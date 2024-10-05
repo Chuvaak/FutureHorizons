@@ -1,19 +1,21 @@
 {
 	"type": "multicraft.MultiCrafter",
 	"menu": "detailed",
-	"health": 180,
+	"health": 630,
 	"size": 3,
 	"requirements": 	[
-    { "item": "copper", "amount": 90},
-    { "item": "lead", "amount": 120},
-	{ "item": "metaglass", "amount": 60},
+    { "item": "electrum", "amount": 440},
+    { "item": "silicon", "amount": 680},
+	{ "item": "metaglass", "amount": 830},
+	{ "item": "quantum_controller", "amount": 330},
+	{ "item": "composite_plate", "amount": 530},
 					]
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": true,
 	"recipes": [
     {
-        "input": {"power": 310}
+        "input": {"power": 560}
         "output":{
             "items":[
 				{"item": "copper", "amount": 9},
@@ -22,7 +24,7 @@
         "craftTime": 60
     },
     {
-        "input": {"power": 340}
+        "input": {"power": 600}
         "output":{
             "items":[
 				{"item": "lead", "amount": 7},
@@ -31,7 +33,7 @@
         "craftTime": 60
     },
     {
-        "input": {"power": 290}
+        "input": {"power": 540}
         "output":{
             "items":[
 				{"item": "coal", "amount": 7},
@@ -40,16 +42,16 @@
         "craftTime": 30
     },
    {
-        "input": {"power": 270}
+        "input": {"power": 580}
         "output":{
             "items":[
-				{"item": "sand", "amount": 7},
+				{"item": "sand", "amount": 9},
 					]
 				              }
         "craftTime": 45
     },
     {
-        "input": {"power": 600}
+        "input": {"power": 1000}
         "output":{
             "items":[
 				{"item": "titanium", "amount": 2},
@@ -58,7 +60,7 @@
         "craftTime": 15
     },
     {
-        "input": {"power": 700}
+        "input": {"power": 1200}
         "output":{
             "items":[
 				{"item": "thorium", "amount": 14},
@@ -67,7 +69,7 @@
         "craftTime": 120
     },
     {
-        "input": {"power": 800}
+        "input": {"power": 1500}
         "output":{
 			"fluids":["futurehorizons-exotic_matter/0.25"]
 				              }
@@ -75,12 +77,12 @@
     },
 	]
 	"category": "crafting",
-	"idleSoundVolume": 0.05,
-	"itemCapacity": 30,
+	"idleSoundVolume": 0.08,
+	"itemCapacity": 60,
 	"sound": "click",
 	"SoundVolume": 0.1,
 	"liquidCapacity": 600,
 	"research":{
-		"parent":"e_reactor"
+		"parent":"quantum_assembler"
 	}
 }

@@ -1,0 +1,39 @@
+{
+	"type": "GenericCrafter",
+
+	"health": 180,
+	"size": 2,
+	"requirements": 	[
+    { "item": "quantum_controller", "amount": 140},
+    { "item": "electrum", "amount": 180},
+	{ "item": "metaglass", "amount": 230},
+	{ "item": "composite_plate", "amount": 430},
+					]
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 600,
+	"consumes": {
+    "power": 20,
+	"liquid": 
+		{"liquid": "exotic_matter", "amount": 0.5}
+	"items": {
+		"items":
+		[
+		{"item": "metaglass", "amount": 40},
+		{"item": "quantum_controller", "amount": 20},
+		]
+	}			
+    
+	},
+	"category": "crafting",
+	"idleSoundVolume": 0.05,
+	"itemCapacity": 80,
+	"sound": "click",
+	"SoundVolume": 0.1,
+	"liquidCapacity": 8000,
+	"outputItem": {"item":"exotic_capsule", "amount": 20},
+	 "research":{
+		"parent":"materializer"
+	}
+}
