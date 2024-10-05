@@ -51,7 +51,7 @@
 	{ "item": "metaglass", "amount": 5000},
 	{ "item": "silicon", "amount": 4000},
 	{ "item": "electrum", "amount": 800},
-	{ "item": "plastanium", "amount": 900}
+	{ "item": "composite_plate", "amount": 900}
 					]
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.45,

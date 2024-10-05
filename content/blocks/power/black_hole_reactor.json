@@ -27,7 +27,7 @@
 		]
     "explodeSound": "largeExplosion",
     "warmupSpeed": 0.007,
-    "powerProduction": 19373,
+    "powerProduction": 23548,
     "itemCapacity": 30,
     "liquidCapacity": 450,
     "explosionRadius": 800000000,
@@ -50,13 +50,15 @@
 	"outputLiquid": {"liquid": "overheated_cryofluid", "amount": 1},
     "category": "power",
     "requirements": [
-    { "item": "copper", "amount": 6000},
-    { "item": "lead", "amount": 4000},
-    { "item": "titanium", "amount": 3000},
-	{ "item": "metaglass", "amount": 5000},
-	{ "item": "silicon", "amount": 4000},
-	{ "item": "electrum", "amount": 800},
-	{ "item": "plastanium", "amount": 900}
+    { "item": "copper", "amount": 16000},
+    { "item": "lead", "amount": 15500},
+    { "item": "lithium", "amount": 6000},
+	{ "item": "metaglass", "amount": 11000},
+	{ "item": "silicon", "amount": 22000},
+	{ "item": "electrum", "amount": 17000},
+	{ "item": "composite_plate", "amount": 13000},
+	{ "item": "titanium", "amount": 12500},
+	{ "item": "quantum_controller", "amount": 7600},
 					],
 	"generateEffect":[
 	{"effect": "SwirlEffect"}
@@ -64,7 +66,7 @@
 	"effectChance": 3,
 	"generateEffectRange": 30,
 	"ambientSound":"spellLoop",
-	"ambientSoundVolume": 1.5,
+	"ambientSoundVolume": 0.75,
 	"research":{
 		"parent":"fusion_reactor"
 	}
