@@ -36,8 +36,8 @@
     "consumes": {
     "power": 400,
     "items": [
-			{"item": "tritium_capcule", "amount": 1},
-			{"item": "deuterium_capcule", "amount": 1}
+			{"item": "tritium_capsule", "amount": 1},
+			{"item": "deuterium_capsule", "amount": 1}
         ],
     "liquid": {
         "liquid": "cryofluid", "amount": 1
