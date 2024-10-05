@@ -15,7 +15,7 @@
 	"hasLiquids": true,
 	"recipes": [
     {
-        "input": {"power": 560}
+        "input": {"power": 420}
         "output":{
             "items":[
 				{"item": "copper", "amount": 9},
@@ -24,7 +24,7 @@
         "craftTime": 60
     },
     {
-        "input": {"power": 600}
+        "input": {"power": 470}
         "output":{
             "items":[
 				{"item": "lead", "amount": 7},
@@ -33,16 +33,16 @@
         "craftTime": 60
     },
     {
-        "input": {"power": 540}
+        "input": {"power": 190}
         "output":{
             "items":[
-				{"item": "coal", "amount": 7},
+				{"item": "coal", "amount": 8},
 					]
 				              }
         "craftTime": 30
     },
    {
-        "input": {"power": 580}
+        "input": {"power": 260}
         "output":{
             "items":[
 				{"item": "sand", "amount": 9},
@@ -51,7 +51,7 @@
         "craftTime": 45
     },
     {
-        "input": {"power": 1000}
+        "input": {"power": 560}
         "output":{
             "items":[
 				{"item": "titanium", "amount": 2},
@@ -60,7 +60,7 @@
         "craftTime": 15
     },
     {
-        "input": {"power": 1200}
+        "input": {"power": 630}
         "output":{
             "items":[
 				{"item": "thorium", "amount": 14},
