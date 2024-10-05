@@ -1,0 +1,11 @@
+{
+ "type": "material",
+ "color": "#6c5275"
+ "explosiveness": 95,
+ "flammability": 0,
+ "radioactivity": 1.6,
+ "charge": 21,
+ "research":{
+	 "parent": "exotic_matter"
+ }
+}

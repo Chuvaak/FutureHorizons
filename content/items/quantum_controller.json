@@ -1,0 +1,11 @@
+{
+
+"type": "material",
+"color": "#d6c951",
+"explosiveness": 0.1,
+"flammability": 0.6,
+"charge": 0.8,
+"research":{
+		"parent":"composite_plate"
+	}
+}
