@@ -1,14 +1,12 @@
 {
  "type": "liquid",
  "color": "6d208ad2",
- "effect":"dissociation",
+ "effect":"matter_disruption",
  "temperature": 951654985221,
  "charge": 4186454,
  "flammability": 1,
  "viscosity": 0.99,
  "explosiveness": 18,
- "moveThroughBlocks": true,
- "capPuddleSize": false,
  "coolant": false,
  "research":{
 		"parent":"liquid_electrum"
