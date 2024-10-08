@@ -7,6 +7,8 @@
  "flammability": 1,
  "viscosity": 0.99,
  "explosiveness": 18,
+"moveThroughBlocks": true,
+
  "coolant": false,
  "research":{
 		"parent":"liquid_electrum"
