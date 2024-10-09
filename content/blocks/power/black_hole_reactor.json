@@ -68,17 +68,9 @@
 "maxDst": 98,
 "minRot": 680,
 "maxRot": 720,
-"length": 8,
+"length": 7,
+"lifetime": 120
 },
-{
-"type": "SwirlEffect",
-"colorFrom": "ffa411ec",
-"minDst": 75,
-"maxDst": 98,
-"minRot": 680,
-"maxRot": 720,
-"length": 8,
-}
 					],
 	"effectChance": 12,
 	"generateEffectRange": 7,
