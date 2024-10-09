@@ -1,39 +1,36 @@
 {
-	"type": "GenericCrafter",
+	"type": "HeatCrafter",
 
 	"health": 680,
 	"size": 4,
 	"requirements": 	[
-    { "item": "silicon", "amount": 530},
-    { "item": "thorium", "amount": 350},
-	{ "item": "electrum", "amount": 180},
-	{ "item": "composite_plate", "amount": 210},
+    { "item": "titanium", "amount": 580},
+    { "item": "thorium", "amount": 420},
+	{ "item": "electrum", "amount": 240},
+	{ "item": "composite_plate", "amount": 350},
 					]
 	"hasPower": true,
-	"hasItems": false,
-	"hasLiquids": true,
-	"craftTime": 10,
+	"hasItems": true,
+	"hasLiquids": false,
+	"craftTime": 6,
 	"consumes": {
-    "power": 165,
-	"liquid": 
-		{"liquid": "liquid_electrum", "amount": 0.1}
+    "power": 194,
+	"liquid": [{"liquid":"water", "amount":0.8} ]
 	"items": {
 		"items":
-		[
-		{"item": "thorium", "amount": 4},
-		{"item": "sand", "amount": 7},
+		[
+		{"item": "sand", "amount": 5},
 		]
 	}			
     
 	},
 	"category": "crafting",
 	"idleSoundVolume": 0.05,
-	"itemCapacity": 30,
-	"sound": "click",
+	"itemCapacity": 30,
 	"SoundVolume": 0.1,
-	"liquidCapacity": 600,
-	"outputItem": {"item":"phase-fabric", "amount": 1},
+	"liquidCapacity": 60,
+	"outputItem": {"item":"silicon", "amount": 3},
 	 "research":{
-		"parent":"phase-weaver"
+		"parent":"silicon-crucible"
 	}
 }
