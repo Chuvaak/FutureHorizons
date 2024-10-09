@@ -11,7 +11,7 @@
         {
         "type": "DrawBlackHole",
 		"size": 30, 
-		"edge": 70,
+		"edge": 82,
 		"warmup": true    
         },  
       ]
@@ -65,15 +65,15 @@
 "type": "SwirlEffect",
 "colorFrom": "ebbc15e1",
 "minDst": 75,
-"maxDst": 98,
+"maxDst": 100,
 "minRot": 680,
 "maxRot": 720,
-"length": 7,
+"length": 9,
 "lifetime": 120
 },
 					],
-	"effectChance": 12,
-	"generateEffectRange": 7,
+	"effectChance": 20,
+	"generateEffectRange": 0.1,
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.75,
 	"research":{
