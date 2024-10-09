@@ -66,8 +66,8 @@
 "colorFrom": "ebbb10",
 "minDst": 34,
 "maxDst": 75,
-"minRot": 1,
-"maxRot": 3,
+"minRot": 5,
+"maxRot": 14,
 }
 					],
 	"effectChance": 3,
