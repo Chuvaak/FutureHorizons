@@ -1,6 +1,5 @@
 {
 	"type": "HeatProducer",
-	"displayEfficiency": false,
 	"health": 410,
 	"size": 3,
 	"drawer": {
@@ -18,12 +17,11 @@
 	{ "item": "electrum", "amount": 240},
 	{ "item": "metaglass", "amount": 180}
 					]
-	"hasPower": true,
+	"hasPower": false,
 	"hasItems": false,
 	"hasLiquids": true,
 	"craftTime": 1,
 	"consumes": {
-    "power": 8,
 	"liquid": 
 		{"liquid": "overheated_cryofluid", "amount": 1.5},
 				
