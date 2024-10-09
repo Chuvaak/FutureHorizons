@@ -1,0 +1,101 @@
+{
+"type": "ItemTurret",
+  "size": 3,
+  "health": 480,
+  "reload": 70,
+  "range": 300,
+  "outlineColor": "#404049",
+  "drawer": {
+   "type": "DrawTurret",
+		"parts": [
+		{
+			"type": "RegionPart",
+			"suffix": "-bottom",
+			"under": true,
+		  },
+
+				]    
+          },
+  "targetAir": true,
+  "recoil": 3,
+  "rotateSpeed": 5,
+  "shootSound": "pew",
+  "ammoPerShot": 1,
+  "maxAmmo": 100,
+  "unitSort": "strongest",
+  "coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.8
+  },
+  "coolantMultiplier": 1.5,
+  "consumes": {
+    "power": 0
+  },
+  "ammoTypes": {
+    "copper": {
+      "type": "BasicBulletType",
+	  "ammoMultiplier": 1,
+      "lifetime": 90,
+      "damage": 30,
+	  "speed": 12,
+      "height": 25,
+      "width": 10,
+	  "fragBullets": 1,
+	  "hittable": true,
+	  "absorbable": false,
+	  "reflectable": false,
+	  "fragVelocityMin": 0,
+      "fragVelocityMax": 0,
+      "fragBullet": {
+        "type": "BasicBulletType",
+		"buildingDamageMultiplier": 0.5,
+		"collidesAir": false,
+		"collides": false,		
+        "height": 140,
+		"sprite": "large-bomb",
+		"hittable": false,
+		"absorbable": false,
+		"reflectable": false,
+		"speed":0,
+        "width": 140,
+        "lifetime": 60,
+        "damage": 8,
+        "shrinkY": -0.2,
+		"shrinkX": -0.2,
+        "despawnEffect": "impactReactorExplosion",
+		"hitSound": "largeExplosion"
+		"fragBullets": 1,
+		"fragVelocityMin": 0,
+		"fragVelocityMax": 0,
+		"fragBullet": {
+			"type": "BlackHoleBulletType",
+			"force": 50,
+			"scalledForce": 1000,
+			"bulletForce": 4,
+			"scaledBulletForce": 50,		
+			"speed":0,
+			"damageRadius": 96,
+			"suctionRadius": 300,
+			"lifetime": 600,
+			"damage": 190,
+			"despawnEffect": "titanExplosion",
+			"despawnSound": "plasmaboom",
+			"swirlEffects": 9,
+			"swirlInterval": 1,
+	  }
+	  }
+      },
+	  
+  },
+ "cooldown": 0.009,
+ "requirements": [
+    {"item": "titanium", "amount": 90},
+	{"item": "thorium", "amount": 85},
+	{"item": "silicon", "amount": 80},
+	{"item": "plastanium", "amount": 70},
+    {"item": "graphite", "amount": 60}
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"swarmer"}
+}
