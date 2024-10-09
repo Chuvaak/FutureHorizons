@@ -10,8 +10,8 @@
         },  
         {
         "type": "DrawBlackHole",
-		"size": 35, 
-		"edge": 68,
+		"size": 30, 
+		"edge": 70,
 		"warmup": true    
         },  
       ]
@@ -72,7 +72,7 @@
 },
 {
 "type": "SwirlEffect",
-"colorFrom": "eda411ec",
+"colorFrom": "ffa411ec",
 "minDst": 75,
 "maxDst": 98,
 "minRot": 680,
