@@ -23,16 +23,16 @@
 	"craftTime": 1,
 	"consumes": {
 	"liquid": 
-		{"liquid": "overheated_cryofluid", "amount": 1.5},
+		{"liquid": "overheated_cryofluid", "amount": 2.25},
 				
     
 	},
 	"category": "crafting",
 	"ambientSoundVolume": 0.1,
-	"liquidCapacity": 80,
+	"liquidCapacity": 150,
 	"heatOutput": 10,
 	"warmupRate": 0.15,
-	"outputLiquid": {"liquid": "cryofluid", "amount": 1},
+	"outputLiquid": {"liquid": "cryofluid", "amount": 2},
 	"research":{
 		"parent":"electrum_heater"
 	}
