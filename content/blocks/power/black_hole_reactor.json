@@ -61,7 +61,10 @@
 	{ "item": "quantum_controller", "amount": 7600},
 					],
 	"generateEffect":[
-	{"effect": "SwirlEffect"}
+	{
+"type": "SwirlEffect"
+
+}
 					],
 	"effectChance": 3,
 	"generateEffectRange": 30,
