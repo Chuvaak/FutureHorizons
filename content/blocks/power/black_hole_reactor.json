@@ -62,8 +62,8 @@
 					],
 	"generateEffect":[
 	{
-"type": "SwirlEffect"
-
+"type": "SwirlEffect",
+"colorFrom": "ebbb10",
 }
 					],
 	"effectChance": 3,
