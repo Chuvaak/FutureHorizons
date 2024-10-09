@@ -63,14 +63,15 @@
 	"generateEffect":[
 	{
 "type": "SwirlEffect",
-"colorFrom": "ebbb10",
+"colorFrom": "ebbc15e1",
 "minDst": 75,
 "maxDst": 98,
 "minRot": 680,
 "maxRot": 720,
+"length": 11,
 }
 					],
-	"effectChance": 30,
+	"effectChance": 12,
 	"generateEffectRange": 7,
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.75,
