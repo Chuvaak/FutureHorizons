@@ -44,10 +44,10 @@
 			{"item": "exotic_capsule", "amount": 1},
 			],
     "liquid":{
-        "liquid": "cryofluid", "amount": 3
+        "liquid": "cryofluid", "amount": 4.5
 				}
 				},
-	"outputLiquid": {"liquid": "overheated_cryofluid", "amount": 3},
+	"outputLiquid": {"liquid": "overheated_cryofluid", "amount": 4.5},
     "category": "power",
     "requirements": [
     { "item": "copper", "amount": 16000},
