@@ -11,7 +11,7 @@
         {
         "type": "DrawBlackHole",
 		"size": 30, 
-		"edge": 82,
+		"edge": 70,
 		"warmup": true    
         },  
       ]
