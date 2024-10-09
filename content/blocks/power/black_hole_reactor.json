@@ -64,7 +64,7 @@
 	{
 "type": "SwirlEffect",
 "colorFrom": "ebbb10",
-"minDst": -1,
+"minDst": 85,
 "maxDst": 85,
 "minRot": 220,
 "maxRot": 680,
