@@ -15,7 +15,7 @@
 	"craftTime": 6,
 	"consumes": {
     "power": 194,
-	"liquid": [{"liquid":"water", "amount":0.8} ]
+	"liquid": {"liquid":"water", "amount":0.8},
 	"items": {
 		"items":
 		[
