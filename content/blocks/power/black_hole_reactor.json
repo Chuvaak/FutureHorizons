@@ -64,14 +64,14 @@
 	{
 "type": "SwirlEffect",
 "colorFrom": "ebbb10",
-"minDst": 85,
-"maxDst": 85,
-"minRot": 220,
-"maxRot": 680,
+"minDst": 82,
+"maxDst": 94,
+"minRot": 680,
+"maxRot": 720,
 }
 					],
-	"effectChance": 7,
-	"generateEffectRange": 30,
+	"effectChance": 14,
+	"generateEffectRange": 7,
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.75,
 	"research":{
