@@ -34,6 +34,6 @@
 	"warmupRate": 0.15,
 	"outputLiquid": {"liquid": "cryofluid", "amount": 1},
 	"research":{
-		"parent":"disassembler"
+		"parent":"electrum_heater"
 	}
 }
