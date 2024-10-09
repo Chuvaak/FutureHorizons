@@ -64,10 +64,10 @@
 	{
 "type": "SwirlEffect",
 "colorFrom": "ebbb10",
-"minDst": 34,
-"maxDst": 75,
-"minRot": 120,
-"maxRot": 480,
+"minDst": -1,
+"maxDst": 85,
+"minRot": 220,
+"maxRot": 680,
 }
 					],
 	"effectChance": 7,
