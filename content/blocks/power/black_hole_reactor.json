@@ -63,7 +63,7 @@
 	"generateEffect":[
 	{
 "type": "SwirlEffect",
-"colorFrom": "ebbc15e1",
+"colorFrom": "f7b819f0",
 "minDst": 75,
 "maxDst": 100,
 "minRot": 680,
