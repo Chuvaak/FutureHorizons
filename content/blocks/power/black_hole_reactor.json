@@ -10,7 +10,7 @@
         },  
         {
         "type": "DrawBlackHole",
-		"size": 30, 
+		"size": 28, 
 		"edge": 70,
 		"warmup": true    
         },  
@@ -68,7 +68,7 @@
 "maxDst": 100,
 "minRot": 680,
 "maxRot": 720,
-"length": 9,
+"length": 11,
 "lifetime": 120
 },
 					],
