@@ -1,7 +1,6 @@
 {
-	"type": "HeatProducer",
-	"displayEfficiency": false,
-	"health": 410,
+	"type": "HeatProducer",
+	"health": 380,
 	"size": 3,
 	"drawer": {
     "type": "DrawMulti",
@@ -12,30 +11,27 @@
                ]
           },
 	"requirements": 	[
-    { "item": "composite_plate", "amount": 330},
-    { "item": "thorium", "amount": 290},
-    { "item": "titanium", "amount": 380},
-	{ "item": "electrum", "amount": 240},
-	{ "item": "metaglass", "amount": 180}
+    { "item": "composite_plate", "amount": 270},
+    { "item": "metaglass", "amount": 250},
+	{ "item": "electrum", "amount": 160},
+	{ "item": "titanium", "amount": 190}
 					]
-	"hasPower": true,
+	"hasPower": false,
 	"hasItems": false,
 	"hasLiquids": true,
-	"craftTime": 1,
-	"consumes": {
-    "power": 8,
+	"craftTime": 30,
+	"consumes": {
 	"liquid": 
-		{"liquid": "overheated_cryofluid", "amount": 1.5},
+		{"liquid": "liquid_electrum", "amount": 0.2},
 				
     
 	},
 	"category": "crafting",
 	"ambientSoundVolume": 0.1,
 	"liquidCapacity": 80,
-	"heatOutput": 10,
+	"heatOutput": 5,
 	"warmupRate": 0.15,
-	"outputLiquid": {"liquid": "cryofluid", "amount": 1},
 	"research":{
-		"parent":"disassembler"
+		"parent":"silicon_foundry"
 	}
 }
