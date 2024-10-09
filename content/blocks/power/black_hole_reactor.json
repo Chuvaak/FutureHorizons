@@ -68,7 +68,16 @@
 "maxDst": 98,
 "minRot": 680,
 "maxRot": 720,
-"length": 11,
+"length": 8,
+},
+{
+"type": "SwirlEffect",
+"colorFrom": "ebbc15e1",
+"minDst": 75,
+"maxDst": 98,
+"minRot": 680,
+"maxRot": 720,
+"length": 8,
 }
 					],
 	"effectChance": 12,
