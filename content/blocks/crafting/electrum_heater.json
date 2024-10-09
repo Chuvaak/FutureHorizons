@@ -1,0 +1,41 @@
+{
+	"type": "HeatProducer",
+	"displayEfficiency": false,
+	"health": 410,
+	"size": 3,
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+   {
+    "type": "DrawDefault"
+   },
+               ]
+          },
+	"requirements": 	[
+    { "item": "composite_plate", "amount": 330},
+    { "item": "thorium", "amount": 290},
+    { "item": "titanium", "amount": 380},
+	{ "item": "electrum", "amount": 240},
+	{ "item": "metaglass", "amount": 180}
+					]
+	"hasPower": true,
+	"hasItems": false,
+	"hasLiquids": true,
+	"craftTime": 1,
+	"consumes": {
+    "power": 8,
+	"liquid": 
+		{"liquid": "overheated_cryofluid", "amount": 1.5},
+				
+    
+	},
+	"category": "crafting",
+	"ambientSoundVolume": 0.1,
+	"liquidCapacity": 80,
+	"heatOutput": 10,
+	"warmupRate": 0.15,
+	"outputLiquid": {"liquid": "cryofluid", "amount": 1},
+	"research":{
+		"parent":"disassembler"
+	}
+}
