@@ -35,8 +35,8 @@
     "copper": {
       "type": "BasicBulletType",
 	  "ammoMultiplier": 1,
-      "lifetime": 90,
-      "damage": 30,
+      "lifetime": 120,
+      "damage": 90,
 	  "speed": 12,
       "height": 25,
       "width": 10,
@@ -48,7 +48,6 @@
       "fragVelocityMax": 0,
       "fragBullet": {
         "type": "BasicBulletType",
-		"buildingDamageMultiplier": 0.5,
 		"collidesAir": false,
 		"collides": false,		
         "height": 140,
@@ -59,7 +58,8 @@
 		"speed":0,
         "width": 140,
         "lifetime": 60,
-        "damage": 8,
+        "splashDamage": 3200,
+		"splashDamageRadius": 80,
         "shrinkY": -0.2,
 		"shrinkX": -0.2,
         "despawnEffect": "impactReactorExplosion",
@@ -80,7 +80,7 @@
 			"damage": 190,
 			"despawnEffect": "titanExplosion",
 			"despawnSound": "plasmaboom",
-			"swirlEffects": 9,
+			"swirlEffects": 11,
 			"swirlInterval": 1,
 	  }
 	  }
