@@ -42,6 +42,7 @@
 	  "speed": 3,
       "fromColor": "ffc859",
       "toColor": "e8b54f",
+      "weaveMag": 0.4,
       "height": 25,
       "width": 10,
       "pierce": true,
