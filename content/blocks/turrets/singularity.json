@@ -2,7 +2,7 @@
 "type": "ItemTurret",
   "size": 5,
   "health": 2100,
-  "reload": 70,
+  "reload": 7,
   "range": 500,
   "outlineColor": "#404049",
   "drawer": {
@@ -14,12 +14,12 @@
 			"under": true,
 		  },
 		  {
-			"type": "BlackHolePart",
-			"under": true,
-			"progress": "recoil",
-			"moveY": -2,
-			"moveX": -1,
-		  },
+    "type": "DrawBlackHole",
+    "size": 16, 
+    "edge": 24,
+    "warmup": true,
+    "moveY": 24,
+   },  
 
 				]    
           },
@@ -39,7 +39,7 @@
   },
   "ammoTypes": {
     "copper": {
-      "type": "Missile",
+      "type": "BasicBulletType",
 	  "ammoMultiplier": 1,
 	  "homingPower": 0.06,
       "homingRange": 24,
@@ -50,7 +50,7 @@
       "toColor": "e8b54f",
       "height": 25,
       "width": 10,
-      "pierce": false,
+      "pierce": true,
       "trailEffect": "hitBulletBig",
       },
   },
