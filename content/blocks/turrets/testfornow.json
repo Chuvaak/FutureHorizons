@@ -47,7 +47,7 @@
 	  "fragVelocityMin": 0,
       "fragVelocityMax": 0,
       "fragBullet": {
-        "type": "BasicBulletType",
+        "type": "BombBulletType",
 		"collidesAir": false,
 		"collides": false,		
         "height": 16,
@@ -65,7 +65,8 @@
         "shrinkY": -12,
 		"shrinkX": -12,
         "despawnEffect": "impactReactorExplosion",
-		"hitSound": "largeExplosion"
+		"hitSound": "largeExplosion",
+  "despawnShake": 0.6,
 		"fragBullets": 1,
 		"fragVelocityMin": 0,
 		"fragVelocityMax": 0,
