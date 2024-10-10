@@ -61,7 +61,7 @@
         "width": 16,
         "lifetime": 60,
         "splashDamage": 3200,
-		"splashDamageRadius": 80,
+		"splashDamageRadius": 24,
         "shrinkY": -12,
 		"shrinkX": -12,
         "despawnEffect": "impactReactorExplosion",
