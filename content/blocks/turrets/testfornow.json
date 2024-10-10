@@ -73,6 +73,7 @@
 		"fragBullet": {
 			"type": "BlackHoleBulletType",
   "buildingDamageMultiplier": 0.0005,
+  "maxDamageFraction": 0.05,
 			"force": 50,
 			"scalledForce": 1000,
 			"bulletForce": 4,
@@ -81,7 +82,7 @@
 			"damageRadius": 96,
 			"suctionRadius": 300,
 			"lifetime": 600,
-			"damage": 120,
+			"damage": 100,
   "pierceBuilding": false,
 			"despawnEffect": "titanExplosion",
 			"despawnSound": "plasmaboom",
