@@ -1,11 +1,11 @@
 {
 	"name": "Matter disruption",
-	"color": "A2A18F64",
-	"permanent":false,
-	"damage": 0.1,
-	"healthMultiplier": 0.05,
+	"color": "292929d2",
+	"permanent":true,
+	"damage": 0.2,
+	"healthMultiplier": 0.01,
 	"speedMultiplier": 0.8,
 	"damageMultiplier": 2,
-	"effectChance": 0.7,
-	"effect": "chainLightning"
+	"effectChance": 3,
+	"effect": "coreBurn"
 }
