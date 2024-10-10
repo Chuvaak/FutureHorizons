@@ -60,7 +60,7 @@
   "color": "ff9317",
         "width": 16,
         "lifetime": 60,
-        "splashDamage": 3200,
+        "splashDamage": 4200,
 		"splashDamageRadius": 24,
         "shrinkY": -12,
 		"shrinkX": -12,
