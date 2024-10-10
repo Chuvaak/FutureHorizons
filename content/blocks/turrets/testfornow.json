@@ -56,7 +56,7 @@
 		"absorbable": false,
 		"reflectable": false,
 		"speed":0,
-  "spin": 3,
+  "spin": 9,
   "fromColor": "e8c66f",
   "toColor": "ff9317",
         "width": 16,
