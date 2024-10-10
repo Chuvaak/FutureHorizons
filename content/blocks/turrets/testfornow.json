@@ -62,8 +62,8 @@
         "lifetime": 60,
         "splashDamage": 3200,
 		"splashDamageRadius": 80,
-        "shrinkY": -2,
-		"shrinkX": -2,
+        "shrinkY": -6,
+		"shrinkX": -6,
         "despawnEffect": "impactReactorExplosion",
 		"hitSound": "largeExplosion"
 		"fragBullets": 1,
