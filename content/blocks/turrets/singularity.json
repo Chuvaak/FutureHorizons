@@ -43,7 +43,7 @@
       "fromColor": "ffc859",
       "toColor": "e8b54f",
       "weaveMag": 8,
-      "weaveScale": 0.1,
+      "weaveScale": 0.5,
       "height": 25,
       "width": 10,
       "pierce": true,
