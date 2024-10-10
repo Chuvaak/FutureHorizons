@@ -3,6 +3,7 @@
   "size": 5,
   "health": 2100,
   "reload": 7,
+  "inaccuracy": 30,
   "range": 500,
   "outlineColor": "#404049",
   "drawer": {
@@ -48,6 +49,8 @@
 	  "speed": 3,
       "fromColor": "ffc859",
       "toColor": "e8b54f",
+      "weaveScale": 0.6,
+      "weaveMag": 0.7,
       "height": 25,
       "width": 10,
       "pierce": true,
