@@ -82,7 +82,7 @@
 			"suctionRadius": 300,
 			"lifetime": 600,
 			"damage": 190,
-  "maxDamageFraction": 0.98,
+  "maxDamageFraction": 0.05,
 			"despawnEffect": "titanExplosion",
 			"despawnSound": "plasmaboom",
 			"swirlEffects": 11,
