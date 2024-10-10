@@ -72,7 +72,7 @@
 		"fragVelocityMax": 0,
 		"fragBullet": {
 			"type": "BlackHoleBulletType",
-  "buildingDamageMultiplier": 0.02,
+  "buildingDamageMultiplier": 0.01,
 			"force": 50,
 			"scalledForce": 1000,
 			"bulletForce": 4,
