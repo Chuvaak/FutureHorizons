@@ -43,6 +43,7 @@
       "damage": 15,
 	  "speed": 4,
       "trailEffect": "colorSpark",
+      "trailColor": "04b6de",
       "trailRotation": true,
       "trailInterval": 3,
       "trailWidth": 3,
