@@ -77,7 +77,7 @@
                 "splashDamageRadius": 10,
                 "shrinkY": 4,
                 "shrinkX": 4,
-                "despawnEffect": "SwirlEffect",
+                "despawnEffect": "explosion",
                 "hitSound": "explosion",
                 "despawnShake": 0.6,
           }
