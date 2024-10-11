@@ -5,6 +5,8 @@
   "reload": 1,
   "inaccuracy": 70,
   "range": 360,
+  "targetInterval": 10,
+  "newTargetInterval: 10,
   "outlineColor": "#404049",
   "drawer": {
    "type": "DrawTurret",
@@ -52,6 +54,7 @@
       "height": 25,
       "width": 10,
       "pierce": true,
+      "pierceCap": 4,
       "trailEffect": "hitBulletBig",
       },
   },
