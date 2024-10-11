@@ -3,10 +3,8 @@
   "size": 5,
   "health": 2100,
   "reload": 1,
-  "inaccuracy": 70,
+  "inaccuracy": 85,
   "range": 360,
-  "targetInterval": 20,
-  "newTargetInterval": 30,
   "outlineColor": "#404049",
   "drawer": {
    "type": "DrawTurret",
@@ -23,7 +21,7 @@
   "targetAir": true,
   "recoil": 3,
   "rotateSpeed": 3,
-  "shootSound": "vine-boom",
+  "shootSound": "steel-pipe",
   "ammoPerShot": 1,
   "maxAmmo": 20,
   "coolant": {
