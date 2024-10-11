@@ -5,6 +5,10 @@
   "reload": 20,
   "inaccuracy": 85,
   "range": 360,
+  "shoot": {
+      "shots": 20,
+      
+           }
   "outlineColor": "#404049",
   "drawer": {
    "type": "DrawTurret",
