@@ -8,6 +8,7 @@
   "outlineColor": "#404049",
   "drawer": {
    "type": "DrawTurret",
+  "basePreffix": "-oof"'
 		"parts": [
 		{
 			"type": "RegionPart",
