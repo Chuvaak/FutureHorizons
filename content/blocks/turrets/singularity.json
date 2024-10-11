@@ -46,7 +46,7 @@
       "trailRotation": true,
       "trailInterval": 3,
       "trailWidth": 3,
-      "trailLength": 20'
+      "trailLength": 20,
       "frontColor": "ffc859",
       "height": 25,
       "width": 10,
