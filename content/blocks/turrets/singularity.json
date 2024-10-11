@@ -39,7 +39,7 @@
 	  "homingPower": 0.2,
       "homingRange": 400,
    "homingDelay": 60,
-      "lifetime": 120,
+      "lifetime": 140,
       "damage": 15,
 	  "speed": 4,
       "trailEffect": "colorSpark",
