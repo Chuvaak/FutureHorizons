@@ -75,9 +75,9 @@
                 "lifetime": 30,
                 "splashDamage": 320,
                 "splashDamageRadius": 10,
-                "shrinkY": 4,
-                "shrinkX": 4,
-                "despawnEffect": "explosion",
+                "shrinkY": 1,
+                "shrinkX": 1,
+                "despawnEffect": "shockwave",
                 "hitSound": "explosion",
                 "despawnShake": 0.6,
           }
