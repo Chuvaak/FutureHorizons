@@ -39,6 +39,7 @@
   "ammoTypes": {
     "exotic_capsule": {
       "type": "BasicBulletType",
+      "sprite": "shell",
 	  "ammoMultiplier": 4,
 	  "homingPower": 0.2,
       "homingRange": 400,
