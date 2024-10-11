@@ -2,7 +2,7 @@
 "type": "ItemTurret",
   "size": 5,
   "health": 2100,
-  "reload": 1,
+  "reload": 20,
   "inaccuracy": 85,
   "range": 360,
   "outlineColor": "#404049",
@@ -33,14 +33,14 @@
     "power": 10
   },
   "ammoTypes": {
-    "copper": {
+    "exotic_capsule": {
       "type": "BasicBulletType",
-	  "ammoMultiplier": 1,
+	  "ammoMultiplier": 4,
 	  "homingPower": 0.2,
       "homingRange": 400,
    "homingDelay": 60,
       "lifetime": 120,
-      "damage": 70,
+      "damage": 140,
 	  "speed": 4,
       "trailEffect": "colorSpark",
       "trailColor": "04b6de",
@@ -58,7 +58,7 @@
       "hittable": true,
       "absorbable": true,
       "reflectable": false,
-      "lightning": 2,
+      "lightning": 3,
       "lightningCone": 10,
       "lightningLength": 16,
       "lightningLengthRand": 24,
