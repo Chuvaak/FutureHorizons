@@ -3,7 +3,7 @@
   "size": 5,
   "health": 2100,
   "reload": 1,
-  "inaccuracy": 130,
+  "inaccuracy": 70,
   "range": 360,
   "outlineColor": "#404049",
   "drawer": {
@@ -21,7 +21,7 @@
   "targetAir": true,
   "recoil": 3,
   "rotateSpeed": 3,
-  "shootSound": "pew",
+  "shootSound": "vine-boom",
   "ammoPerShot": 1,
   "maxAmmo": 20,
   "coolant": {
@@ -38,7 +38,7 @@
 	  "ammoMultiplier": 1,
 	  "homingPower": 0.2,
       "homingRange": 400,
-   "homingDelay": 20,
+   "homingDelay": 60,
       "lifetime": 120,
       "damage": 15,
 	  "speed": 4,
