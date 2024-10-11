@@ -58,6 +58,10 @@
       "hittable": true,
       "absorbable": true,
       "reflectable": false,
+      "lightningCone": 10,
+      "lightningLength": 16,
+      "lightningLengthRand": 24,
+      "lightningDamage": 15,
       "fragVelocityMin": 3,
       "fragVelocityMax": 3,
       "fragBullet": {
