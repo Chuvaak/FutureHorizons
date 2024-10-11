@@ -40,7 +40,7 @@
       "homingRange": 400,
    "homingDelay": 60,
       "lifetime": 120,
-      "damage": 15,
+      "damage": 40,
 	  "speed": 4,
       "trailEffect": "colorSpark",
       "trailColor": "04b6de",
