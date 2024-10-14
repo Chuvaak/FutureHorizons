@@ -67,7 +67,7 @@
 		"trailInterval": 0.25,
 		"trailWidth": 3,
 		"trailLength": 50,
-  "trailSinMag": 0.7,
+  "trailSinMag": 5,
 		"frontColor": "ffc859",
 		"height": 25,
 		"width": 16,
