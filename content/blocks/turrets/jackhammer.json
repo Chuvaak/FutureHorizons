@@ -67,7 +67,7 @@
 		"trailInterval": 0.25,
 		"trailWidth": 3,
 		"trailLength": 50,
-  "weaveMag": 7,
+  "weaveMag": 20,
   "weaveScale": 0.05,
 		"frontColor": "ffc859",
 		"height": 25,
