@@ -68,6 +68,7 @@
 		"trailWidth": 3,
 		"trailLength": 50,
   "trailSinMag": 5,
+  "trailSinScl": 4,
 		"frontColor": "ffc859",
 		"height": 25,
 		"width": 16,
