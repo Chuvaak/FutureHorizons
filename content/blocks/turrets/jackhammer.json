@@ -58,7 +58,7 @@
 		"splashDamage": 280,
 		"splashDamageRadius": 24,
 		"hitSound": "explosion",
-		"hitEffect": "flakExplosionBig",
+		"hitEffect": "SwirlEffect",
 		"loopSound": "plasmadrop",
 		"speed": 45,
 		"trailEffect": "colorSpark",
