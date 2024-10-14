@@ -78,7 +78,6 @@
 		"reflectable": false,
 		"impact": true,
 		"knockback": 8,
-}
 	}
   },
  "cooldown": 0.009,
