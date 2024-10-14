@@ -69,7 +69,7 @@
 		"trailLength": 50,
   "weaveMag": 20,
   "weaveScale": 0.05,
-  "homingPower" 0.2,
+  "homingPower": 0.2,
   "homingRange": 400,
 		"frontColor": "ffc859",
 		"height": 25,
