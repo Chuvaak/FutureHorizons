@@ -163,8 +163,26 @@
 	  "pierseDamageFactor": 0.4,
       "smokeEffect": "shootBig2",
 	  "hitShake": 12,
-	  "splashDamageRadius": 24,
-	  "splashDamage": 130,
+	  "fragBullets": 1,
+	  "fragBullet": {
+			"type": "BombBulletType",
+                "collidesAir": true,
+                "hittable": false,
+                "absorbable": false,
+                "reflectable": false,
+                "speed":0,
+                "spin": 0,
+                "color": "ff9317",             
+                "height": 0,
+                "width": 0,
+                "lifetime": 0,
+				"splashDamageRadius": 24,
+				"splashDamage": 130,
+                "despawnEffect": "smoke",
+                "hitSound": "explosion",
+                "despawnShake": 0.1,
+          }
+	  
 	}
   },
  "cooldown": 0.009,
