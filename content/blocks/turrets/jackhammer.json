@@ -78,7 +78,7 @@
 		"absorbable": true,
 		"reflectable": false,
 		"impact": true,
-		"knockback": 8,
+		"knockback": 4,
 	}
   },
  "cooldown": 0.009,
