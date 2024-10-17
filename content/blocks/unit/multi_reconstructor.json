@@ -76,7 +76,7 @@
         "craftTime": 30
     },
 	]
-	"category": "unit",
+	"category": "units",
 	"idleSoundVolume": 0.08,
 	"itemCapacity": 60,
 	"sound": "click",
