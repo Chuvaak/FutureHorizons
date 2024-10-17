@@ -64,7 +64,7 @@
 		"trailEffect": "colorSpark",
 		"trailColor": "ffa41c",
 		"trailRotation": true,
-		"trailInterval": 0.25,
+		"trailInterval": 0.15,
 		"trailWidth": 3,
 		"trailLength": 100,
 		"frontColor": "ffc859",
@@ -73,7 +73,8 @@
 		"pierce": true,
   "pierceBuilding": true,
 		"pierceDamageFactor": 5,
-		"trailEffect": "shockwave",
+		"trailEffect": "shockwave",
+
 		"hittable": false,
 		"absorbable": true,
 		"reflectable": false,
