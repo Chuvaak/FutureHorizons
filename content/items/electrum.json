@@ -6,6 +6,9 @@
  "radioactivity": 0.6,
  "charge": 12,
  "hardness": 0,
+ "frames": 9,
+ "transitionFrames": 0,
+ "frameTime": 6,
  "cost": 1,
  "research":{
 	 "parent": "phase-fabric"
