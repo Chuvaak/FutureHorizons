@@ -7,6 +7,8 @@
  "charge": 12,
  "hardness": 0,
  "cost": 1,
+ "frames": 3,
+ "transitionFrames": 1,
  "frameTime": 6,
  "research":{
 	 "parent": "phase-fabric"
