@@ -33,8 +33,8 @@
   "targetAir": true,
   "recoil": 3,
   "rotateSpeed": 3,
-  "shootSound": "steel-pipe",
-  "ammoPerShot": 1,
+  "shootSound": "lancerLaserShoot",
+  "ammoPerShot": 2,
   "maxAmmo": 20,
   "coolant": {
     "type": "ConsumeCoolant",
@@ -52,7 +52,7 @@
 		"homingRange": 400,
 		"homingDelay": 60,
 		"lifetime": 120,
-		"damage": 140,
+		"damage": 90,
 		"speed": 4,
 		"trailEffect": "colorSpark",
 		"trailColor": "00a7cc",
@@ -74,29 +74,7 @@
 		"lightningCone": 10,
 		"lightningLength": 16,
 		"lightningLengthRand": 24,
-		"lightningDamage": 25,
-		"fragVelocityMin": 5,
-		"fragVelocityMax": 5,
-		"fragBullet": {
-			"type": "BombBulletType",
-                "collidesAir": true,             
-                "height": 24,
-                "hittable": false,
-                "absorbable": false,
-                "reflectable": false,
-                "speed":0,
-                "spin": 5,
-                "color": "ff9317",
-                "width": 24,
-                "lifetime": 30,
-                "splashDamage": 320,
-                "splashDamageRadius": 10,
-                "shrinkY": 1,
-                "shrinkX": 1,
-                "despawnEffect": "shockwave",
-                "hitSound": "explosion",
-                "despawnShake": 0.1,
-          }
+		"lightningDamage": 10,
       },
   },
  "cooldown": 0.009,
@@ -109,5 +87,5 @@
   ],
   "category": "turret",
   "research": {
-	  "parent":"swarmer"}
+	  "parent":"hive"}
 }
