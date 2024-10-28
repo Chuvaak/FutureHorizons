@@ -40,6 +40,8 @@
 			"bulletForce": 4,
 			"scaledBulletForce": 50,		
 			"speed":0,
+   "horizonRadius": 300,
+   "lensingRadius": 700,
 			"damageRadius": 450,
 			"suctionRadius": 1000,
 			"lifetime": 4500,
@@ -52,10 +54,10 @@
 			"loopSoundVolume": 15,
 			"swirlEffects": 30,
 			"swirlInterval": 1,
-			"clip": 30000000,
    "swirlEffect": {
    "type": "SwirlEffect"
-   "clip": 30000000,
+   "clip": 3000000,
+   "lifetime": 300,
       },
 	  },
     "explosionShake": 60,
