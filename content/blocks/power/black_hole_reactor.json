@@ -56,7 +56,7 @@
    "swirlEffect": {
    "type": "SwirlEffect"
    "clip": 30000000,
-}```
+      },
 	  },
     "explosionShake": 60,
     "explosionShakeDuration": 600,
