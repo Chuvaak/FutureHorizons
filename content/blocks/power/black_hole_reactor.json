@@ -45,16 +45,14 @@
 			"lifetime": 4500,
 			"growTime": 2400,
 			"shrinkTime": 300,
-			"damage": 60,
-			"pierceBuilding": true,
-			"clip": 30000000,
-			"drawSize": 30000000,
+			"damage": 70,
 			"color": "ebb684",
-			"despawnEffect": "bigShockwave",
+			"despawnEffect": "massiveExplosion",
 			"despawnSound": "plasmaboom",
-			"loopSoundVolume": 20,
+			"loopSoundVolume": 15,
 			"swirlEffects": 30,
 			"swirlInterval": 1,
+			"clip": 30000000,
 	  },
     "explosionShake": 60,
     "explosionShakeDuration": 600,
@@ -87,6 +85,7 @@
 	"generateEffect":[
 	{
 "type": "SwirlEffect",
+"clip": 5000,
 "colorFrom": "f7b819f0",
 "minDst": 75,
 "maxDst": 116,
@@ -97,7 +96,6 @@
 "lifetime": 120
 },
 					],
-					"clipSize": 300000
 	"effectChance": 1.5,
 	"generateEffectRange": 0.1,
 	"ambientSound":"spellLoop",
