@@ -15,10 +15,10 @@
 	"craftTime": 6,
 	"consumes": {
     "power": 194,
-	"liquid": {"liquid":"water", "amount":0.8},
+	"liquid": {"liquid":"water", "amount":0.8},
 	"items": {
 		"items":
-		[
+		[
 		{"item": "sand", "amount": 5},
 		]
 	}			
@@ -26,7 +26,7 @@
 	},
 	"category": "crafting",
 	"idleSoundVolume": 0.05,
-	"itemCapacity": 30,
+	"itemCapacity": 30,
 	"SoundVolume": 0.1,
 	"liquidCapacity": 60,
 	"outputItem": {"item":"silicon", "amount": 3},

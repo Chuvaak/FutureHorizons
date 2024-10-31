@@ -1,7 +1,7 @@
 {
 	"name": "Dissociation",
 	"color": "A2A18F64",
-	"permanent":true,
+	"permanent":false,
 	"damage": 12,
 	"healthMultiplier": 0.7,
 	"speedMultiplier": 1.3,

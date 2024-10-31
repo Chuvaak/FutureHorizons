@@ -1,5 +1,5 @@
 {
-	"type": "HeatProducer",
+	"type": "HeatProducer",
 	"health": 380,
 	"size": 3,
 	"drawer": {
@@ -11,7 +11,7 @@
                ]
           },
 	"requirements": 	[
-    { "item": "composite_plate", "amount": 270},
+    { "item": "composite_plate", "amount": 270},
     { "item": "metaglass", "amount": 250},
 	{ "item": "electrum", "amount": 160},
 	{ "item": "titanium", "amount": 190}
@@ -20,7 +20,7 @@
 	"hasItems": false,
 	"hasLiquids": true,
 	"craftTime": 30,
-	"consumes": {
+	"consumes": {
 	"liquid": 
 		{"liquid": "liquid_electrum", "amount": 0.2},
 				

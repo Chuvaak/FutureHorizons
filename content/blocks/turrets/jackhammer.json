@@ -74,7 +74,6 @@
   "pierceBuilding": true,
 		"pierceDamageFactor": 5,
 		"trailEffect": "shockwave",
-
 		"hittable": false,
 		"absorbable": true,
 		"reflectable": false,
