@@ -32,7 +32,7 @@
     "power": 0
   },
   "ammoTypes": {
-    "copper": {
+    "exotic_capsule": {
       "type": "BasicBulletType",
 	  "ammoMultiplier": 1,
       "lifetime": 120,
