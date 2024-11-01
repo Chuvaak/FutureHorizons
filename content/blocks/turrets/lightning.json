@@ -84,6 +84,10 @@
   "pierceBuilding": false,
 			"despawnEffect": "titanExplosion",
 			"despawnSound": "plasmaboom",
+			"swirlEffect": {
+				"type": "SwirlEffect",
+				"clip": 30000000,
+						}
 			"swirlEffects": 12,
 			"swirlInterval": 1,
 	  }

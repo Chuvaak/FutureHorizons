@@ -50,9 +50,12 @@
 			"despawnEffect": "massiveExplosion",
 			"despawnSound": "plasmaboom",
 			"loopSoundVolume": 15,
+			"swirlEffect": {
+				"type": "SwirlEffect",
+				"clip": 30000000,
+						}
 			"swirlEffects": 30,
 			"swirlInterval": 1,
-			"clip": 30000000,
 	  },
     "explosionShake": 60,
     "explosionShakeDuration": 600,
