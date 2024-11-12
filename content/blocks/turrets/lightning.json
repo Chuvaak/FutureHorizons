@@ -47,13 +47,13 @@
   },
  "cooldown": 0.009,
  "requirements": [
-    {"item": "titanium", "amount": 90},
-	{"item": "thorium", "amount": 85},
-	{"item": "silicon", "amount": 80},
-	{"item": "composite_plate", "amount": 70},
-    {"item": "graphite", "amount": 60}
+    {"item": "titanium", "amount": 80},
+	{"item": "thorium", "amount": 70},
+	{"item": "silicon", "amount": 70},
+	{"item": "composite_plate", "amount": 50},
+    {"item": "metaglass", "amount": 30}
   ],
   "category": "turret",
   "research": {
-	  "parent":"swarmer"}
+	  "parent":"arc"}
 }
