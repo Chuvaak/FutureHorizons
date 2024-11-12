@@ -4,7 +4,7 @@
   "health": 2100,
   "reload": 20,
   "inaccuracy": 85,
-  "range": 360,
+  "range": 380,
   "shoot": {
       "shots": 20,
       "shotDelay": 1
