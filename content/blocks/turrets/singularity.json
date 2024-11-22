@@ -4,7 +4,7 @@
   "health": 2100,
   "reload": 20,
   "inaccuracy": 85,
-  "range": 380,
+  "range": 560,
   "shoot": {
       "shots": 20,
       "shotDelay": 1
@@ -52,14 +52,14 @@
 		"homingRange": 400,
 		"homingDelay": 60,
 		"lifetime": 120,
-		"damage": 90,
+		"damage": 60,
 		"speed": 4,
 		"trailEffect": "colorSpark",
 		"trailColor": "00a7cc",
 		"trailRotation": true,
 		"trailInterval": 3,
 		"trailWidth": 3,
-		"trailLength": 23,
+		"trailLength": 24,
 		"frontColor": "ffc859",
 		"height": 25,
 		"width": 10,
@@ -79,11 +79,12 @@
   },
  "cooldown": 0.009,
  "requirements": [
-    {"item": "titanium", "amount": 90},
-	{"item": "thorium", "amount": 85},
-	{"item": "silicon", "amount": 80},
-	{"item": "plastanium", "amount": 70},
-    {"item": "graphite", "amount": 60}
+    {"item": "electrum", "amount": 2200},
+	{"item": "quantum_controller", "amount": 1800},
+	{"item": "silicon", "amount": 1650},
+	{"item": "thorium", "amount": 1500},
+    {"item": "metaglass", "amount": 1400},
+	{"item": "phase-fabric", "amount": 1100},
   ],
   "category": "turret",
   "research": {

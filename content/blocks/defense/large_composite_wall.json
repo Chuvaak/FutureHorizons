@@ -1,0 +1,13 @@
+{
+    "type": "Wall",
+    "health": 2900,
+    "size": 2,
+    "absorbLasers":true,
+    "requirements": [
+    { "item": "composite_plate", "amount": 24},
+			],
+    "category": "defense"
+	"research":{
+		"parent":"composite_wall"
+	}
+    }

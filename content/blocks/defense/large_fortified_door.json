@@ -1,0 +1,16 @@
+{
+    "type": "Door",
+    "health": 3100,
+    "size": 2,
+    "absorbLasers":true,
+    "requirements": [
+    { "item": "composite_plate", "amount": 40},
+	{ "item": "thorium", "amount": 20},
+	{ "item": "silicon", "amount": 12},
+	
+			],
+    "category": "defense"
+	"research":{
+		"parent":"fortified_door"
+	}
+    }

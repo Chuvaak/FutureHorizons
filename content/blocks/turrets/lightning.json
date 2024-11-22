@@ -3,7 +3,7 @@
 	"size": 3,
 	"health": 480,
 	"reload": 60,
-	"range": 120,
+	"range": 300,
 	"shootCone": 40,
 	"outlineColor": "#404049",
 	"drawer": {
@@ -38,7 +38,7 @@
 		"type": "LightningBulletType",
 		"damage": 50,
 		"lightningColor": "a9d8ffff",
-		"lightningLength": 60,
+		"lightningLength": 55,
 		"lightningLengthRand": 0.1,
 		"hittable": false,
 		"absorbable": true,

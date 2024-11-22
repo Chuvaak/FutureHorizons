@@ -1,0 +1,15 @@
+{
+    "type": "Door",
+    "health": 750,
+    "size": 1,
+    "absorbLasers":true,
+    "requirements": [
+    { "item": "composite_plate", "amount": 10},
+	{ "item": "thorium", "amount": 4},
+	{ "item": "silicon", "amount": 3},
+			],
+    "category": "defense"
+	"research":{
+		"parent":"door-large"
+	}
+    }

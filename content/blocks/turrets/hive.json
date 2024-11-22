@@ -119,12 +119,12 @@
   },
  "cooldown": 0.009,
  "requirements": [
-    {"item": "titanium", "amount": 90},
-	{"item": "composite_plate", "amount": 70},
-	{"item": "thorium", "amount": 85},
-	{"item": "silicon", "amount": 80},
-	{"item": "plastanium", "amount": 70},
-    {"item": "graphite", "amount": 60}
+    {"item": "electrum", "amount": 150},
+	{"item": "composite_plate", "amount": 140},
+	{"item": "thorium", "amount": 120},
+	{"item": "silicon", "amount": 120},
+	{"item": "plastanium", "amount": 100},
+    {"item": "graphite", "amount": 90}
   ],
   "category": "turret",
   "research": {

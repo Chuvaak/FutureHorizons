@@ -1,0 +1,13 @@
+{
+    "type": "Wall",
+    "health": 690,
+    "size": 1,
+    "absorbLasers":true,
+    "requirements": [
+    { "item": "composite_plate", "amount": 6},
+			],
+    "category": "defense"
+	"research":{
+		"parent":"plastanium-wall-large"
+	}
+    }

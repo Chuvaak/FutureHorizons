@@ -84,15 +84,15 @@
   },
  "cooldown": 0.009,
  "requirements": [
-    {"item": "thorium", "amount": 1200},
-	{"item": "surge-alloy", "amount": 1100},
-	{"item": "silicon", "amount": 1100},
-	{"item": "electrum", "amount": 1000},
-    {"item": "phase-fabric", "amount": 600}
+    {"item": "electrum", "amount": 1400},
+	{"item": "thorium", "amount": 1200},
+	{"item": "silicon", "amount": 1200},
+	{"item": "quantum_controller", "amount": 950},
+    {"item": "phase-fabric", "amount": 800}
   ],
   "category": "turret",
   "research": {
-	  "parent":"foreshadow",
+	  "parent":"providence",
 	  "objectives": [
           {
             "type": "SectorComplete",
