@@ -2,7 +2,7 @@
 "type": "ItemTurret",
   "size": 4,
   "health": 480,
-  "reload": 25,
+  "reload": 40,
   "range": 300,
   "ammoUseEffect": "casing3"
   "shoot": {
