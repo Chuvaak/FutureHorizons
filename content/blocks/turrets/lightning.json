@@ -18,6 +18,7 @@
 				]    
           },
 	"targetAir": true,
+	"targetGround": false,
 	"recoil": 2,
 	"rotateSpeed": 6,
 	"shootSound": "spark",
