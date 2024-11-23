@@ -41,12 +41,12 @@
   "maxAmmo": 80,
   "coolant": {
     "type": "ConsumeCoolant",
-    "amount": 0.8
+    "amount": 1
   },
-  "coolantMultiplier": 1.5,
+  "coolantMultiplier": 1.2,
   "unitSort": "strongest",
   "consumes": {
-    "power": 60
+    "power": 100
   },
   "ammoTypes": {
     "electrum": {

@@ -33,7 +33,7 @@
 	},
 	"coolantMultiplier": 1.2,
 	"consumes": {
-		"power": 9
+		"power": 8
 	},
 	"shootType": {
 		"type": "LightningBulletType",
