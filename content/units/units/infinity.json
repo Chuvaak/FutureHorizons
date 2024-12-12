@@ -1,0 +1,166 @@
+	{
+	"flying": true,
+	"speed": 1.1,
+	"accel": 0.1,
+	"lowAltitude": true,
+	"drag": 0.0625,
+	"health": 23000,
+	"armor": 16,
+	"fogRadius":0,
+	"rotateSpeed": 1.8,
+	"engineOffset": 32.5,
+	"engineSize": 10,
+	"hitSize":60,
+	"forceMultiTarget": true,
+	"weapons": [
+		{
+			"name": "infinity-laser",
+			"heatColor": "FF7171FF",
+			"shootCone": 0.1,
+			"reload": 300,
+			"x": 0,
+			"y": 31.5,
+			"shootY": 2,
+			"top": false,
+			"mirror": false,
+			"layerOffset": -0.001,
+			"ejectEffect": "none",
+			"shootStatus": "unmoving"
+			"shootStatusDuration": 90,
+			"shootSound": "laserblast",
+			"chargeSound": "lasercharge",
+			"shoot": {
+				"firstShotDelay": 70
+			  },
+			"bullet": {
+				"type": "LaserBulletType",
+				"shootEffect": "smokeCloud"
+				"lifetime": 45,
+				"damage": 500,
+				"sideAngle": 45,
+				"sideWidth": 0.8,
+				"width": 55,
+				"sideLength": 50,
+				"length": 300,
+				"pierce": true,
+				"pierceBuilding": true,
+				"laserAbsorb": true,
+			}
+		}
+		{
+				"name": "infinity-turret",
+				"reload": 15,
+				"x": 9.75,
+				"y": 5.75,
+				"shootY": 3,
+				"top": true,
+				"mirror": true,
+				"rotate": true,
+				"ejectEffect": "casing2",
+				"shootSound": "shootBig",
+				"shoot": {
+				"type": "shootPattern",
+				"shots": 4,
+				"shotDelay": 3
+			  },
+				"bullet": {
+					"type": "BasicBulletType",
+					"pierceArmor": true,
+					"damage": 45,
+					"speed": 4,
+					"width": 10,
+					"height": 13,
+					"lifetime": 60,
+					"shootEffect": "shootSmall",
+					"smokeEffect": "shootSmallSmoke"
+				}
+			},
+			{
+				"name": "infinity-artillery",
+				"shootCone": 4,
+				"inaccuracy": 1,
+				"reload": 60,
+				"x": 26.75,
+				"y": -14,
+				"shootY": 3.5,
+				"top": true,
+				"mirror": true,
+				"rotate": true,
+				"ejectEffect": "casing2",
+				"shootSound": "bang",
+				"shoot": {
+				"type": "shootPattern",
+				"shots": 2,
+				"shotDelay": 15
+			  },
+				"bullet": {
+					"type": "ArtilleryBulletType",
+					"speed": 3,
+					"collidesAir": false,
+					"damage": 30,
+					"splashDamageRadius": 32,
+					"splashDamage": 55,
+					"width": 11,
+					"height": 11,
+					"lifetime": 120,
+				}
+			},
+			{
+				"name": "infinity-artillery",
+				"shootCone": 4,
+				"inaccuracy": 1,
+				"reload": 60,
+				"x": 32,
+				"y": -30,
+				"shootY": 3.5,
+				"top": true,
+				"mirror": true,
+				"rotate": true,
+				"ejectEffect": "casing2",
+				"shootSound": "bang",
+				"shoot": {
+				"type": "shootPattern",
+				"shots": 2,
+				"shotDelay": 15
+			  },
+				"bullet": {
+					"type": "ArtilleryBulletType",
+					"speed": 3,
+					"collidesAir": false,
+					"damage": 30,
+					"splashDamageRadius": 32,
+					"splashDamage": 55,
+					"width": 11,
+					"height": 11,
+					"lifetime": 120,
+				}
+			},
+	]
+	"abilities": [
+		{
+		  "type": "ForceFieldAbility",
+		  "radius": 140,
+		  "regen": 5,
+		  "max": 4000,
+		  "sides": 8,
+		  "cooldown": 500,
+		},
+		{
+		  "type": "EnergyFieldAbility",
+		  "reload": 80,
+		  "range": 180,
+		  "damage": 90,
+		  "hitEffect": "hitLaserBlast",
+		  "damageEffect": "chainLightning",
+		  "shootSound": "spark",
+		  "status": "electrified",
+		  "statusDuration": 120,
+		  "x": 0,
+		  "y": -10,
+		  "maxTargets": 30,
+		  "color": "FFA56DFF",
+		  "healPercent": 1.2,
+		  },
+		  
+	  ]
+	}
