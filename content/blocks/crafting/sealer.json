@@ -61,7 +61,7 @@
 	},
 	"category": "crafting",
 	"idleSoundVolume": 0.1,
-	"itemCapacity": 80,
+	"itemCapacity": 100,
 	"ambientSound": "flux",
 	"SoundVolume": 0.1,
 	"liquidCapacity": 8000,
