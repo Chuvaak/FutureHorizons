@@ -3,6 +3,24 @@
 
 	"health": 680,
 	"size": 4,
+		"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+   {
+    "type": "DrawDefault"
+   },
+   {
+    "type": "DrawFlame"
+	"flameRadius": 3,
+	"flameRadiusMag": 2,
+	"X": 20,
+	"Y": 4.125,
+   },
+   {
+    "type": "DrawHeatInput"
+   },
+   ]
+		},
 	"requirements": 	[
     { "item": "titanium", "amount": 580},
     { "item": "thorium", "amount": 420},
