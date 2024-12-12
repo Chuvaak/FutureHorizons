@@ -1,0 +1,31 @@
+{
+	"type": "Reconstructor",
+	"health": 1650,
+	"size": 5,
+	"requirements": 	[
+    {"item": "silicon", "amount": 630},
+	{"item": "titanium", "amount": 580},
+	{"item": "thorium", "amount": 460},
+	{"item": "composite_plate", "amount": 340},
+					],
+	"consumes": {
+		"power": 35,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 190},
+				{"item": "titanium", "amount": 160},
+				{"item": "metaglass", "amount": 145},
+				{"item": "thorium", "amount": 100},
+			]
+		},
+	},
+	"upgrades": [
+	["star","galaxy"],
+				]
+    "constructTime": 2400,
+	"category": "units",
+	"itemCapacity": 380,
+	"research":{
+		"parent":"expanding_reconstructor"
+	}
+}

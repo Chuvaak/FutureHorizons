@@ -1,0 +1,40 @@
+{
+	"type": "Reconstructor",
+	"health": 12500,
+	"size": 11,
+	"requirements": 	[
+    {"item": "silicon", "amount": 15000},
+	{"item": "titanium", "amount": 14000},
+	{"item": "thorium", "amount": 13600},
+	{"item": "composite_plate", "amount": 12500},
+	{"item": "electrum", "amount": 11250},
+	{"item": "phase-fabric", "amount": 9000},
+	{"item": "quantum_controller", "amount": 4900},
+	{"item": "exotic_capsule", "amount": 3000},
+					],
+	"consumes": {
+		"power": 560,
+		"items": {
+			"items": [
+				        {"item": "silicon", "amount": 5900},
+						{"item": "titanium", "amount": 5200},
+						{"item": "thorium", "amount": 4800},
+						{"item": "composite_plate", "amount": 4400},
+						{"item": "electrum", "amount": 2100},
+						{"item": "quantum_controller", "amount": 1900},
+						{"item": "exotic_capsule", "amount": 1200},
+			]
+			
+		},
+		"liquid": "exotic_matter/0.5"
+	},
+	"upgrades": [
+	["infinity","absolute"],
+				]
+    "constructTime": 36000,
+	"category": "units",
+	"itemCapacity": 11800,
+	"research":{
+		"parent":"densifying_reconstructor"
+	}
+}

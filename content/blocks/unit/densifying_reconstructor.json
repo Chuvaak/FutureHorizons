@@ -1,0 +1,38 @@
+{
+	"type": "Reconstructor",
+	"health": 7400,
+	"size": 9,
+	"requirements": 	[
+    {"item": "silicon", "amount": 8000},
+	{"item": "titanium", "amount": 7600},
+	{"item": "thorium", "amount": 7400},
+	{"item": "composite_plate", "amount": 6800},
+	{"item": "electrum", "amount": 4200},
+	{"item": "phase-fabric", "amount": 3600},
+	{"item": "quantum_controller", "amount": 800},
+					],
+	"consumes": {
+		"power": 230,
+		"items": {
+			"items": [
+				        {"item": "silicon", "amount": 3000},
+						{"item": "titanium", "amount": 2700},
+						{"item": "thorium", "amount": 2500},
+						{"item": "composite_plate", "amount": 2400},
+						{"item": "electrum", "amount": 1600},
+						{"item": "quantum_controller", "amount": 700},
+			]
+			
+		},
+		"liquid": "liquid_electrum/1"
+	},
+	"upgrades": [
+	["universe","infinity"],
+				]
+    "constructTime": 18000,
+	"category": "units",
+	"itemCapacity": 6000,
+	"research":{
+		"parent":"supplementing_reconstructor"
+	}
+}

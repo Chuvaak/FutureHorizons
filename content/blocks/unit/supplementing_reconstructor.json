@@ -1,0 +1,37 @@
+{
+	"type": "Reconstructor",
+	"health": 3800,
+	"size": 7,
+	"requirements": 	[
+    {"item": "silicon", "amount": 3800},
+	{"item": "titanium", "amount": 3600},
+	{"item": "thorium", "amount": 3500},
+	{"item": "composite_plate", "amount": 3000},
+	{"item": "electrum", "amount": 2400},
+	{"item": "phase-fabric", "amount": 1800},
+					],
+	"consumes": {
+		"power": 120,
+		"items": {
+			"items": [
+				    {"item": "silicon", "amount": 1200},
+					{"item": "titanium", "amount": 1000},
+					{"item": "thorium", "amount": 900},
+					{"item": "composite_plate", "amount": 900},
+					{"item": "electrum", "amount": 400},
+
+			]
+			
+		},
+		"liquid": "cryofluid/2"
+	},
+	"upgrades": [
+	["galaxy","universe"],
+				]
+    "constructTime": 8000,
+	"category": "units",
+	"itemCapacity": 2400,
+	"research":{
+		"parent":"reinforsing_reconstructor"
+	}
+}
