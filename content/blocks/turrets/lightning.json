@@ -6,17 +6,6 @@
 	"range": 300,
 	"shootCone": 40,
 	"outlineColor": "#404049",
-	"drawer": {
-	"type": "DrawTurret",
-		"parts": [
-		{
-			"type": "RegionPart",
-			"suffix": "-bottom",
-			"under": true,
-		  },
-
-				]    
-          },
 	"targetAir": true,
 	"targetGround": false,
 	"recoil": 2,
@@ -29,14 +18,17 @@
 	},
 	"coolant": {
     "type": "ConsumeCoolant",
-    "amount": 0.6
+    "amount": 0.3
 	},
 	"coolantMultiplier": 1.2,
 	"consumes": {
 		"power": 8
 	},
+	"shootY": 2,
+	"recoil": 0.2,
 	"shootType": {
 		"type": "LightningBulletType",
+		"drawSize": 9999,
 		"damage": 50,
 		"lightningColor": "a9d8ffff",
 		"lightningLength": 55,

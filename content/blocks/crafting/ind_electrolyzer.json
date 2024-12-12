@@ -11,7 +11,7 @@
    },  
    {
     "type": "DrawLiquidTile",
-    "drawLiquid": "hydrogen"
+    "drawLiquid": "water"
    },
    {
     "type": "DrawDefault"

@@ -5,8 +5,19 @@
 	"drawer": {
     "type": "DrawMulti",
     "drawers": [
+	{
+    "type": "drawRegion",
+    "suffix": "-bottom"    
+   },  
+   {
+    "type": "DrawLiquidTile",
+    "drawLiquid": "liquid_electrum"
+   },
    {
     "type": "DrawDefault"
+   },
+   {
+    "type": "DrawHeatOutput"
    },
                ]
           },
@@ -27,7 +38,8 @@
     
 	},
 	"category": "crafting",
-	"ambientSoundVolume": 0.1,
+	"ambientSoundVolume": 0.05,
+	"ambientSound": "electricHum",
 	"liquidCapacity": 80,
 	"heatOutput": 5,
 	"warmupRate": 0.15,

@@ -5,7 +5,7 @@
 	"radius": 300,
 	"sides": 10,
 	"solid": true,
-	"shieldHealth": 6000,
+	"shieldHealth": 14000,
 	"cooldownNormal": 0.8,
 	"cooldownLiquid": 1.1,
 	"cooldownBrokenBase": 0.9,
