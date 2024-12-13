@@ -1,0 +1,79 @@
+{
+	"type": "GenericCrafter",
+
+	"health": 680,
+	"size": 4,
+		"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+	{
+    "type": "drawRegion",
+    "suffix": "-bottom"    
+   },
+   
+   	   {
+		"type": "DrawPistons",
+			"sinMag": 22,
+			"sinScl": 10,
+			"sides": 80,
+			"sinOffset": 32,
+			"lenOffset": -23,
+			"angleOffset": 90,
+	   },
+	{
+	"type": "DrawRegion",
+		"suffix": "-rotatatotor",
+		"rotateSpeed": 5,
+   },
+      	   {
+		"type": "DrawPistons",
+			"suffix": "-pistoon",
+			"sinMag": 22,
+			"sinScl": 10,
+			"sides": 4,
+			"sinOffset": 32,
+			"lenOffset": -23,
+			"angleOffset": 45,
+	   },
+   {
+    "type": "DrawDefault"
+   },
+   {
+    "type": "DrawFade"
+   },
+   ]
+		},
+	"requirements": 	[
+    { "item": "silicon", "amount": 530},
+    { "item": "thorium", "amount": 350},
+	{ "item": "electrum", "amount": 180},
+	{ "item": "composite_plate", "amount": 210},
+					]
+	"hasPower": true,
+	"hasItems": false,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"consumes": {
+    "power": 165,
+	"liquid": 
+		{"liquid": "liquid_electrum", "amount": 0.1}
+	"items": {
+		"items":
+		[
+		{"item": "thorium", "amount": 4},
+		{"item": "sand", "amount": 7},
+		]
+	}			
+    
+	},
+	"category": "crafting",
+	"ambientSoundVolume": 0.05,
+	"ambientSound": "techloop",
+	"idleSoundVolume": 0.05,
+	"itemCapacity": 30,
+	"liquidCapacity": 600,
+	"outputItem": {"item":"phase-fabric", "amount": 1},
+	 "research":{
+		"parent":"phase-weaver"
+	}
+}
