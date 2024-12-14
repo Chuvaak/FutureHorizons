@@ -3,7 +3,7 @@
 
 	"health": 680,
 	"size": 4,
-		"drawer": {
+	"drawer": {
     "type": "DrawMulti",
     "drawers": [
 	{

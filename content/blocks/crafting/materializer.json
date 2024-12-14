@@ -3,6 +3,87 @@
 	"menu": "detailed",
 	"health": 630,
 	"size": 3,
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [	
+	{
+    "type": "DrawRegion",
+	"suffix": "-bottom" 
+	},
+	{
+	"type": "DrawRegion",
+		"suffix": "-rotator",
+		"rotateSpeed": 5,
+		"buildingRotate": true,
+   },
+    {
+    "type": "DrawDefault"
+	},
+
+   {	
+    "type": "DrawFade"
+   },
+   {
+  "type": "multicraft.DrawRecipe",
+  "drawers": [
+    {
+    "type": "DrawCrucibleFlame",
+	"flameColor": "edae87",
+	"particles": 80,
+	"particleRad": 14,
+    },
+    {
+    "type": "DrawCrucibleFlame",
+	"flameColor": "9d81d4",
+	"particles": 80,
+	"particleRad": 14,
+    },
+    {
+    "type": "DrawCrucibleFlame",
+	"flameColor": "404747",
+	"alpha": 0.8,
+	"particles": 80,
+	"particleRad": 14,
+    },
+	{
+    "type": "DrawCrucibleFlame",
+	"flameColor": "f2cbaa",
+	"particles": 80,
+	"particleRad": 14,
+    },
+	{
+    "type": "DrawCrucibleFlame",
+	"flameColor": "7b96ed",
+	"particles": 80,
+	"particleRad": 14,
+    },
+	{
+    "type": "DrawCrucibleFlame",
+	"flameColor": "ed6dc9",
+	"particles": 80,
+	"particleRad": 14,
+    },
+	{
+	"type": "DrawMulti",
+    "drawers":	[
+	{
+    "type": "DrawCrucibleFlame",
+	"flameColor": "7b219c",
+	"particles": 80,
+	"particleRad": 14,
+    },
+	{
+        "type": "DrawBlackHole",
+		"size": 0, 
+		"edge": 27,
+		"color": "7b219c",
+    },
+	]
+    }
+	],
+    },
+    ]
+	},
 	"requirements": 	[
     { "item": "electrum", "amount": 440},
     { "item": "silicon", "amount": 680},
