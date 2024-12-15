@@ -3,6 +3,7 @@
 "mineSpeed": 10,
 "defaultController": "BuilderAI",
 "mineTier":4,
+"outlineColor": "565666ff",
 "speed": 4.5,
 "accel": 0.125,
 "lowAltitude": true,

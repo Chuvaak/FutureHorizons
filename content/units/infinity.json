@@ -3,6 +3,7 @@
 	"speed": 1.1,
 	"accel": 0.1,
 	"lowAltitude": true,
+	"outlineColor": "565666ff",
 	"drag": 0.0625,
 	"health": 23000,
 	"armor": 16,

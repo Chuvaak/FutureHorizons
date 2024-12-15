@@ -2,6 +2,7 @@
 "flying": true,
 "speed": 3.2,
 "accel": 0.1,
+"outlineColor": "565666ff",
 "lowAltitude": false,
 "drag": 0.0625,
 "health": 350,
@@ -40,4 +41,7 @@
         }
     }
 ]
+"research": {
+	  "parent":"multiplicative-reconstructor",
+}
 }
