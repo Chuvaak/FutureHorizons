@@ -32,6 +32,6 @@
 	"category": "units",
 	"itemCapacity": 2400,
 	"research":{
-		"parent":"reinforsing_reconstructor"
+		"parent":"reinforcing_reconstructor"
 	}
 }

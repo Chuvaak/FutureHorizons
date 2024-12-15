@@ -35,14 +35,18 @@
   "rotateSpeed": 3,
   "shootSound": "lancerLaserShoot",
   "ammoPerShot": 2,
+  "shootWarmupSpeed": 0.01,
+  "heatRequirement": 10,
   "maxAmmo": 20,
+  "minWarmup": 0.98,
+  "warmupMaintainTime": 200,
   "coolant": {
     "type": "ConsumeCoolant",
     "amount": 0.4
   },
   "coolantMultiplier": 1.3,
   "consumes": {
-    "power": 200
+    "power": 200,
   },
   "ammoTypes": {
     "exotic_capsule": {
@@ -82,7 +86,7 @@
     {"item": "electrum", "amount": 2200},
 	{"item": "quantum_controller", "amount": 1800},
 	{"item": "silicon", "amount": 1650},
-	{"item": "thorium", "amount": 1500},
+	{"item": "composite_plate", "amount": 1500},
     {"item": "metaglass", "amount": 1400},
 	{"item": "phase-fabric", "amount": 1100},
   ],

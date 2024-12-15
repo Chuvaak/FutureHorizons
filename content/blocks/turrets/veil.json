@@ -1,0 +1,24 @@
+{
+"type": "PointDefenseTurret",
+  "size": 4,
+  "health": 980,
+  "reload": 2,
+  "retargetTime": 2,
+  "bulletDamage": 90,
+  "range": 240,
+  "outlineColor": "#404049",
+  "hasPower": true,
+  "consumes": {
+    "power": 120,
+  },
+ "requirements": [
+    {"item": "electrum", "amount": 940},
+	{"item": "quantum_controller", "amount": 720},
+	{"item": "phase-fabric", "amount": 640},
+	{"item": "composite_plate", "amount": 610},
+	{"item": "titanium", "amount": 560},
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"segment"}
+}

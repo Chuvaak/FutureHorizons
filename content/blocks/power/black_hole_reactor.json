@@ -104,6 +104,17 @@
 	"generateEffectRange": 0.1,
 	"ambientSound":"spellLoop",
 	"ambientSoundVolume": 0.75,
+	"researchCost": [
+	{ "item": "copper", "amount": 864000},
+    { "item": "lead", "amount": 745000},
+    { "item": "lithium", "amount": 24000},
+	{ "item": "metaglass", "amount": 589000},
+	{ "item": "silicon", "amount": 1146000},
+	{ "item": "electrum", "amount": 365000},
+	{ "item": "composite_plate", "amount": 427000},
+	{ "item": "titanium", "amount": 648000},
+	{ "item": "quantum_controller", "amount": 298000},
+	]
 	"research":{
 		"parent":"fusion_reactor"
 	}

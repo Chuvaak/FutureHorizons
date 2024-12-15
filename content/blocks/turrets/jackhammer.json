@@ -33,12 +33,12 @@
   },
   "canOverdrive": false,
   "targetAir": true,
-  "recoil": 4,
+  "recoil": 7,
   "rotateSpeed": 1,
   "shootSound": "shotgun",
   "unitSort": "strongest",
-  "ammoPerShot": 20,
-  "maxAmmo": 80,
+  "ammoPerShot": 50,
+  "maxAmmo": 100,
   "coolant": {
     "type": "ConsumeCoolant",
     "amount": 1
@@ -46,7 +46,7 @@
   "coolantMultiplier": 1.2,
   "unitSort": "strongest",
   "consumes": {
-    "power": 100
+    "power": 150
   },
   "ammoTypes": {
     "electrum": {

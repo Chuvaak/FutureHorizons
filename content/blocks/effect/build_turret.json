@@ -1,0 +1,32 @@
+	{
+"type": "BuildTurret",
+"health": 630,
+"size": 3,
+"range": 180,
+"itemCapacity": 20,
+"heatRequirement": 10,
+"buildSpeed": 3,
+"consumes": { 
+"power": 80,
+"liquid": 
+		{"liquid": "liquid_electrum", "amount": 0.8}
+},
+"requirements": 	[
+    { "item": "phase-fabric", "amount": 210},
+    { "item": "plastanium", "amount": 210},
+    { "item": "electrum", "amount": 190},
+	{ "item": "composite_plate", "amount": 160},
+	{ "item": "metaglass", "amount": 120}
+					]
+	"category": "effect",
+	"research":{
+		"parent":"mend_projector",
+		"objectives": [
+          {
+            "type": "SectorComplete",
+            "preset": "nuclearComplex"
+        }
+        ]
+	}
+
+}
