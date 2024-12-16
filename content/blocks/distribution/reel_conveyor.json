@@ -1,0 +1,15 @@
+{
+    "type": "ArmoredConveyor",
+    "health": 120,
+    "speed": 0.5,
+	"displayedSpeed": 50,
+	"requirements": 	[
+		{ "item": "surge-alloy", "amount": 1},
+		{ "item": "metaglass", "amount": 2},
+		{ "item": "composite_plate", "amount": 1},
+					]
+	"category": "distribution",
+	"research":{
+		"parent":"plastanium-conveyor"
+	}
+  }
