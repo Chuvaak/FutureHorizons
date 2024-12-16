@@ -5,10 +5,10 @@
 	"radius": 300,
 	"sides": 10,
 	"solid": true,
-	"shieldHealth": 14000,
-	"cooldownNormal": 0.8,
-	"cooldownLiquid": 1.1,
-	"cooldownBrokenBase": 0.9,
+	"shieldHealth": 24000,
+	"cooldownNormal": 1.3,
+	"cooldownLiquid": 1,
+	"cooldownBrokenBase": 4,
 	"coolantConsumption": 0.2,
 	"consumes":{
 		"power": 100
