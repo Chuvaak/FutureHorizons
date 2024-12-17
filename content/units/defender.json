@@ -1,7 +1,8 @@
 {
 "flying": true,
 "mineSpeed": 10,
-"defaultController": "BuilderAI",
+"controller": "BuilderAI",
+"defaultCommand": "assist",
 "mineTier":4,
 "outlineColor": "565666ff",
 "speed": 4.5,
