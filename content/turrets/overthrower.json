@@ -1,0 +1,116 @@
+{
+"type": "ItemTurret",
+  "size": 5,
+  "health": 1300,
+  "reload": 5,
+  "range": 300,
+  "shoot": {
+		"shots": 1,
+		"shotDelay": 4,
+		"type": "ShootBarrel"
+		"barrels": [
+        -1.6, 0, 0,
+        1.6, 0, 0,
+		-6, -1, 0,
+		6, -1, 0,
+      ]
+	},
+	"ammoUseEffect": "casing3"
+  "outlineColor": "#404049",
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "oof-",
+  },
+  "targetAir": true,
+  "targetGround": true,
+  "recoil": 2,
+  "rotateSpeed": 3,
+  "shootCone": 25,
+  "inaccuracy": 3,
+  "shootSound": "shootBig",
+  "ammoPerShot": 1,
+  "maxAmmo": 50,
+  "unitSort": "strongest",
+  "coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.2
+  },
+  "coolantMultiplier": 3,
+  "ammoTypes": {
+    "graphite": {
+      "type": "basicBulletType",
+	  "ammoMultiplier": 2,
+	  "collidesGround": true,
+	  "reloadMultiplier": 1.8,
+      "lifetime": 50,
+      "damage": 60,
+	  "speed": 6,
+      "fromColor": "ffc859",
+      "toColor": "e8b54f",
+      "height": 20,
+      "width": 13,
+      "pierce": false,
+      "smokeEffect": "hitBulletBig",
+      },
+	"thorium": {
+      "type": "basicBulletType",
+	  "ammoMultiplier": 2,
+	  "collidesGround": true,
+      "lifetime": 50,
+      "damage": 80,
+	  "speed": 6,
+      "fromColor": "ffc859",
+      "toColor": "e8b54f",
+      "height": 20,
+      "width": 13,
+      "pierce": false,
+      "smokeEffect": "hitBulletBig",
+      },
+	"blast-compound": {
+      "type": "basicBulletType",
+	  "ammoMultiplier": 2,
+	  "collidesGround": true,
+      "lifetime": 50,
+      "damage": 65,
+	  "speed": 6,
+      "frontColor": "#ff785e",
+      "backColor": "#ec6c5c",
+      "height": 20,
+      "width": 13,
+      "pierce": false,
+      "smokeEffect": "hitBulletBig",
+	  "splashDamageRadius": 30,
+	  "splashDamage": 40,
+      },
+	"electrum": {
+      "type": "basicBulletType",
+	  "ammoMultiplier": 4,
+	  "collidesGround": true,
+      "lifetime": 50,
+      "damage": 80,
+	  "speed": 6,
+      "frontColor": "#ecf434",
+      "backColor": "#e4e834",
+      "height": 20,
+      "width": 13,
+      "pierce": false,
+      "smokeEffect": "hitBulletBig",
+	  "lightningDamage": 30,
+	  "lightning": 3,
+	  "lightningLength": 8
+      },
+	  
+      
+  },
+ "cooldown": 0.009,
+ "requirements": [
+    {"item": "surge-alloy", "amount": 380},
+	{"item": "thorium", "amount": 460},
+	{"item": "electrum", "amount": 370},
+	{"item": "plastanium", "amount": 290},
+    {"item": "phase-fabric", "amount": 260}
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"spectre"}
+}

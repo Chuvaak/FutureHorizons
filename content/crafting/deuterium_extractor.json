@@ -1,0 +1,60 @@
+{
+	"type": "GenericCrafter",
+	"health": 580,
+	"size": 5,
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+   {
+    "type": "DrawRegion",
+    "suffix": "-bottom"    
+   },  
+   {
+		"type": "DrawLiquidTile",
+		"drawLiquid": "hydrogen",
+	},
+   {
+	"type": "DrawRegion",
+		"suffix": "-rotator",
+		"rotateSpeed": -9,
+		"spinSprite": true
+   },
+   {
+    "type": "DrawDefault"
+   }
+               ]
+          },
+	"requirements": 	[
+    { "item": "copper", "amount": 230},
+    { "item": "lead", "amount": 190},
+    { "item": "titanium", "amount": 210},
+	{ "item": "metaglass", "amount": 190},
+	{ "item": "electrum", "amount": 90},
+	{ "item": "plastanium", "amount": 130},
+					]
+	"hasPower": true,
+	"hasItems": false,
+	"hasLiquids": true,
+	"craftTime": 60,
+	"consumes": {
+    "power": 20,
+	"liquid": 
+		{"liquid": "hydrogen", "amount": 8}
+	"items": {
+		"items":
+		[
+		{"item": "lead", "amount": 2},
+		]
+	}			
+    
+	},
+	"category": "crafting",
+	"itemCapacity": 30,
+	"ambientSound": "machine",
+	"ambientSoundVolume": 0.1,
+	"liquidCapacity": 600,
+	"outputItem": {"item":"deuterium_capsule", "amount": 1},
+	 "research":{
+		"parent":"ind_electrolyzer"
+	}
+}

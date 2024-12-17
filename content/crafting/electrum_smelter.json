@@ -1,0 +1,56 @@
+{
+  "type": "GenericCrafter",
+  "health": 520,
+  "size": 4,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": 	[
+	{
+    "type": "DrawDefault"
+	},
+	{
+    "type": "DrawFade"
+	},
+	{
+    "type": "DrawFlame",
+    "flameRadius": 5,         
+    "flameRadiusIn": 4,
+    "flameRadiusScl": 1,
+    "flameRadiusMag": 0.5,
+    "flameRadiusInMag": 0.5
+	}
+				]
+			},
+  "requirements": 	[
+    { "item": "copper", "amount": 230},
+    { "item": "lead", "amount": 160},
+    { "item": "phase-fabric", "amount": 100},
+	{ "item": "silicon", "amount": 210},
+    { "item": "surge-alloy", "amount": 80},
+    { "item": "plastanium", "amount": 180}
+					]
+  
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 30,
+  "consumes": {
+    "power": 60,
+	"items": {
+		"items":	[
+      { "item": "surge-alloy", "amount": 2},
+	  { "item": "phase-fabric", "amount": 1},
+	  { "item": "plastanium", "amount": 1},
+					]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "ambientSound":"fuelburn"
+  "idleSoundVolume": 0.05,
+  "itemCapacity": 30,
+  "outputItem": { "item": "electrum", "amount": 1},
+  "research":{
+	  "parent": "surge-smelter"
+  }
+}

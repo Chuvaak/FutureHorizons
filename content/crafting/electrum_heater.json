@@ -1,0 +1,49 @@
+{
+	"type": "HeatProducer",
+	"health": 380,
+	"size": 3,
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+	{
+    "type": "drawRegion",
+    "suffix": "-bottom"    
+   },  
+   {
+    "type": "DrawLiquidTile",
+    "drawLiquid": "liquid_electrum"
+   },
+   {
+    "type": "DrawDefault"
+   },
+   {
+    "type": "DrawHeatOutput"
+   },
+               ]
+          },
+	"requirements": 	[
+    { "item": "composite_plate", "amount": 270},
+    { "item": "metaglass", "amount": 250},
+	{ "item": "electrum", "amount": 160},
+	{ "item": "titanium", "amount": 190}
+					]
+	"hasPower": false,
+	"hasItems": false,
+	"hasLiquids": true,
+	"craftTime": 30,
+	"consumes": {
+	"liquid": 
+		{"liquid": "liquid_electrum", "amount": 0.2},
+				
+    
+	},
+	"category": "crafting",
+	"ambientSoundVolume": 0.05,
+	"ambientSound": "electricHum",
+	"liquidCapacity": 80,
+	"heatOutput": 5,
+	"warmupRate": 0.15,
+	"research":{
+		"parent":"silicon_foundry"
+	}
+}

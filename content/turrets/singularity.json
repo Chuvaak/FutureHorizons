@@ -1,0 +1,96 @@
+{
+"type": "ItemTurret",
+  "size": 5,
+  "health": 2100,
+  "reload": 20,
+  "inaccuracy": 85,
+  "range": 560,
+  "shoot": {
+      "shots": 20,
+      "shotDelay": 1
+           }
+  "outlineColor": "#404049",
+  "drawer": {
+   "type": "DrawTurret",
+  "basePrefix": "oof-",
+		"parts": [
+		{
+			"type": "RegionPart",
+			"suffix": "-bottom",
+			"under": true,
+		  },
+		  {
+			"type": "BlackHolePart",
+			"sizeTo": 16, 
+			"edgeTo": 48,
+			"y": 24,
+			"progress": "warmup",
+			"growProgress": "warmup",
+        }, 
+
+				]    
+          },
+  "targetAir": true,
+  "recoil": 3,
+  "rotateSpeed": 3,
+  "shootSound": "lancerLaserShoot",
+  "ammoPerShot": 2,
+  "shootWarmupSpeed": 0.01,
+  "heatRequirement": 10,
+  "maxAmmo": 20,
+  "minWarmup": 0.98,
+  "warmupMaintainTime": 200,
+  "coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.4
+  },
+  "coolantMultiplier": 1.3,
+  "consumes": {
+    "power": 200,
+  },
+  "ammoTypes": {
+    "exotic_capsule": {
+		"type": "BulletType",
+		"ammoMultiplier": 1,
+		"homingPower": 0.2,
+		"homingRange": 400,
+		"homingDelay": 60,
+		"lifetime": 120,
+		"damage": 60,
+		"speed": 4,
+		"trailEffect": "colorSpark",
+		"trailColor": "00a7cc",
+		"trailRotation": true,
+		"trailInterval": 3,
+		"trailWidth": 3,
+		"trailLength": 24,
+		"frontColor": "ffc859",
+		"height": 25,
+		"width": 10,
+		"pierce": true,
+		"pierceCap": 4,
+		"trailEffect": "hitBulletBig",
+		"fragBullets": 1,
+		"hittable": true,
+		"absorbable": true,
+		"reflectable": false,
+		"lightning": 3,
+		"lightningCone": 10,
+		"lightningLength": 16,
+		"lightningLengthRand": 24,
+		"lightningDamage": 10,
+      },
+  },
+ "cooldown": 0.009,
+ "requirements": [
+    {"item": "electrum", "amount": 2200},
+	{"item": "quantum_controller", "amount": 1800},
+	{"item": "silicon", "amount": 1650},
+	{"item": "composite_plate", "amount": 1500},
+    {"item": "metaglass", "amount": 1400},
+	{"item": "phase-fabric", "amount": 1100},
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"hive"}
+}

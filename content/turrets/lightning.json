@@ -1,0 +1,52 @@
+{
+"type": "PowerTurret",
+	"size": 3,
+	"health": 480,
+	"reload": 60,
+	"range": 300,
+	"shootCone": 40,
+	"outlineColor": "#404049",
+	"targetAir": true,
+	"targetGround": false,
+	"recoil": 2,
+	"rotateSpeed": 6,
+	"shootSound": "spark",
+	"shootEffect": "lightningShoot",
+	"shoot": {
+		"shots": 4,
+		"shotDelay": 5,
+	},
+	"coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.3
+	},
+	"coolantMultiplier": 1.2,
+	"consumes": {
+		"power": 8
+	},
+	"shootY": 2,
+	"recoil": 0.2,
+	"shootType": {
+		"type": "LightningBulletType",
+		"drawSize": 9999,
+		"damage": 50,
+		"lightningColor": "a9d8ffff",
+		"lightningLength": 55,
+		"lightningLengthRand": 0.1,
+		"hittable": false,
+		"absorbable": true,
+		"reflectable": false,
+		"buildingDamageMultiplier": 0.35,
+  },
+ "cooldown": 0.009,
+ "requirements": [
+    {"item": "titanium", "amount": 80},
+	{"item": "thorium", "amount": 70},
+	{"item": "silicon", "amount": 70},
+	{"item": "composite_plate", "amount": 50},
+    {"item": "metaglass", "amount": 30}
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"arc"}
+}

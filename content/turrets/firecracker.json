@@ -1,0 +1,62 @@
+{
+  "type": "ItemTurret",
+  "size": 1,
+  "health": 80,
+  "reload": 180,
+  "range": 240,
+  "targetAir": false,
+  "recoil": 3,
+  "rotateSpeed": 5,
+  "shootSound": "bang",
+  "ammoPerShot": 12,
+  "ammoMultiplier": 1,
+  "maxAmmo": 12,
+  "ammoTypes": {
+    "pyratite": {
+      "type": "ArtilleryBulletType",
+      "buildingDamageMultiplier": 1.3,
+      "lifetime": 120,
+	  "killShooter": true,
+      "damage": 15,
+	  "speed": 3,
+	  "makeFire": true,
+	  "incendAmount": 30,
+      "fromColor": "ffc859",
+      "toColor": "e8b54f",
+      "length": 70,
+      "width": 20,
+      "pierce": true,
+      "smokeEffect": "hitBulletBig",
+	  "fragBullets": 120,
+	  "fragVelocityMin": 0.1,
+      "fragVelocityMax": 1,
+      "fragCone": 360,
+      "fragBullet": {
+        "type": "BasicBulletType",
+		"buildingDamageMultiplier": 1.1,
+		"collidesAir": false,	
+        "height": 12,
+		"speed":1
+        "width": 8,
+        "lifetime": 50,
+        "damage": 3,
+        "shrinkY": 1,
+        "despawnEffect": "none",
+        "frontColor": "f0ac24",
+        "backColor": "e8b54f",
+        "pierce": true,
+        "pierceBuilding": true,
+		"makeFire": true,
+		"incendAmount": 30,
+		"pierseDamageFactor": 0.2
+      }
+    }
+  },
+  "requirements": [
+    {"item": "lead","amount": 80},
+    {"item": "graphite","amount": 50}
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"hail"}
+}

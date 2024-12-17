@@ -1,0 +1,70 @@
+{
+"type": "PowerTurret",
+	"size": 2,
+	"health": 250,
+	"reload": 100,
+	"range": 300,
+	"shootCone": 40,
+	"outlineColor": "#404049",
+	"targetAir": true,
+	"targetGround": false,
+	"recoil": 2,
+	"rotateSpeed": 6,
+	"shoot":{
+		"firstShotDelay": 40,
+		"shots": 3,
+		"shotDelay": 10,
+	},
+	"shootX": 0,
+	"shootY": -1,
+	"inaccuracy": 10,
+	"shootSound": "blaster",
+	"coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.1
+	},
+	"coolantMultiplier": 1.2,
+	"consumes": {
+		"power": 4
+	},
+	"ammoMultiplier": 1,
+	"shootType": {
+		"type": "BasicBulletType",
+		"sprite": "circle-bullet",
+		"backSprite": "circle-bullet-back"
+		"width": 7,
+		"height": 7,
+		"homingPower": 0.2,
+		"speed": 3.5,
+		"lifetime": 120,
+		"drawSize": 9999,
+		"damage": 60,
+		"trailColor": "f9c27aff",
+		"trailWidth": 3.5,
+		"trailLength": 24,
+		"hitSound": "plasmaboom",
+		"shootEffect": "colorSpark",
+		"chargeEffect": {
+			"type": "MultiEffect",
+			"effects": [
+				"absorb",
+				"lancerLaserCharge"
+				"lancerLaserChargeBegin"
+				]
+		}
+		"hittable": false,
+		"absorbable": true,
+		"reflectable": false,
+		"collidesGround": false,
+  },
+ "cooldown": 0.009,
+ "requirements": [
+    {"item": "copper", "amount": 30},
+	{"item": "lead", "amount": 20},
+	{"item": "silicon", "amount": 15},
+	{"item": "titanium", "amount": 15},
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"arc"}
+}

@@ -1,0 +1,205 @@
+{
+"type": "ItemTurret",
+  "size": 5,
+  "health": 2000,
+  "reload": 480,
+  "range": 1200,
+  "shootWarmupSpeed": 0.03,
+  "minWarmup": 0.99,
+  "warmupMaintainTime": 30,
+  "recoilTime": 120,
+  "heatColor": "FF7171FF",
+  "shoot": {
+    "firstShotDelay": 80
+  },
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "oof-",
+	"parts": [
+		  {
+			"type": "RegionPart",
+			"suffix": "-piston",
+			"mirror": true,
+			"under": true,
+			"progress":"warmup",
+			"moveX": 1,
+			"layerOffset": -0.001
+			"moves": [
+			{
+			"type": "PartMove",
+			"progress": "recoil",
+			"x": -1,
+			}
+			]
+		  },
+		   
+		  
+		  
+		  {
+			"type": "RegionPart",
+			"suffix": "-barrel1",
+			"mirror": true,
+			"under": true,
+			"heatProgress": "recoil",
+			"progress": "warmup",
+			"moveX": 1,
+			"turretHeatLayer": 49.999,
+			"layerOffset": -0.002,
+			"moves": [
+			{
+			"type": "PartMove",
+			"progress": "recoil",
+			"x": 1.5,
+			"y": -2,
+			}
+			]
+		  },	  
+		  {
+			"type": "RegionPart",
+			"suffix": "-barrel2",
+			"mirror": true,
+			"under": true,
+			"heatProgress": "recoil",
+			"layerOffset": -0.002
+			"progress": "warmup",
+			"moveX": 1,
+			"moveY": 10,
+			"turretHeatLayer": 49.999,
+			"moves": [
+			{
+			"type": "PartMove",
+			"progress": "recoil",
+			"x": 1.5,
+			"y": -2,
+			}
+			]
+		  },
+		  
+		  
+			
+			{
+			"type": "RegionPart",
+			"suffix": "-wing1",
+			"mirror": true,
+			"under": true,
+			"layerOffset": -0.0001
+			"progress": "warmup",
+			"moveRot": 20,
+			"moves": [
+			{
+			"type": "PartMove",
+			"progress": "recoil",
+			"rot": -15,
+			}
+			]
+		  },
+		  {
+			"type": "RegionPart",
+			"suffix": "-wing2",
+			"mirror": true,
+			"under": true,
+			"layerOffset": -0.0001
+			"progress": "warmup",
+			"moveRot": 15,
+			"moves": [
+			{
+			"type": "PartMove",
+			"progress": "recoil",
+			"rot": -10,
+			}
+			]
+		  },
+		  {
+			"type": "RegionPart",
+			"suffix": "-wing3",
+			"mirror": true,
+			"under": true,
+			"layerOffset": -0.0001
+			"progress": "warmup",
+			"moveRot": 10,
+			"moves": [
+			{
+			"type": "PartMove",
+			"progress": "recoil",
+			"rot": -5,
+			}
+			]
+		  },
+				]  
+  },
+  "canOverdrive": false,
+  "targetAir": true,
+  "recoil": 3,
+  "rotateSpeed": 1,
+  "shootSound": "railgun",
+  "unitSort": "strongest",
+  "ammoPerShot": 15,
+  "maxAmmo": 50,
+  "coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.8
+  },
+  "coolantMultiplier": 1.5,
+  "unitSort": "strongest",
+  "consumes": {
+    "power": 60
+  },
+  "ammoTypes": {
+    "electrum": {
+      "type": "RailBulletType",
+	  "ammoMultiplier": 1,
+	  "laserAbsorb": true,
+	  "absorbable": true,
+	  "pointEffectSpace" : 20,		  
+	  "damage": 3200,
+      "buildingDamageMultiplier": 0.3,
+      "length": 1200,
+	  "pointEffectSpace": 60,
+	  "shootEffect": "instShoot",
+	  "pierceEffect": "railHit",
+	  "pointEffect": "instTrail",
+	  "hitEffect": "massiveExplosion",
+      "pierce": true,
+	  "pierseDamageFactor": 0.4,
+      "smokeEffect": "shootBig2",
+	  "hitShake": 12,
+	  "fragBullets": 1,
+	  "fragBullet": {
+			"type": "BombBulletType",
+                "collidesAir": true,
+                "hittable": false,
+                "absorbable": false,
+                "reflectable": false,
+                "speed":0,
+                "spin": 0,
+                "color": "ff9317",             
+                "height": 0,
+                "width": 0,
+                "lifetime": 0,
+				"splashDamageRadius": 24,
+				"splashDamage": 130,
+                "despawnEffect": "smoke",
+                "hitSound": "explosion",
+                "despawnShake": 0.1,
+          }
+	  
+	}
+  },
+ "cooldown": 0.009,
+ "requirements": [
+    {"item": "thorium", "amount": 1200},
+	{"item": "surge-alloy", "amount": 1100},
+	{"item": "silicon", "amount": 1100},
+	{"item": "electrum", "amount": 1000},
+    {"item": "phase-fabric", "amount": 600}
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"foreshadow",
+	  "objectives": [
+          {
+            "type": "SectorComplete",
+            "preset": "planetaryTerminal"
+        }
+        ]}
+}

@@ -1,0 +1,72 @@
+{
+	"type": "GenericCrafter",
+	"health": 180,
+	"size": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+	   {
+		"type": "DrawRegion",
+		"suffix": "-bottom"    
+	   },  
+	   {
+		"type": "DrawLiquidTile",
+		"drawLiquid": "exotic_matter"
+	   },
+	   {
+		"type": "DrawPistons",
+			"sinMag": 4,
+			"sinScl": 6,
+			"sides": 2,
+			"sinOffset": 6,
+			"lenOffset": 1.3,
+	   },
+	   {
+		"type": "DrawPistons",
+			"suffix": "-pistoon",
+			"sinMag": 4,
+			"sinScl": 6,
+			"sides": 2,
+			"sinOffset": 6,
+			"lenOffset": 1.3,
+			"angleOffset": 90,
+	   },
+	   {
+	   "type": "DrawDefault",
+	   }
+				   ]
+          },
+	"requirements": 	[
+    { "item": "quantum_controller", "amount": 140},
+    { "item": "electrum", "amount": 180},
+	{ "item": "metaglass", "amount": 230},
+	{ "item": "composite_plate", "amount": 430},
+					]
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"craftTime": 600,
+	"consumes": {
+    "power": 20,
+	"liquid": 
+		{"liquid": "exotic_matter", "amount": 0.5}
+	"items": {
+		"items":
+		[
+		{"item": "metaglass", "amount": 50},
+		{"item": "quantum_controller", "amount": 20},
+		]
+	}			
+    
+	},
+	"category": "crafting",
+	"idleSoundVolume": 0.1,
+	"itemCapacity": 100,
+	"ambientSound": "flux",
+	"SoundVolume": 0.1,
+	"liquidCapacity": 8000,
+	"outputItem": {"item":"exotic_capsule", "amount": 25},
+	 "research":{
+		"parent":"materializer"
+	}
+}

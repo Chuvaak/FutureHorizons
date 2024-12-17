@@ -1,0 +1,102 @@
+{
+"type": "ItemTurret",
+  "size": 5,
+  "health": 2200,
+  "reload": 240,
+  "range": 1400,
+  "shootWarmupSpeed": 0.92,
+  "minWarmup": 0.99,
+  "warmupMaintainTime": 20,
+  "recoilTime": 120,
+  "heatColor": "FF7171FF",
+  "shoot": {
+    "firstShotDelay": 20
+  },
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "oof-",
+		"parts": [
+		{
+			"type": "RegionPart",
+			"suffix": "-bottom",
+			"under": true,
+		  },
+		  {
+			"type": "BlackHolePart",
+			"sizeTo": 0, 
+			"edgeTo": 90,
+			"y": 24,
+			"progress": "warmup",
+			"growProgress": "warmup",
+        },
+			]
+  },
+  "canOverdrive": false,
+  "targetAir": true,
+  "recoil": 7,
+  "rotateSpeed": 1,
+  "shootSound": "shotgun",
+  "unitSort": "strongest",
+  "ammoPerShot": 50,
+  "maxAmmo": 100,
+  "coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 1
+  },
+  "coolantMultiplier": 1.2,
+  "unitSort": "strongest",
+  "consumes": {
+    "power": 150
+  },
+  "ammoTypes": {
+    "electrum": {
+      "type": "BasicBulletType",
+		"ammoMultiplier": 1,
+		"hitShake": 12,
+		"lifetime": 360,
+		"damage": 12600,
+		"splashDamage": 280,
+		"splashDamageRadius": 24,
+		"hitSound": "explosion",
+		"hitEffect": "massiveExplosion",
+		"loopSound": "plasmadrop",
+		"speed": 45,
+		"trailEffect": "colorSpark",
+		"trailColor": "ffa41c",
+		"trailRotation": true,
+		"trailInterval": 0.15,
+		"trailWidth": 3,
+		"trailLength": 100,
+		"frontColor": "ffc859",
+		"height": 25,
+		"width": 16,
+		"pierce": true,
+		"pierceBuilding": true,
+		"pierceDamageFactor": 5,
+		"trailEffect": "shockwave",
+		"hittable": false,
+		"absorbable": true,
+		"reflectable": false,
+		"impact": true,
+		"knockback": 4,
+		"drawSize": 1000000,
+	}
+  },
+ "cooldown": 0.009,
+ "requirements": [
+    {"item": "electrum", "amount": 1400},
+	{"item": "thorium", "amount": 1200},
+	{"item": "silicon", "amount": 1200},
+	{"item": "quantum_controller", "amount": 950},
+    {"item": "phase-fabric", "amount": 800}
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"providence",
+	  "objectives": [
+          {
+            "type": "SectorComplete",
+            "preset": "planetaryTerminal"
+        }
+        ]}
+}
