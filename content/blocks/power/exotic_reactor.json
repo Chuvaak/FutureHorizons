@@ -1,0 +1,39 @@
+{
+	"type": "ConsumeGenerator",
+"health": 230,
+"itemCapacity": 2,
+"size": 1,
+"drawer": {
+	  "type": "DrawMulti",
+	"drawers": 	[
+	{
+	"type": "DrawDefault"
+	},
+	{
+	"type": "DrawFade"
+	"scale": 6,
+	}
+				]
+			},
+"requirements": [
+    { "item": "electrum", "amount": 80},
+	{ "item": "composite_plate", "amount": 60},
+	{ "item": "quantum_controller", "amount": 20}
+  ],
+"hasLiquids": false,
+"powerProduction": 17,
+"itemDuration": 3600,
+"generateEffect": "fluxVapor",
+"consumes":{
+	"items": {
+		"items": [
+	{"item": "exotic_capsule", "amount": 1}
+		]
+	}
+},	
+"category": "power",
+"ambientSoundVolume": 0.5,
+"research":{
+		"parent":"battery"
+	}
+}
