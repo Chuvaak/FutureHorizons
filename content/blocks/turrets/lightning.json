@@ -29,7 +29,7 @@
 	"shootType": {
 		"type": "LightningBulletType",
 		"drawSize": 9999,
-		"damage": 50,
+		"damage": 90,
 		"lightningColor": "a9d8ffff",
 		"lightningLength": 55,
 		"lightningLengthRand": 0.1,

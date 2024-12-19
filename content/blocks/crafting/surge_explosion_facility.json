@@ -11,10 +11,17 @@
     "suffix": "-bottom"    
    },
    {
-    "type": "DrawDefault"
+    "type": "DrawLiquidTile",
+	"drawLiquid": "water",   
    },
    {
-    "type": "DrawFade"
+    "type": "DrawDefault"
+   },
+   
+   {
+    "type": "DrawFlame",
+	"flameRadius": 4.5,
+	"flameRadiusIn": 3,
    },
    ]
 		},
@@ -47,9 +54,16 @@
     
 	},
 	"category": "crafting",
-	"ambientSoundVolume": 0.15,
+	"ambientSoundVolume": 0.2,
 	"ambientSound": "fuelburn",
-	"craftEffect": "shockwave",
+	"craftEffect": {
+			"type": "MultiEffect",
+			"effects": [
+				"shockwave",
+				"vapor",
+				"vapor"
+				]
+		}
 	"idleSoundVolume": 0.15,
 	"itemCapacity": 50,
 	"liquidCapacity": 180,

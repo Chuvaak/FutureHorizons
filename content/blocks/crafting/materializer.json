@@ -1,6 +1,6 @@
 {
 	"type": "multicraft.MultiCrafter",
-	"menu": "detailed",
+	"menu": "simple",
 	"health": 630,
 	"size": 3,
 	"drawer": {
