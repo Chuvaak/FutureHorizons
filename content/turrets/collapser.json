@@ -1,0 +1,125 @@
+{
+"type": "ItemTurret",
+  "size": 4,
+  "health": 1420,
+  "reload": 900,
+  "range": 920,
+  "rotateSpeed": 3,
+  "shootSound": "plasmaboom",
+  "shootEffect":{
+		"type": "MultiEffect",
+			"effects": [
+				"thoriumShoot",
+				"shootSmokeTitan"
+				"shootSmokeSmite"
+				]
+				}
+  "shootCone": 2,
+  "inacuracy": 2,
+  "ammoPerShot": 60,
+  "maxAmmo": 120,
+  "canOverdrive": false,
+  "targetAir": false,
+  "recoil": 4,
+  "rotateSpeed": 1,
+  "unitSort": "strongest",
+  "heatColor": "c96eeb",
+  "cooldownTime": 90,
+  "consumes": {
+    "power": 560
+  },
+  "coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.4
+	},
+	"coolantMultiplier": 1.3,
+  "ammoTypes": {
+    "exotic_capsule": {
+      "type": "ArtilleryBulletType",
+	  "sprite": "large-bomb",
+	  "backSprite": "large-bomb-back",
+	  "backColor": "b81eba",
+	  "frontColor": "fcf9f0",
+	  "parts": [{
+			"type": "BlackHolePart",
+			"sizeTo": 0, 
+			"edgeTo": 52,
+			"color": "b81eba",
+				}], 
+	  "ammoMultiplier": 1,
+	  "shrinkY": 0.5,
+	  "shrinkX": 0.5,
+      "damage": 36,
+	  "speed": 4,
+      "height": 60,
+      "width": 60,
+	  "spin": 18,
+	  "trailMult": 0,
+	  "trailSize": 0,
+	  "fragVelocityMin": 0,
+      "fragVelocityMax": 0,
+      "fragBullets": 1,
+	  "despawnEffect": {
+		"type": "MultiEffect",
+			"effects": [
+				"shockwave",
+				"bigShockwave"
+				"ballfire"
+				]
+				}
+	  "despawnSound": "titanExplosion",
+	  "hitShake": 15,
+      "fragBullet": {
+        "type": "BlackHoleBulletType",
+			"force": 120,
+			"collidesAir": false,
+			"scalledForce": 1600,
+			"bulletForce": 4,
+			"scaledBulletForce": 50,		
+			"speed":0,
+			"damageRadius": 30,
+			"suctionRadius": 130,
+			"lifetime": 200,
+			"growTime": 60,
+			"shrinkTime": 40,
+			"damage": 100,
+			"color": "ebb684",
+			"loopSoundVolume": 1,
+			"despawnSound": "largeExplosion",
+			"swirlEffect": {
+				"type": "SwirlEffect",
+				"clip": 30000000,
+						}
+			"swirlEffects": 4,
+			"swirlInterval": 1,
+			"fragVelocityMin": 0,
+			"fragVelocityMax": 0,
+			"fragBullets": 1,
+			"fragBullet": {
+				"type": "BombBulletType",
+				"lifetime": 0,
+				"splashDamage": 3000,
+				"splashDamageRadius": 180,
+				"collidesAir": false,
+				"despawnEffect": "impactReactorExplosion",
+			}
+	  }
+    },
+  },
+ "requirements": [
+    {"item": "electrum", "amount": 30000},
+	{"item": "thorium", "amount": 40000},
+	{"item": "silicon", "amount": 45000},
+	{"item": "plastanium", "amount": 36000},
+    {"item": "surge-alloy", "amount": 29000}
+  ],
+  "category": "turret",
+  "research": {
+	  "parent":"overthrower",
+	  "objectives": [
+          {
+            "type": "SectorComplete",
+            "preset": "planetaryTerminal"
+        }
+        ]},
+}
