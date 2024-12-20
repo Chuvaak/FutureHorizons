@@ -3,7 +3,7 @@
   "size": 4,
   "health": 1420,
   "reload": 900,
-  "range": 920,
+  "range": 504,
   "rotateSpeed": 3,
   "shootSound": "plasmaboom",
   "shootEffect":{
@@ -107,11 +107,11 @@
     },
   },
  "requirements": [
-    {"item": "electrum", "amount": 30000},
-	{"item": "thorium", "amount": 40000},
-	{"item": "silicon", "amount": 45000},
-	{"item": "plastanium", "amount": 36000},
-    {"item": "surge-alloy", "amount": 29000}
+    { "item": "electrum", "amount": 1900},
+	{ "item": "composite_plate", "amount": 1800},
+	{ "item": "surge-alloy", "amount": 1600},
+	{ "item": "phase-fabric", "amount": 1400},
+	{ "item": "quantum_controller", "amount": 1100}
   ],
   "category": "turret",
   "research": {
