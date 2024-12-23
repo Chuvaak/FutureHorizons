@@ -2,7 +2,7 @@
 "type": "PointDefenseTurret",
   "size": 4,
   "health": 980,
-  "reload": 3,
+  "reload": 1.5,
   "retargetTime": 1,
   "bulletDamage": 90,
   "range": 240,
@@ -11,7 +11,7 @@
   "cooldownTime": 40,
   "shootLength": 11,
   "consumes": {
-    "power": 50,
+    "power": 30,
   },
  "requirements": [
     {"item": "electrum", "amount": 350},

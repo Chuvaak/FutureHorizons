@@ -1,6 +1,6 @@
 {
     "type": "ArmoredConveyor",
-    "health": 120,
+    "health": 240,
     "speed": 0.5,
 	"displayedSpeed": 50,
 	"requirements": 	[

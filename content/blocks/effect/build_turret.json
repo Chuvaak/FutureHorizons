@@ -4,6 +4,7 @@
 "size": 3,
 "range": 180,
 "buildSpeed": 6,
+"buildBeamOffset": 7.7,
 "consumes": { 
 "power": 80,
 "liquid": 
