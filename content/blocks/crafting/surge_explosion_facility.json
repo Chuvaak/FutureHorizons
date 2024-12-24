@@ -34,7 +34,7 @@
 	{ "item": "electrum", "amount": 390},
 					]
 	"hasPower": true,
-	"hasItems": false,
+	"hasItems": true,
 	"hasLiquids": true,
 	"craftTime": 180,
 	"consumes": {
