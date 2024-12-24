@@ -64,7 +64,6 @@
 				"vapor"
 				]
 		}
-	"idleSoundVolume": 0.15,
 	"itemCapacity": 50,
 	"liquidCapacity": 180,
 	"outputItem": {"item":"surge-alloy", "amount": 6},
