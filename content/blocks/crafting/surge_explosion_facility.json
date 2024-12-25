@@ -2,23 +2,7 @@
 	"type": "GenericCrafter",
 	"health": 730,
 	"size": 4,
-	"drawer": {
-    "type": "DrawMulti",
-    "drawers": [
-	{
-    "type": "drawRegion",
-    "suffix": "-bottom"    
-   },
-   {
-    "type": "DrawLiquidTile",
-	"drawLiquid": "water",   
-   },
-   {
-    "type": "DrawDefault"
-   },
-   
-   ]
-		},
+
 "requirements": 	[
    	{ "item": "surge-alloy", "amount": 670},
 	{ "item": "lead", "amount": 640},
