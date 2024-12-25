@@ -32,8 +32,6 @@
     
 	},
 	"category": "crafting",
-	"ambientSoundVolume": 0.2,
-	"ambientSound": "fuelburn",
 	"craftEffect": {
 			"type": "MultiEffect",
 			"effects": [
