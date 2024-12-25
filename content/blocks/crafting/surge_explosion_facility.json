@@ -2,11 +2,32 @@
 	"type": "GenericCrafter",
 	"health": 730,
 	"size": 4,
-
-"requirements": 	[
-   	{ "item": "surge-alloy", "amount": 670},
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+	{
+    "type": "drawRegion",
+    "suffix": "-bottom"    
+   },
+   {
+    "type": "DrawLiquidTile",
+	"drawLiquid": "water",   
+   },
+   {
+    "type": "DrawDefault"
+   },
+   
+   {
+    "type": "DrawFlame",
+	"flameRadius": 4.5,
+	"flameRadiusIn": 3,
+   },
+   ]
+		},
+	"requirements": 	[
+    { "item": "surge-alloy", "amount": 670},
 	{ "item": "lead", "amount": 640},
-    	{ "item": "titanium", "amount": 580},
+    { "item": "titanium", "amount": 580},
 	{ "item": "thorium", "amount": 460},
 	{ "item": "composite_plate", "amount": 430},
 	{ "item": "electrum", "amount": 390},
@@ -18,7 +39,7 @@
 	"consumes": {
     "power": 130,
 	"liquid": 
-		{"liquid": "water", "amount": 0.5},
+		{"liquid": "water", "amount": 0.5}
 	"items": {
 		"items":
 		[
@@ -32,6 +53,8 @@
     
 	},
 	"category": "crafting",
+	"ambientSoundVolume": 0.2,
+	"ambientSound": "smelter",
 	"craftEffect": {
 			"type": "MultiEffect",
 			"effects": [
