@@ -8,7 +8,6 @@
     { "item": "titanium", "amount": 60},
 	{ "item": "metaglass", "amount": 60},
 					]
-	"alwaysUnlocked": true,
 	"hasPower": true,
 	"hasItems": false,
 	"hasLiquids": true,

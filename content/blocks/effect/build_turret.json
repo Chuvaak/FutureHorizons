@@ -19,7 +19,7 @@
 					]
 	"category": "effect",
 	"research":{
-		"parent":"mend_projector",
+		"parent":"mend-projector",
 		"objectives": [
           {
             "type": "SectorComplete",
