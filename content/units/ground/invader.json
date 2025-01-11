@@ -1,0 +1,43 @@
+{
+	"type": "mech",
+	"speed": 0.6,
+	"outlineColor": "565666ff",
+	"flying": false,
+	"health": 100,
+	"armor": 2,
+	"hitSize":8.5,
+	"abilities": [
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "invader",
+      "spawnTime": 600,
+	  "spawnX": 0,
+      "spawnY": -17.5,
+    }
+  ],
+	"weapons": [
+		{
+			"name": "invader-main",
+			"layerOffset": -0.001,
+			"reload": 15,
+			"x": 6.5,
+			"y": 0,
+			"shootY": 4.6,
+			"shootX": 1,
+			"top": false,
+			"mirror": true,
+			"ejectEffect": "casing1",
+			"shootSound": "pew",
+			"bullet": {
+				"type": "BasicBulletType",
+				"damage": 7,
+				"speed": 3,
+				"width": 7,
+				"height": 9,
+				"lifetime": 60,
+				"shootEffect": "shootSmall",
+			}
+		},
+	],
+	
+}
