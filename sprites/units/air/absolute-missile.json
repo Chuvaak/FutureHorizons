@@ -1,0 +1,83 @@
+{		
+	"type": "missile",
+	"template": "MissileUnitType",
+	"controller": "MissileAI",
+	"parts": [
+				{
+			"type": "ShapePart",
+			"circle": true, 
+			"y": -0.25,
+			"radius": 1.5,
+			"progress": "life",
+			"colorTo": "ffffff",
+			"color": "faba70",
+				},
+				{
+			"type": "RegionPart",
+			"suffix": "-fin",
+			"mirror": true,
+			"y": -1.5,			
+			"y": 0.75,
+			"moveRot": 32,
+			"progress": "life",
+			"rotation": -6,
+			"moveY": 1.5,
+				}
+				
+				
+				], 
+	"targetAir": true,
+	"speed": 5,
+	"maxRange": 4,
+	"lifetime": 200,
+	"health": 120,
+	"homingDelay": 20,
+	"lowAltitude": true,
+	"engineSize": 3,
+	"engineColor": "faba70",
+	"trailColor": "faba70",
+	"deathExplosionEffect": "none",
+	"loopSoundVolume": 0.1,
+	"targetAir": true,
+	"weapons": [
+		{
+			"shootCone": 360,
+			"mirror": false,
+			"reload": 1,
+			"shootOnDeath": true,
+			"bullet": {
+					"type": "ExplosionBulletType",
+					"splashDamage": 45,
+					"splashDamageRadius": 40,
+					"collidesAir": true,
+					"shootEffect":{
+					"type": "ExplosionEffect",
+					"lifetime": 50,
+					"waveStroke": 5,
+					"waveLife": 8,
+					"waveColor": "ffffff",
+					"sparkColor": "faba70",
+					"waveRad": 40,
+					"smokeSize": 4,
+					"smokes": 7,
+					"smokeSizeBase": 0,
+					"sparks": 10,
+					"sparkRad": 40,
+					"sparkLen": 6,
+					"sparkStroke": 2,
+					"despawnEffect": {
+						"type": "MultiEffect",
+						"effects": [
+							"bigShockwave",
+							"smokeCloud",
+							"explosion"
+									]
+									}
+					}
+					"status": "burning",
+					"statusDuration": 300,
+					
+			}
+		}
+		]
+}					

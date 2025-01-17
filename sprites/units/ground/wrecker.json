@@ -1,0 +1,83 @@
+{
+	"type": "mech",
+	"speed": 0.55,
+	"outlineColor": "565666ff",
+	"flying": false,
+	"health": 100,
+	"armor": 11,
+	"hitSize": 17.5,
+	"weapons": [
+		{
+			"name": "wrecker-main",
+			"reload": 60,
+			"x": 10,
+			"y": 0,
+			"shootY": 9.5,
+			"shootX": 0,
+			"top": false,
+			"mirror": true,
+			"shootSound": "laserblast",
+			"bullet": {
+				"type": "LaserBulletType",
+				"damage": 45,
+				"width": 12,
+				"lenght": 120,
+				"pierce": true,
+				"pierceBuilding": true,
+				"shootEffect": "shootSmall",
+			
+			}
+		},
+			{
+			"name": "wrecker-summon",
+			"reload": 300,
+			"x": 0,
+			"y": -10,
+			"baseRotation": 180,
+			"shootWarmupSpeed": 0.05,
+			"minWarmup": 0.99,
+			"warmupMaintainTime": 30,
+			"shootCone": 359,
+			"inaccuracy": 60,
+			"shoot":{
+				"shots": 3,
+				"shotDelay": 3,
+			},
+			"top": true,
+			"mirror": false,
+			"shootSound": "release",
+			"bullet": {
+				"type": "BasicBulletType",
+				"despawnEffect": {
+					"type": "MultiEffect",
+					"effects": [
+						"shockwave",
+						"unitControl",
+						"smokePuff"
+						]
+								}
+				"damage": 45,
+				"range": 240,
+				"width": 15,
+				"height": 15,
+				"sprite": "futurehorizons-frameBullet",
+				"shrinkY": -0.6,
+				"shrinkX": -0.6,
+				"frontColor": "f5cb7a",
+				"spin": 8,
+				"lifetime": 120,
+				"speed": 10,
+				"drag": 0.1,
+				"pierce": true,
+				"pierceBuilding": false,
+				"shootEffect": "shootSmall",
+				"despawnUnit": "absolute",
+				"despawnSound": "dullExplosion",
+				"trailLength": 8,
+				"trailColor": "f5cb7a",
+			
+			}
+		},
+	],
+	
+}

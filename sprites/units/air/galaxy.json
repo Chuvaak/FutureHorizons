@@ -1,0 +1,71 @@
+{
+"flying": true,
+"speed": 2,
+"accel": 0.1,
+"lowAltitude": true,
+"outlineColor": "565666ff",
+"drag": 0.0625,
+"health": 900,
+"fogRadius":0,
+"rotateSpeed": 2,
+"armor": 7,
+"engineOffset": 12,
+"engineSize": 5,
+"hitSize":23,
+"forceMultiTarget": true,
+"weapons": [
+    {
+        "name": "galaxy-laser",
+        "reload": 40,
+		"x": 0,
+		"y": 7.5,
+		"shootY": 5.5,
+		"shootX": 2,
+        "top": false,
+        "mirror": true,
+        "ejectEffect": "none",
+        "shootSound": "laser",
+        "bullet": {
+            "type": "LaserBulletType",
+			"collidesAir": false,
+            "damage": 35,
+            "sideAngle": 30,
+            "sideWidth": 0.5,
+            "sideLength": 30,
+            "length": 160,
+			"pierce": true,
+			"pierceBuilding": true,
+			"laserAbsorb": true,
+        }
+    },
+	{
+        "name": "galaxy-turret",
+        "reload": 5,
+		"x": 10,
+		"y": -8,
+		"shootY": 1,
+		"shoot": {
+            "type": "ShootAlternate",
+            "spread": 3,
+          },
+        "top": true,
+        "mirror": true,
+		"rotate": true,
+        "ejectEffect": "casing1",
+        "shootSound": "pew",
+        "bullet": {
+            "type": "BasicBulletType",
+			"pierceArmor": true,
+            "damage": 6,
+			"splashDamageRadius": 24,
+			"splashDamage": 3,
+            "speed": 3,
+            "width": 5,
+            "height": 7,
+            "lifetime": 25,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke"
+        }
+    }
+]
+}
