@@ -1,11 +1,11 @@
 {
 	"type": "mech",
-	"speed": 0.6,
+	"speed": 0.55,
 	"outlineColor": "565666ff",
 	"flying": false,
 	"health": 100,
 	"armor": 2,
-	"hitSize":8.5,
+	"hitSize":10,
 	"abilities": [
     {
       "type": "UnitSpawnAbility",
@@ -18,12 +18,12 @@
 	"weapons": [
 		{
 			"name": "invader-main",
-			"layerOffset": -0.001,
+			"layerOffset": -0.00,
 			"reload": 15,
-			"x": 6.5,
+			"x": 7.5,
 			"y": 0,
 			"shootY": 4.6,
-			"shootX": 1,
+			"shootX": 0.5,
 			"top": false,
 			"mirror": true,
 			"ejectEffect": "casing1",
