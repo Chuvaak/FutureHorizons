@@ -3,10 +3,10 @@
 	"health": 1650,
 	"size": 5,
 	"requirements": 	[
-    {"item": "silicon", "amount": 630},
-	{"item": "titanium", "amount": 580},
-	{"item": "thorium", "amount": 460},
-	{"item": "composite_plate", "amount": 340},
+    {"item": "silicon", "amount": 530},
+	{"item": "titanium", "amount": 480},
+	{"item": "thorium", "amount": 360},
+	{"item": "composite_plate", "amount": 240},
 					],
 	"consumes": {
 		"power": 35,
@@ -21,6 +21,7 @@
 	},
 	"upgrades": [
 	["star","galaxy"],
+	["puncher","wrecker"],
 				]
     "constructTime": 2400,
 	"category": "units",

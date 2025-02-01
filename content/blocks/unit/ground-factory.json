@@ -1,0 +1,38 @@
+{
+	"plans":[
+		{
+			"unit": "dagger",
+			"requirements": [
+			{"item": "silicon", "amount": 10},
+			{"item": "lead", "amount": 10},
+			],
+			"time": 900
+		},
+		{
+			"unit": "crawler",
+			"requirements": [
+			{"item": "silicon", "amount": 8},
+			{"item": "coal", "amount": 10},
+			],
+			"time": 600
+		},
+		{
+			"unit": "nova",
+			"requirements": [
+			{"item": "silicon", "amount": 30},
+			{"item": "lead", "amount": 20},
+			{"item": "titanium", "amount": 20},
+			],
+			"time": 3000
+		},
+		{
+			"unit": "invader",
+			"requirements": [
+			{"item": "silicon", "amount": 45},
+			{"item": "titanium", "amount": 35},
+			{"item": "sbattery", "amount": 30},
+			],
+			"time": 3000
+		},
+		]
+}

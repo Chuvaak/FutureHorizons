@@ -3,22 +3,22 @@
 	"health": 3800,
 	"size": 7,
 	"requirements": 	[
-    {"item": "silicon", "amount": 3800},
-	{"item": "titanium", "amount": 3600},
-	{"item": "thorium", "amount": 3500},
-	{"item": "composite_plate", "amount": 3000},
-	{"item": "electrum", "amount": 2400},
-	{"item": "phase-fabric", "amount": 1800},
+    {"item": "silicon", "amount": 1000},
+	{"item": "titanium", "amount": 1200},
+	{"item": "thorium", "amount": 1400},
+	{"item": "composite_plate", "amount": 750},
+	{"item": "electrum", "amount": 430},
+	{"item": "phase-fabric", "amount": 350},
 					],
 	"consumes": {
 		"power": 120,
 		"items": {
 			"items": [
-				    {"item": "silicon", "amount": 1200},
-					{"item": "titanium", "amount": 1000},
-					{"item": "thorium", "amount": 900},
-					{"item": "composite_plate", "amount": 900},
-					{"item": "electrum", "amount": 400},
+				    {"item": "silicon", "amount": 820},
+					{"item": "titanium", "amount": 780},
+					{"item": "thorium", "amount": 620},
+					{"item": "composite_plate", "amount": 580},
+					{"item": "electrum", "amount": 150},
 
 			]
 			
@@ -27,6 +27,7 @@
 	},
 	"upgrades": [
 	["galaxy","universe"],
+	["wrecker","marauder"],
 				]
     "constructTime": 8000,
 	"category": "units",
