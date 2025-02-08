@@ -55,6 +55,7 @@
 			"inaccuracy": 60,
 			"shootY": 10,
 			"recoil": 0,
+			"velocityRnd": 0.6,
 			"shoot":{
 				"shots": 3,
 				"shotDelay": 6,

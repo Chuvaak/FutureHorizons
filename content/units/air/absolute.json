@@ -147,7 +147,8 @@
 				"reload": 60,
 				"x": 0,
 				"y": -15,
-				"shootY": 3,
+				"shootY": 5,
+				"recoil": 3,
 				"top": true,
 				"mirror": false
 				"rotate": true,

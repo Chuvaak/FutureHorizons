@@ -37,8 +37,8 @@
   "rotateSpeed": 1,
   "shootSound": "shotgun",
   "unitSort": "strongest",
-  "ammoPerShot": 50,
-  "maxAmmo": 100,
+  "ammoPerShot": 100,
+  "maxAmmo": 200,
   "coolant": {
     "type": "ConsumeCoolant",
     "amount": 1
@@ -53,7 +53,7 @@
       "type": "BasicBulletType",
 		"ammoMultiplier": 1,
 		"hitShake": 12,
-		"lifetime": 360,
+		"lifetime": 31.2,
 		"damage": 12600,
 		"splashDamage": 280,
 		"splashDamageRadius": 24,
