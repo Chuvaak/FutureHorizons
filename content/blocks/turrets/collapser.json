@@ -3,7 +3,7 @@
   "size": 4,
   "health": 1420,
   "reload": 900,
-  "range": 504,
+  "range": 336,
   "rotateSpeed": 3,
   "shootSound": "plasmaboom",
   "shootEffect":{
@@ -16,7 +16,7 @@
 				}
   "shootCone": 2,
   "inacuracy": 2,
-  "ammoPerShot": 60,
+  "ammoPerShot": 30,
   "maxAmmo": 120,
   "canOverdrive": false,
   "targetAir": false,
@@ -36,6 +36,7 @@
   "ammoTypes": {
     "exotic_capsule": {
       "type": "ArtilleryBulletType",
+	  "absorbable": false,
 	  "sprite": "large-bomb",
 	  "backSprite": "large-bomb-back",
 	  "backColor": "b81eba",
