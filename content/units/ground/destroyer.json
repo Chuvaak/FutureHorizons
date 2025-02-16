@@ -33,14 +33,14 @@
   ],
 	"weapons": [
 		{
-			"name": "marauder-main",
+			"name": "destroyer-main",
 			"reload": 2,
 			"targetInterval": 5,
 			"newTargetInterval": 30,
-			"x": 22.25,
-			"y": 2.75,
-			"shootY": 10.5,
-			"shootX": 1,
+			"x": 31.5,
+			"y": 7.25,
+			"shootY": 11.75,
+			"shootX": 1.5,
 			"top": false,
 			"layerOffset": -0.002,
 			"mirror": true,
@@ -109,7 +109,7 @@
 				"sprite": "futurehorizons-frameBullet",
 				"shrinkY": -0.6,
 				"shrinkX": -0.6,
-				"frontColor": "f5cb7a",
+				"frontColor": "f5a77a",
 				"spin": 8,
 				"lifetime": 120,
 				"speed": 11,
@@ -122,23 +122,23 @@
 				"despawnUnit": "wrecker",
 				"despawnSound": "dullExplosion",
 				"trailLength": 8,
-				"trailColor": "f5cb7a",
+				"trailColor": "f5a77a",
 				
 			
 			}
 		},
 		{
-			"name": "desroyer-turret",
+			"name": "destroyer-turret",
 			"shoot":
 			{ 
 			"scl": 2,
-			"mag": 1.5,
+			"mag": 3,
 			"type": "ShootHelix"
 			},
 			"reload": 40,
 			"x": 0,
-			"y": -2.5,
-			"shootY": 3.5,
+			"y": -9.25,
+			"shootY": 7,
 			"shootX": 0,
 			"top": true,
 			"mirror": false,
@@ -149,22 +149,32 @@
 					"type": "BasicBulletType",
 					"sprite": "circle-bullet",
 					"backSprite": "circle-bullet-back"
-					"width": 4,
-					"height": 4,
+					"width": 5,
+					"height": 5,
 					"speed": 3,
 					"lifetime": 100,
 					"drawSize": 9999,
 					"damage": 45,
 					"trailColor": "f9c27aff",
-					"trailWidth": 2,
+					"trailWidth": 2.5,
 					"trailLength": 16,
 					"hitSound": "dullExplosion",
 					"shootEffect": "colorSpark",
 					"hitEffect": {
 					"type": "MultiEffect",
 					"effects": [
-						"shockwave",
+					{
+						"type": "WaveEffect",
+						"colorFrom": "f9c27aff",
+						"colorTo": "ffffffff",
+						"lightColor": "f9c27aff",
+						"strokeFrom": 4,
+						"sides": -1,
+						"rotation": 2,
+						"sizeTo": 50,
+					},
 						"smokeCloud",
+						"ballfire"
 						]
 								},
 					"splashDamage": 75,

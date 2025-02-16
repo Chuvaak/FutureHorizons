@@ -153,7 +153,7 @@
 				"mirror": false
 				"rotate": true,
 				"ejectEffect": "none",
-				"shootSound": "laserbeam",
+				"shootSound": "laser",
 				"bullet": {
 					"type": "LaserBulletType",
 					"shootEffect": "smokeCloud",
@@ -180,6 +180,10 @@
 					"y":-15,
 					"progress": "warmup",
 					"growProgress": "warmup",
+					"swirlEffect": {
+					"type": "SwirlEffect",
+					"clip": 30000000,
+						}
 					}, 
 					{
 					"type": "RegionPart",
@@ -220,7 +224,6 @@
 					"length": 360,
 					"width": 16,
 					"drawSize": 500,
-					"shootEffect": "shootBigSmoke2",
 					"despawnEffect": "smokeCloud",
 						}
 			},
