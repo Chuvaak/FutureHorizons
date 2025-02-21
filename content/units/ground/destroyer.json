@@ -1,6 +1,6 @@
 {
 	"type": "mech",
-	"speed": 0.55,
+	"speed": 0.45,
 	"outlineColor": "565666ff",
 	"flying": false,
 	"health": 28000,
@@ -12,35 +12,61 @@
       "type": "UnitSpawnAbility",
       "unit": "invader",
       "spawnTime": 600,
-	  "spawnX": 10,
-      "spawnY": -20.5,
+	  "spawnX": 30,
+      "spawnY": -30,
     },
 	{
       "type": "UnitSpawnAbility",
       "unit": "invader",
       "spawnTime": 600,
-	  "spawnX": -10,
-      "spawnY": -20.5,
+	  "spawnX": -30,
+      "spawnY": -30,
     },
 	{
       "type": "ShieldArcAbility",
       "radius": 60,
 	  "max": 1200,
       "angle": 100,
-	  "whenShooting": true,
+	  "whenShooting": false,
     },
 	
   ],
 	"weapons": [
 		{
 			"name": "destroyer-main",
+			"parts": [
+					{
+					"type": "RegionPart",
+					"suffix": "-claw-right",
+					"mirror": false	,
+					"under": true,
+					"progress": "warmup",
+					"moveX": 0.5,
+					"moveRot": -15,
+					"x": 3.25,
+					"y": 12.25,
+					},
+					{
+					"type": "RegionPart",
+					"suffix": "-claw-left",
+					"mirror": false	,
+					"under": true,
+					"progress": "warmup",
+					"moveX": -0.5,
+					"moveRot": 15,
+					"x": -0.75,
+					"y": 12.25,
+					}
+
+						],
 			"reload": 2,
+			"recoil": 0,
 			"targetInterval": 5,
 			"newTargetInterval": 30,
 			"x": 31.5,
 			"y": 7.25,
-			"shootY": 11.75,
-			"shootX": 1.5,
+			"shootY": 12.25,
+			"shootX": 2,
 			"top": false,
 			"layerOffset": -0.002,
 			"mirror": true,
@@ -50,7 +76,7 @@
 			"alternate": false,
 			"rotationLimit": 30,
 			"shootSound": "torch",
-			"shootCone": 20,
+			"shootCone": 60,
 			"bullet": {
 					"type": "ContinuousFlameBulletType",
 					"flareColor": "#d0e4ff",
@@ -65,10 +91,10 @@
 					]
 					"hitColor": "ff8640b2", 
 					"buildingDamageMultiplier": 0.8,
-					"length": 80,
+					"length": 90,
 					"width": 3,
 					"knockback": 1,
-					"damage": 32,
+					"damage": 34,
 					"pierceCap": 3,
 						}
 		},
@@ -102,7 +128,7 @@
 						"smokePuff"
 						]
 								}
-				"damage": 28,
+				"damage": 80,
 				"rangeOverride": 400,
 				"width": 20,
 				"height": 20,
@@ -129,6 +155,34 @@
 		},
 		{
 			"name": "destroyer-turret",
+			"parts": [
+					{
+					"type": "RegionPart",
+					"suffix": "-barrel-r",
+					"mirror": true	,
+					"under": true,
+					"progress": "recoil",
+					"moveX": 4,
+					"moveY": -7,
+					"moveRot": 5,
+					"x": 2.25,
+					"y": 9.5,
+					"outlineLayerOffset": 0,
+					},
+					{
+					"type": "RegionPart",
+					"suffix": "-barrel-l",
+					"mirror": true	,
+					"under": true,
+					"progress": "recoil",
+					"moveX": -4,
+					"moveY": -7,
+					"moveRot": -5,
+					"x": -2.25,
+					"y": 9.5,
+					"outlineLayerOffset": 0,
+					},
+						],
 			"shoot":
 			{ 
 			"scl": 2,
@@ -154,7 +208,7 @@
 					"speed": 3,
 					"lifetime": 100,
 					"drawSize": 9999,
-					"damage": 45,
+					"damage": 50,
 					"trailColor": "f9c27aff",
 					"trailWidth": 2.5,
 					"trailLength": 16,
@@ -177,7 +231,7 @@
 						"ballfire"
 						]
 								},
-					"splashDamage": 75,
+					"splashDamage": 90,
 					"splashDamageRadius": 40,
 						}
 		},
