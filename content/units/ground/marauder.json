@@ -38,7 +38,7 @@
 			"rotationLimit": 30,
 			"shootSound": "beam",
 			"minWarmup": 0.99,
-			"shootCone": 60,
+			"shootCone": 120,
 			"shootWarmupSpeed": 0.0330,
 			"warmupMaintainTime": 150,
 			"bullet": {

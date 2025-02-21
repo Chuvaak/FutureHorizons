@@ -76,7 +76,7 @@
 			"alternate": false,
 			"rotationLimit": 30,
 			"shootSound": "torch",
-			"shootCone": 60,
+			"shootCone": 90,
 			"bullet": {
 					"type": "ContinuousFlameBulletType",
 					"flareColor": "#d0e4ff",
