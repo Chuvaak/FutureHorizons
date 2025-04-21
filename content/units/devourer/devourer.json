@@ -1,0 +1,11 @@
+{
+	"type": "crawl",
+	"outlineColor": "565666ff",
+	"health": 96800,
+	"armor": 46,
+	"hovering": true,
+	"segmentUnit": "devourerMid"
+	"segmentEndUnit": "devourerLast"
+	"segmentUnits": 3,
+	"segmentSpacing": 20,
+}

@@ -2,11 +2,11 @@
 "type": "ItemTurret",
   "size": 3,
   "health": 1200,
-  "reload": 180,
+  "reload": 210,
   "range": 400,
   "outlineColor": "#404049",
   "shoot": {
-		"shots": 30,
+		"shots": 20,
 		"shotDelay": 1,
 		"type": "ShootBarrel"
 		"barrels": [
@@ -112,7 +112,7 @@
 			"hitEffect": "blastExplosion",
 			"despawnEffect": "blastExplosion",
 			"lightningDamage": 20,
-			"lightning": 4,
+			"lightning": 3,
 			"lightningLength": 12,
 	},
    

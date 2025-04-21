@@ -1,37 +1,350 @@
 {
 	"type": "mech",
-	"speed": 0.7,
+	"speed": 0.32,
 	"outlineColor": "565666ff",
 	"flying": false,
-	"health": 660,
-	"armor": 5,
-	"hitSize": 12,
+	"health": 60000,
+	"armor": 55,
+	"hitSize": 75,
 	"weapons": [
 		{
-			"name": "puncher-main",
-			"reload": 20,
-			"x": 0,
-			"y": 0,
-			"shootY": 9.5,
-			"shootX": 0,
-			"top": true,
+			"name": "oppressor-jackhammer",
+			"parts": [
+				{
+			"type": "BlackHolePart",
+			"sizeTo": 0, 
+			"edgeTo": 75,
+			"y": 20,
+			"x": 3,
+			"moveY": 15,
+			"progress": "charge",
+			"growProgress": "charge",
+				},
+				{
+			  "type": "RegionPart",
+			  "suffix": "-claw-right",
+			  "mirror": false,
+			  "under": true,
+			  "progress": "warmup",
+			  "x": 4.75,
+			  "moveX": 2,
+			  "y": 20.75,
+			  "moveY": 7.5,
+			  "children":[
+			  {
+			  "type": "RegionPart",
+			  "suffix": "-clawslider-right",
+			  "layerOffset": -0.001,
+			  "mirror": false,
+			  "under": true,
+			  "progress": "warmup",
+			  "x": 0.25,
+			  "moveX": 2.5,
+			  "y": -0.5,
+			  "moveY": 0,
+			  "moves": [
+					{
+					"type": "PartMove",
+					"progress": "recoil",
+					"y": -6,
+					}
+					]
+				},
+			  ]
+				},
+				{
+			  "type": "RegionPart",
+			  "suffix": "-claw-left",
+			  "mirror": false,
+			  "under": true,
+			  "progress": "warmup",
+			  "x": 1,
+			  "moveX": -1,
+			  "y": 19,
+			  "moveY": 10,
+			  "children":[
+				{
+			  "type": "RegionPart",
+			  "suffix": "-clawslider-left",
+			  "layerOffset": -0.001,
+			  "mirror": false,
+			  "under": true,
+			  "progress": "warmup",
+			  "x": -0.75,
+			  "moveX": -2.25,
+			  "y": 2.25,
+			  "moveY": 0,
+			  "moves": [
+					{
+					"type": "PartMove",
+					"progress": "recoil",
+					"y": -3,
+					}
+					]
+				},
+				]
+				}
+				{
+			  "type": "RegionPart",
+			  "suffix": "-midring",
+			  "mirror": false,
+			  "under": true,
+			  "progress": "warmup",
+			  "x": 3,
+			  "moveX": 0,
+			  "y": 14.75,
+			  "moveY": 8.25,
+			  "moves": [
+					{
+					"type": "PartMove",
+					"progress": "recoil",
+					"y": -3,
+					}
+					]
+				},
+				{
+			  "type": "RegionPart",
+			  "suffix": "-midring",
+			  "mirror": false,
+			  "under": true,
+			  "progress": "warmup",
+			  "x": 3,
+			  "moveX": 0,
+			  "y": 14.75,
+			  "moveY": 12.5,
+			  "moves": [
+					{
+					"type": "PartMove",
+					"progress": "recoil",
+					"y": -3,
+					}
+					]
+				},
+				{
+			  "type": "RegionPart",
+			  "suffix": "-midring",
+			  "mirror": false,
+			  "under": true,
+			  "progress": "warmup",
+			  "x": 3,
+			  "moveX": 0,
+			  "y": 14.75,
+			  "moveY": 16.75,
+			  "moves": [
+					{
+					"type": "PartMove",
+					"progress": "recoil",
+					"y": -3,
+					}
+					]
+				},
+				]
+			"reload": 300,
+			"shoot":{
+			"firstShotDelay": 180,
+			"shots": 2,
+			"shotDelay": 20,
+					},
+			"recoil": 7,
+			"rotateSpeed": 1,
+			"shootSound": "largeCannon",
+			"layerOffset": -0.001,
+			"x": 48.5,
+			"y": 4.5,
+			"shootY": 20,
+			"shootX": 3,
+			"top": false,
 			"mirror": false,
-			"shootSound": "pew",
+			"range": 700,
+			"shootWarmupSpeed": 0.02,
+			"minWarmup": 0.99,
+			"warmupMaintainTime": 360,
+			"recoilTime": 120,
+			"heatColor": "FF7171FF",
+			"rotate": true,
+			"rotationLimit": 35,
+			"cooldownTime": 60,
+			"shootCone": 20,
 			"bullet": {
 				"type": "BasicBulletType",
-				"damage": 6,
-				"speed": 6,
-				"width": 5,
-				"height": 7,
-				"lifetime": 35,
-				"homingPower": 1,
+				"ammoMultiplier": 1,
+				"hitShake": 12,
+				"lifetime": 22,
+				"damage": 4750,
+				"buildingDamageMultiplier": 0.25,
+				"splashDamage": 110,
+				"splashDamageRadius": 24,
+				"hitSound": "explosion",
+				"hitEffect": "massiveExplosion",
+				"loopSound": "plasmadrop",
+				"speed": 45,
+				"trailColor": "ffa41c",
+				"trailRotation": true,
+				"trailInterval": 0.15,
+				"trailWidth": 3,
+				"trailLength": 100,
+				"frontColor": "ffc859",
+				"height": 25,
+				"width": 16,
 				"pierce": true,
 				"pierceBuilding": true,
-				"pierceCap": 10,
-				"shootEffect": "shootSmall",
-			
+				"pierceDamageFactor": 5,
+				"trailEffect": "shockwave",
+				"hittable": false,
+				"absorbable": true,
+				"reflectable": true,
+				"impact": true,
+				"knockback": 4,
+				"drawSize": 1000000,
 			}
 		},
+		{
+			"name": "oppressor-shotgun",
+		"parts": [
+			{
+			  "type": "RegionPart",
+			  "suffix": "-barrel",
+			  "mirror": false,
+			  "under": true,
+			  "progress": "heat",
+			  "heatProgress": "warmup",
+			  "x": -2.75,
+			  "moveX": 7,
+			  "y": 31.5,
+			  "moveY": -5.5,
+
+			}
+			{
+			  "type": "RegionPart",
+			  "suffix": "-barrel",
+			  "mirror": false,
+			  "under": true,
+			  "progress": "heat",
+			  "heatProgress": "warmup",
+			  "x": 0.75,
+			  "moveX": -3.5,
+			  "y": 28.75,
+			  "moveY": 2.75,
+
+			},
+			{
+			  "type": "RegionPart",
+			  "suffix": "-barrel",
+			  "mirror": false,
+			  "under": true,
+			  "progress": "heat",
+			  "heatProgress": "warmup",
+			  "x": 4.25,
+			  "moveX": -3.5,
+			  "y": 26,
+			  "moveY": 2.75,
+
+			}
+			],
+			"recoil": 0,
+			"reload": 20
+			"rotateSpeed": 1,
+			"shootSound": "shotgun",
+			"x": -44.5,
+			"y": 6.75,
+			"shootY": 39,
+			"shootX": -2.75,
+			"top": true,
+			"mirror": false,
+			"rotate": true,
+			"rotationLimit": 35,
+			"top": false,
+			"shootCone": 150,
+			"layerOffset": -0.002,
+			"ejectEffect": "casing4",
+			"cooldownTime": 40,
+			"shoot":{
+					"type": "ShootSpread"
+					"shots": 5
+			}
+			"bullet": {
+				"type": "ShrapnelBulletType",
+				"serrationLenScl": 15,
+				"length": 64,
+				"damage": 160,
+				"width": 32
+				"toColor": "386ae8",
+				"maxRange": 120,
+				"status": "melting"
+						}
+		},
+		{
+			"name": "oppressor-laser",
+			"parts": [
+				{
+			"type": "HaloPart",
+			"color": "ffb521",
+			"layer": 110,
+			"triLength": 0,
+			"shapes": 2, 
+			"sides": 3,
+			"haloRotation": 90,
+			"triLengthTo": 12,
+			"tri": true,
+			"progress": "warmup",
+				},
+				{
+			"type": "ShapePart",
+			"color": "ffb521",
+			"layer": 110,
+			"stroke": 0,
+            "strokeTo": 1.5,
+			"shapes": 3, 
+			"sides": 3,
+			"hollow": true,
+			"radius": 6,
+			"rotateSpeed": -2.5,
+			"progress": "warmup",
+				},
+				{
+			"type": "ShapePart",
+			"color": "ffb521",
+			"layer": 110,
+			"stroke": 0,
+            "strokeTo": 1.5,
+			"circle": true,
+			"hollow": true,
+			"radius": 7,
+			"progress": "warmup",
+				},
+					],
+			"shootWarmupSpeed": 0.08,
+			"minWarmup": 0.80,
+			"warmupMaintainTime": 60,
+			"x": 0,
+			"y": 30,
+			"shootY": -1,
+			"reload": 15,
+			"recoil": 0
+			"mirror": false,
+			"range": 200,
+			"rotate": true,
+			"rotationLimit": 30,
+			"continious": true,
+			"shootSound": "laser",
+			"shootSoundVolume": 0.7,
+			"inaccuracy": 0.5,
+			"shoot":{
+				"type": "ShootSpread",
+				"shots": 3,
+				"spread": 2
+			}
+			"bullet": {
+				"type": "SapBulletType",
+				"sapStrength": 0.5,
+				"sprite": "point-laser-center",
+				"laserEndRegion": "point-laser-end",
+				"damage": 130,
+				"length": 200,
+				"width": 0.7,
+				"buildingDamageMultiplier": 0.4,
+				"status": "tarred"
+						}
+		},	
 	],
-	
 }
