@@ -5,15 +5,39 @@
 	"drawer": {
       "type": "DrawMulti",
       "drawers": [
+	  	{
+		"type": "DrawRegion",
+		"suffix": "-bottom" 
+		},
+		{
+		"type": "DrawRegion",
+		"suffix": "-rotator",
+		"rotateSpeed": 5,
+		"spinSprite": true
+		"children":[
+				{
+			  "type": "DrawRegion",
+			  "suffix": "-leaf1",
+			  "layerOffset": 0,
+			  "mirror": true,
+			  "under": false,
+			  "progress": "warmup",
+			  "x": 60,
+			  "moveX": 0,
+			  "y": 0,
+			  "moveY": 0,
+				},
+				]
+		}
 		{
         "type": "DrawDefault",   
-        },  
+        },
         {
         "type": "DrawBlackHole",
 		"size": 28, 
 		"edge": 70,
 		"warmup": true    
-        },  
+        },
       ]
     },
     "hasPower": true,

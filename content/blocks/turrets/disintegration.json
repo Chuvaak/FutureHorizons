@@ -56,8 +56,9 @@
 			"length": 210,
 			"width": 7,
 			"knockback": 2,
-			"damage": 160,
-			"pierceCap": 5
+			"damage": 110,
+			"pierceCap": 5,
+			"status": "wet"
 		}
   },
  "requirements": [
