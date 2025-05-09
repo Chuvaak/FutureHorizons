@@ -59,7 +59,6 @@
 	"explosionDamage": 3000,
     "destroyBullet": {
 			"type": "BlackHoleBulletType",
-			"status": "collapsing",
 			"force": 100,
 			"scalledForce": 1600,
 			"bulletForce": 4,

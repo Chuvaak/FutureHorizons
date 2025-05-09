@@ -37,8 +37,9 @@
   "rotateSpeed": 3,
   "shootSound": "missile",
   "ammoPerShot": 80,
-  "maxAmmo": 100,
+  "maxAmmo": 160,
   "unitSort": "strongest",
+  "liquidCapacity": 90,
   "consumes": {
     "power": 4,
 	"liquids": [

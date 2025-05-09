@@ -1,0 +1,9 @@
+{
+	"color": "dbb62eb1",
+	"permanent":false,
+	"healthMultiplier": 0.3,
+	"speedMultiplier": 0.8,
+	"effectChance": 0.03,
+	"effect": "vapor",
+	"damage": 0.05,
+}
