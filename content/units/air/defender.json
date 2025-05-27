@@ -1,5 +1,6 @@
 {
 "flying": true,
+"immunities": ["futurehorizons-dissolving"],
 "mineSpeed": 10,
 "controller": "BuilderAI",
 "defaultCommand": "assist",

@@ -78,7 +78,7 @@
 "orbitSpacing": 0.2,
 "solarSystem": "glio",
 "parent": "sun",
-"orbitRadius": 120,
+"orbitRadius": 12000,
 "radius": 7,
 "drawOrbit": false,
 "tidalLock": false,

@@ -1,5 +1,6 @@
 	{
 	"flying": true,
+	"immunities": ["futurehorizons-dissolving"],
 	"speed": 0.6,
 	"accel": 0.05,
 	"lowAltitude": true,

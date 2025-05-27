@@ -1,7 +1,7 @@
 {
 "type": "PointDefenseTurret",
   "size": 4,
-  "health": 980,
+  "health": 1340,
   "reload": 1.5,
   "retargetTime": 1,
   "bulletDamage": 90,

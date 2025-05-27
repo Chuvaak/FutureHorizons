@@ -1,5 +1,6 @@
 {		
 	"type": "missile",
+	"immunities": ["futurehorizons-dissolving"],
 	"template": "MissileUnitType",
 	"controller": "MissileAI",
 	"parts": [

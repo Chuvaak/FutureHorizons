@@ -1,0 +1,24 @@
+{
+	"name": "Acid Rain"
+    "type": "RainWeather",
+    "color": "6cbf19",
+    "drawNoise": true,
+    "noiseColor": "a39a6cFF",
+    "opacityMultiplier": 0.8,
+    "useWindVector": true,
+    "sizeMin": 10,
+    "sizeMax": 60,
+    "yspeed": 5,
+    "xspeed": 2,
+    "density": 1200,
+    "splashTimeScale": 22,
+    "stroke": 0.75,
+    "status": "dissolving",
+	"statusDuration": 360,
+    "sound":"rain",
+    "soundVol": 0.4,
+    "attrs":
+    {
+        "light": -0.2
+    }
+}

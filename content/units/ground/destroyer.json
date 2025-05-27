@@ -1,5 +1,6 @@
 {
 	"type": "mech",
+	"immunities": ["futurehorizons-dissolving"],
 	"speed": 0.45,
 	"outlineColor": "565666ff",
 	"flying": false,

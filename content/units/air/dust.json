@@ -1,5 +1,6 @@
 {
 "flying": true,
+"immunities": ["futurehorizons-dissolving"],
 "speed": 5,
 "accel": 0.1,
 "outlineColor": "565666ff",

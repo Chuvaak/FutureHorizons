@@ -9,6 +9,7 @@
   "warmupMaintainTime": 30,
   "recoilTime": 120,
   "heatColor": "FF7171FF",
+  "continious": true,
   "shoot": {
     "firstShotDelay": 80
   },
@@ -133,8 +134,8 @@
   "rotateSpeed": 1,
   "shootSound": "railgun",
   "unitSort": "strongest",
-  "ammoPerShot": 15,
-  "maxAmmo": 50,
+  "ammoPerShot": 25,
+  "maxAmmo": 60,
   "coolant": {
     "type": "ConsumeCoolant",
     "amount": 0.8
@@ -147,11 +148,11 @@
   "ammoTypes": {
     "electrum": {
       "type": "RailBulletType",
-	  "ammoMultiplier": 1,
+	  "ammoMultiplier": 2,
 	  "laserAbsorb": true,
 	  "absorbable": true,
 	  "pointEffectSpace" : 20,		  
-	  "damage": 3200,
+	  "damage": 2400,
       "buildingDamageMultiplier": 0.3,
       "length": 600,
 	  "pointEffectSpace": 60,
@@ -183,7 +184,7 @@
                 "despawnShake": 0.1,
           }
 	  
-	}
+	},
   },
  "cooldown": 0.009,
  "requirements": [

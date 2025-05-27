@@ -1,0 +1,25 @@
+{
+	"name": "White fog"
+    "type": "ParticleWeather",
+	"noiseLayers": 5,
+    "noiseLayerSclM": 0.8,
+    "noiseLayerAlphaM": 0.7,
+    "noiseLayerSpeedM": 2,
+    "noiseLayerSclM": 0.6,
+    "baseSpeed": 0.05,
+    "color": "f5f5e4",
+	"noiseColor": "f5f5e4",
+    "noiseScale": 2400,
+    "noisePath": "fog",
+    "drawParticles": false,
+    "drawNoise": true,
+    "useWindVector": false,
+    "xspeed": 0.5,
+    "yspeed": 0.03,
+    "opacityMultiplier": 0.85,
+	"attrs":
+    {
+        "light": -0.2,
+		"water": 0.2,
+    }
+}

@@ -207,7 +207,7 @@
 		"drag": 0.1,
         "width": 8,
         "lifetime": 300,
-        "damage": 15,
+        "damage": 12,
         "shrinkY": 1,
         "despawnEffect": "none",
         "frontColor": "f8a3c7",

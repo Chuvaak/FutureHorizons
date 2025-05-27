@@ -24,7 +24,7 @@
 			]
 			
 		},
-		"liquid": "liquid_electrum/1"
+		"liquid": "liquid_electrum/0.8"
 	},
 	"upgrades": [
 	["universe","infinity"],

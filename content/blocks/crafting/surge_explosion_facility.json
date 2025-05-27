@@ -43,10 +43,10 @@
 	"items": {
 		"items":
 		[
-		{"item": "copper", "amount": 21},
-		{"item": "lead", "amount": 18},
-		{"item": "titanium", "amount": 18},
-		{"item": "silicon", "amount": 15},
+		{"item": "copper", "amount": 18},
+		{"item": "lead", "amount": 13},
+		{"item": "titanium", "amount": 15},
+		{"item": "silicon", "amount": 11},
 		{"item": "blast-compound", "amount": 4},
 		]
 	}			

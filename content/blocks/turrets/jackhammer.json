@@ -1,7 +1,7 @@
 {
 "type": "ItemTurret",
   "size": 5,
-  "health": 2200,
+  "health": 3600,
   "reload": 240,
   "range": 1400,
   "shootWarmupSpeed": 0.92,
@@ -54,7 +54,7 @@
 		"ammoMultiplier": 1,
 		"hitShake": 12,
 		"lifetime": 31.2,
-		"damage": 12600,
+		"damage": 9600,
 		"buildingDamageMultiplier": 0.25,
 		"splashDamage": 280,
 		"splashDamageRadius": 24,
