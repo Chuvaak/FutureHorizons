@@ -46,8 +46,6 @@
   },
   "updateEffect": "smeltsmoke",
   "category": "crafting",
-  "ambientSound":"fuelburn"
-  "idleSoundVolume": 0.05,
   "itemCapacity": 30,
   "outputItem": { "item": "electrum", "amount": 1},
   "research":{
