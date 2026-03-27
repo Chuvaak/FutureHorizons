@@ -6,7 +6,6 @@
 "useUnitCap": false,
 "hovering": true,
 "playerControllable": false,
-"targetFlags": ["turret"],
 "targetAir": false,
 "immunities": ["futurehorizons-dissolving"],
 "speed": 3,
