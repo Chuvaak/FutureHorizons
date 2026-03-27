@@ -1,6 +1,6 @@
 {
 "type": "hover",
-"aiController":"hugAi",
+"controller":"HugAi",
 "flying": false,
 "canDrown": false,
 "useUnitCap": false,
