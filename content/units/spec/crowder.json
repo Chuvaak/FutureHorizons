@@ -1,0 +1,83 @@
+{
+"type": "legs",
+"legCount": 4
+"legGroupSize": 4
+"legLength": 75
+"legBaseOffset": 5
+"flying": false,
+"canDrown": true,
+"hovering": true,
+"immunities": ["futurehorizons-dissolving"],
+"speed": 1,
+"outlineColor": "565666ff",
+"health": 1300,
+"armor": 6,
+"fogRadius":0,
+"rotateSpeed": 5,
+"hitSize":9.5,
+"weapons": [
+    {
+        "name": "destroyer-turret",
+        "reload": 96,
+		"x": 0,
+		"y": 2,
+		"shootY": 1,
+        "top": true,
+		"mirror": false,
+        "shootSound": "none",
+        "bullet": {
+            "type": "ArtilleryBulletType",
+            "damage": 9,
+            "speed": 1,
+            "width": 12,
+            "height": 15,
+            "lifetime": 120,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"fragBullets": 4,
+			"fragBullet":{
+				"type": "ArtilleryBulletType",
+				"damage": 9,
+				"speed": 2,
+				"width": 9,
+				"height": 12,
+				"lifetime": 15,
+				"smokeEffect": "shootSmallSmoke",
+				"despawnUnit": "futurehorizons-mite"
+			}
+		}
+        },
+		{
+			"name": "destroyer-main",
+        "reload": 60,
+		"x": 10,
+		"y": 2,
+		"shootY": 1,
+        "top": true,
+		"mirror": true,
+        "shootSound": "none",
+        "bullet": {
+            "type": "BasicBulletType",
+            "damage": 9,
+            "speed": 1,
+            "width": 12,
+            "height": 15,
+            "lifetime": 120,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+		}
+		}
+],
+"abilities": [
+    {
+     "type": "StatusFieldAbility",
+      "duration": 180,
+      "effect": "overclock",
+	  "reload": 300,
+      "range": 30,
+    },
+	]
+"research": {
+	  "parent":"termite",
+}
+}

@@ -1,0 +1,80 @@
+{
+"type": "legs",
+"legCount": 4
+"legGroupSize": 4
+"legLength": 75
+"legBaseOffset": 5
+"flying": false,
+"canDrown": true,
+"hovering": false,
+"immunities": ["futurehorizons-dissolving"],
+"speed": 1.6,
+"outlineColor": "565666ff",
+"health": 750,
+"armor": 6,
+"fogRadius":0,
+"rotateSpeed": 5,
+"hitSize":9.5,
+"weapons": [
+    {
+        "name": "destroyer-main",
+        "reload": 1,
+		"x": 0,
+		"y": 2,
+		"shootY": 1,
+        "top": true,
+		"mirror": false,
+        "shootSound": "none",
+        "bullet": {
+            "type": "BasicBulletType",
+            "damage": 1,
+            "speed": 3,
+            "width": 5,
+            "height": 7,
+            "lifetime": 20,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke"
+		}
+        },
+		{
+		"name": "termite-dash",
+		"x": 0,
+		"y": 0,
+		"display": false,
+		"rotate": false,
+		"mirror": false,
+		"reload": 210,
+		"shootCone": 5,
+		"shootSound": "pew",
+		"bullet": {
+			"width": 0,
+			"speed": 8,
+			"lifetime": 10,
+			"despawnEffect": "none",
+			"hitEffect": "none",
+			"height": 0,
+			"collides": false,
+			"damage": 0,
+			"pierce": true,
+			"pierceBuilding": true,
+			"recoil": -40,
+			"impact": true,
+			"trailRotation": true,
+		}
+    }
+],
+"abilities": [
+    {
+     "type": "MoveEffectAbility"
+    "minVelocity": 2,
+    "x": 0,
+    "y": -2.4,
+    "effect": "artilleryTrailSmoke",
+    "teamColor": true,
+    "interval": 3,
+    },
+	]
+"research": {
+	  "parent":"ant",
+}
+}
