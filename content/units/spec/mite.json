@@ -1,7 +1,6 @@
 {
 "type": "hover",
 "controller":"HugAi",
-"targetFlags":["transport"]
 "flying": false,
 "canDrown": false,
 "useUnitCap": false,
@@ -11,7 +10,7 @@
 "immunities": ["futurehorizons-dissolving"],
 "speed": 3,
 "outlineColor": "565666ff",
-"health": 15,
+"health": 20,
 "armor": 2,
 "fogRadius":0,
 "rotateSpeed": 5,
