@@ -134,7 +134,7 @@
   "titaniumScale": 1,
   "thoriumScale": 1,
 },
-"alwaysUnlocked": false,
+"alwaysUnlocked": true,
 "sectorSize": 1,
 "orbitSpacing": 1,
 "orbitRadius": 30,
