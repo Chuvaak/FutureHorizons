@@ -76,7 +76,7 @@
             "type": "BulletType",
 			"rangeOverride": 24,
 			"splashDamageRadius": 10, 
-			"splashDamage": 5,
+			"splashDamage": 15,
 			"height": 0,
             "width": 0,
             "lifetime": 0,
