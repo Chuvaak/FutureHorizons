@@ -5,7 +5,7 @@
   "reload": 900,
   "range": 336,
   "rotateSpeed": 3,
-  "shootSound": "plasmaboom",
+  "shootSound": "explosionQuad",
   "shootEffect":{
 		"type": "MultiEffect",
 			"effects": [
@@ -68,7 +68,7 @@
 				"ballfire"
 				]
 				}
-	  "despawnSound": "titanExplosion",
+	  "despawnSound": "explosionTitan",
 	  "hitShake": 15,
       "fragBullet": {
         "type": "BlackHoleBulletType",
@@ -86,7 +86,7 @@
 			"damage": 150,
 			"color": "ebb684",
 			"loopSoundVolume": 1,
-			"despawnSound": "largeExplosion",
+			"despawnSound": "explosionReactor",
 			"swirlEffect": {
 				"type": "SwirlEffect",
 				"clip": 30000000,

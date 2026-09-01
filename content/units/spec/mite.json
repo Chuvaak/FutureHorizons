@@ -1,0 +1,90 @@
+{
+"type": "hover",
+"controller":"HugAi",
+"flying": false,
+"canDrown": false,
+"useUnitCap": false,
+"hovering": true,
+"playerControllable": false,
+"targetAir": false,
+"immunities": ["futurehorizons-dissolving"],
+"speed": 3,
+"outlineColor": "565666ff",
+"health": 20,
+"armor": 2,
+"fogRadius":0,
+"rotateSpeed": 5,
+"hitSize":6,
+"parts": [
+					{
+					"type": "HoverPart",
+					"mirror": true,
+					"sides": 3,
+					"radius": 6,
+                    "phase": 120,
+                    "stroke": 2,
+                    "layerOffset": -0.001,
+                    "color": "bf92f9",
+					"x": 0,
+					"y": 0,
+					},
+		]
+"weapons": [
+    {
+        "name": "mite-weapon",
+		"parts": [
+					{
+					"type": "RegionPart",
+					"suffix": "-pike",
+					"mirror": false	,
+					"under": true,
+					"progress": "recoil",
+					"moveY": 3,
+					"x": 0,
+					"y": 1.5,
+					},
+					{
+					"type": "RegionPart",
+					"suffix": "-piston",
+					"mirror": true	,
+					"under": true,
+					"progress": "warmup",
+					"moveX": 0.75,
+					"x": 2.75,
+					"y": 0.25,
+					"moves": [
+						{
+						"type": "PartMove",
+						"progress": "recoil",
+						"x": -0.75,
+						}
+						]
+					}
+
+						],
+        "reload": 30,
+		"minWarmup": 0.98,
+		"shootWarmupSpeed": 0.1,
+		"recoil": 0,
+		"x": 0,
+		"y": 0,
+		"shootY": 3,
+        "top": false,
+		"mirror": false,
+        "shootSound": "pew",
+        "bullet": {
+            "type": "BulletType",
+			"rangeOverride": 24,
+			"splashDamageRadius": 10, 
+			"splashDamage": 15,
+			"height": 0,
+            "width": 0,
+            "lifetime": 0,
+        }
+    },
+	
+],
+"research": {
+	  "parent":"crowder",
+}
+}

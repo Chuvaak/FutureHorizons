@@ -132,7 +132,7 @@
   "targetAir": true,
   "recoil": 3,
   "rotateSpeed": 1,
-  "shootSound": "railgun",
+  "shootSound": "shootOmura",
   "unitSort": "strongest",
   "ammoPerShot": 25,
   "maxAmmo": 60,

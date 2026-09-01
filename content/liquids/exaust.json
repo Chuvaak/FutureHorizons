@@ -1,0 +1,14 @@
+{
+ "type": "liquid",
+ "gas": true,
+ "color": "8A8A8AFF",
+ "viscosity": 0.4,
+ "particleSpacing": 0.001
+ "flammability": 0.65,
+ "heatCapacity": 0.2,
+ "temperature": 1,
+ "coolant": false,
+ "research":{
+		"parent":"oil"
+	}
+}

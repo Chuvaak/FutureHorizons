@@ -31,9 +31,9 @@
 		]
   }
   }
-  "updateEffect": "none",
   "category": "power",
-  "idleSoundVolume": 0.5,
+  "ambientSoundVolume": 0.08,
+  "ambientSound": "loopHum",
   "itemCapacity": 30,
   "outputItem": { "item": "sbattery", "amount": 1},
   "research":{

@@ -53,7 +53,7 @@
 	{ "item": "electrum", "amount": 800},
 	{ "item": "composite_plate", "amount": 900}
 					]
-	"ambientSound":"spellLoop",
+	"ambientSound":"loopPulse",
 	"ambientSoundVolume": 0.45,
 	"research":{
 		"parent":"impact-reactor"

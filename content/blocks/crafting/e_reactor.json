@@ -48,6 +48,8 @@
     { "item": "titanium", "amount": 180}
 					]
 	"category": "crafting",
+	"ambientSound": "loopThoriumReactor",
+	"ambientSoundVolume": 0.1,
 	"heatOutput": 25,
 	"outputLiquid": {"liquid":"tritium", "amount": 0.02},
 	"research":{

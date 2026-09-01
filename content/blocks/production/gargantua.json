@@ -27,11 +27,9 @@
 		{ "item": "thorium", "amount": 230}
 			
 					]
-"drillEffect": "mine",
+"drillEffect": "mineBig",
 "drillEffectChance": 100,
 "updateEffectChance":0.08,
-"ambientSound": "machine",
-"ambientSoundVolume": 0.2,
 "category": "production",
 "research":{
 		"parent":"blast-drill"

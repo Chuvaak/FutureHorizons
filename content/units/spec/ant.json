@@ -1,0 +1,84 @@
+{
+"type": "legs",
+"legCount": 3
+"legGroupSize": 4
+"legLength": 75
+"legBaseOffset": 5
+"flying": false,
+"canDrown": true,
+"hovering": false,
+"immunities": ["futurehorizons-dissolving"],
+"speed": 1.4,
+"outlineColor": "565666ff",
+"health": 250,
+"armor": 4,
+"fogRadius":0,
+"rotateSpeed": 5,
+"hitSize":9.5,
+"weapons": [
+    {
+        "name": "ant-turret",
+		"parts": [
+					{
+					"type": "RegionPart",
+					"suffix": "-barrel-r",
+					"mirror": false	,
+					"under": true,
+					"progress": "recoil",
+					"recoilIndex": 1,
+					"moveY": -1.5,
+					"x": 0.75,
+					"y": 2.5,
+					},
+					{
+					"type": "RegionPart",
+					"suffix": "-barrel-l",
+					"mirror": false,
+					"under": true,
+					"progress": "recoil",
+					"recoilIndex": 0,
+					"moveY": -1.5,
+					"x": -0.75,
+					"y": 2.5,
+					},
+				],
+		"shoot": {
+		"type": "ShootAlternate"
+		"spread": 2,
+		"barrels": 2,
+				},
+		"recoil": 0.2,
+		"recoils": 2,
+        "reload": 3,
+		"x": 0,
+		"y": -0.75,
+		"shootY": 5.5,
+        "top": false,
+		"mirror": false,
+		"rotate": true,
+        "shootSound": "pew",
+        "bullet": {
+            "type": "BasicBulletType",
+            "damage": 3,
+            "speed": 3,
+            "width": 3,
+            "height": 5,
+            "lifetime": 60,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke"
+        }
+    }
+],
+"abilities": [
+    {
+      "type": "ShieldRegenFieldAbility",
+      "amount": 20,
+      "max": 10,
+	  "reload": 300,
+      "range": 60,
+    },
+	]
+"research": {
+	  "parent":"multiplicative-reconstructor",
+}
+}

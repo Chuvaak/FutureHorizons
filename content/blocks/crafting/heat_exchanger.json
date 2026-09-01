@@ -40,7 +40,7 @@
 	},
 	"category": "crafting",
 	"ambientSoundVolume": 0.05,
-	"ambientSound": "electricHum",
+	"ambientSound": "LoopElectricHum",
 	"liquidCapacity": 150,
 	"heatOutput": 10,
 	"warmupRate": 0.15,
