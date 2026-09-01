@@ -126,8 +126,8 @@
 					],
 	"effectChance": 1.5,
 	"generateEffectRange": 0.1,
-	"ambientSound":"spellLoop",
-	"ambientSoundVolume": 0.75,
+	"ambientSound":"loopThoriumReactor",
+	"ambientSoundVolume": 1.5,
 	"researchCost": [
 	{ "item": "copper", "amount": 864000},
     { "item": "lead", "amount": 745000},

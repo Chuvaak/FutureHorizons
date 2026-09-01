@@ -11,7 +11,7 @@
   "newTargetInterval": 30,
   "liquidConsumed": 2,
   "shootY": 9,
-  "loopSound": "torch",
+  "loopSound": "shootSublimate",
   "heatColor": "FF6767FF",
   "drawer": {
     "type": "drawTurret",

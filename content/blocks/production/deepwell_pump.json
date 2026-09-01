@@ -1,0 +1,225 @@
+{
+	"type": "AttributeMultiCrafter",
+	"health": 630,
+	"size": 4,
+	"attribute": "none",
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [	
+	{
+    "type": "DrawRegion",
+	"suffix": "-bottom" 
+	},
+	{
+					"type": "DrawRegion",
+					"suffix": "-rotator",
+					"rotateSpeed": 6,
+					"buildingRotate": true,
+					"spinSprite": true,
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-rotatorr",
+					"rotateSpeed": -4,
+					"buildingRotate": true,
+					"spinSprite": true,
+					},
+						{
+					"type": "DrawDefault"
+					},
+					{	
+					"type": "DrawRegion"
+					"suffix": "-water",
+					},
+	{	
+    "type": "DrawRecipe"
+    },
+	]
+	},
+	"requirements": 	[
+    { "item": "electrum", "amount": 440},
+    { "item": "silicon", "amount": 680},
+	{ "item": "metaglass", "amount": 830},
+	{ "item": "quantum_controller", "amount": 330},
+	{ "item": "composite_plate", "amount": 530},
+					]
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"jsonRecipes": [
+    {
+		"name": "water"
+        "input": {
+			"power": 3,
+			"items":[
+				{"item": "titanium", "amount": 1},
+					],
+			"liquids":["cryofluid/0.2"]	
+		}
+        "output":{
+		"liquids":["water/0.666666666"]
+			              	}
+        "craftTime": 120,
+		"drawer":
+				{
+				"type": "DrawMulti",
+				"drawers": 
+				[	
+					{
+					"type": "DrawLiquidTile",
+					"drawLiquid": "water"
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-plug",
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-rotator",
+					"rotateSpeed": 6,
+					"buildingRotate": true,
+					"spinSprite": true,
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-rotatorr",
+					"rotateSpeed": -4,
+					"buildingRotate": true,
+					"spinSprite": true,
+					},
+						{
+					"type": "DrawDefault"
+					},
+					{	
+					"type": "DrawRegion"
+					"suffix": "-water",
+					},
+				]
+				},
+			"attribute": "water",
+			"baseEfficiency": 1,
+			"boostScale": 0.11,
+			"maxBoost": 1.7,
+			"minEfficiency": 0,
+    },
+    {
+		"name": "oil"
+        "input": {
+			"power": 3,
+			"items":[
+				{"item": "titanium", "amount": 1},
+					],
+			"liquids":["cryofluid/0.2"]	
+		}
+        "output":{
+            "liquids":["oil/0.5"]
+			              	}
+        "craftTime": 120,
+		"drawer":
+				{
+				"type": "DrawMulti",
+				"drawers": 
+				[	
+					{
+					"type": "DrawLiquidTile",
+					"drawLiquid": "oil"
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-plug",
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-rotator",
+					"rotateSpeed": 6,
+					"buildingRotate": true,
+					"spinSprite": true,
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-rotatorr",
+					"rotateSpeed": -4,
+					"buildingRotate": true,
+					"spinSprite": true,
+					},
+						{
+					"type": "DrawDefault"
+					},
+					{	
+					"type": "DrawRegion"
+					"suffix": "-oil",
+					},
+				]
+				},
+			"attribute": "oil",
+			"baseEfficiency": 0,
+			"boostScale": 0.067,
+			"maxBoost": 1.6,
+			"minEfficiency": 0,
+    },
+    {
+		"name": "slag"
+        "input": {
+			"power": 3,
+			"items":[
+				{"item": "titanium", "amount": 1},
+					],
+			"liquids":["cryofluid/0.2"]	
+		}
+        "output":{
+            "liquids":["slag/0.3333333333"]
+				              }
+        "craftTime": 120,
+		"drawer":
+				{
+				"type": "DrawMulti",
+				"drawers": 
+				[	
+					{
+					"type": "DrawLiquidTile",
+					"drawLiquid": "slag"
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-plug",
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-rotator",
+					"rotateSpeed": 6,
+					"buildingRotate": true,
+					"spinSprite": true,
+					},
+					{
+					"type": "DrawRegion",
+					"suffix": "-rotatorr",
+					"rotateSpeed": -4,
+					"buildingRotate": true,
+					"spinSprite": true,
+					},
+						{
+					"type": "DrawDefault"
+					},
+					{	
+					"type": "DrawRegion"
+					"suffix": "-slag",
+					},
+				]
+				},
+			"attribute": "heat"
+			"baseEfficiency": 0,
+			"boostScale": 0.084,
+			"maxBoost": 1,
+			"minEfficiency": -1,
+    },
+	]
+	"category": "production",
+	"idleSoundVolume": 0.08,
+	"itemCapacity": 15,
+	"ambientSound": "loopMachine",
+	"ambientSoundVolume": 0.1,
+	"liquidCapacity": 600,
+	"research":{
+		"parent":"impulse-pump"
+	}
+}

@@ -18,7 +18,8 @@
 	"shootX": 0,
 	"shootY": -1,
 	"inaccuracy": 10,
-	"shootSound": "blaster",
+	"shootSound": "shootLancer",
+	"chargeSound": "chargeLancer",
 	"coolant": {
     "type": "ConsumeCoolant",
     "amount": 0.1
@@ -42,7 +43,7 @@
 		"trailColor": "f9c27aff",
 		"trailWidth": 3.5,
 		"trailLength": 24,
-		"hitSound": "plasmaboom",
+		"despawnSound": "explosionPlasmaSmall",
 		"shootEffect": "colorSpark",
 		"chargeEffect": {
 			"type": "MultiEffect",

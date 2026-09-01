@@ -50,7 +50,7 @@
 	},
 	"category": "crafting",
 	"itemCapacity": 30,
-	"ambientSound": "machine",
+	"ambientSound": "loopMachineSpin",
 	"ambientSoundVolume": 0.1,
 	"liquidCapacity": 600,
 	"outputItem": {"item":"deuterium_capsule", "amount": 1},

@@ -38,7 +38,7 @@
     
 	},
 	"category": "crafting",
-	"ambientSound": "electricHum",
+	"ambientSound": "loopElectricHum",
 	"ambientSoundVolume": 0.1,
 	"itemCapacity": 30,
 	"liquidCapacity": 300,

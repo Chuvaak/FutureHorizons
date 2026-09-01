@@ -54,7 +54,7 @@
     
 	},
 	"category": "crafting",
-	"ambientSound": "extractLoop",
+	"ambientSound": "loopExtract",
 	"ambientSoundVolume": 0.1,
 	"itemCapacity": 60,
 	"liquidCapacity": 80,

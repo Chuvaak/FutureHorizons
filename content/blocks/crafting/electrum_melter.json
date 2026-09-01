@@ -45,7 +45,7 @@
 	},
 	"updateEffect": "melting",
 	"category": "crafting",
-	"ambientSound": "flux",
+	"ambientSound": "loopFlux",
 	"ambientSoundVolume": 0.1,
 	"itemCapacity": 30,
 	"liquidCapacity": 100,

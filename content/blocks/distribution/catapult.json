@@ -18,7 +18,7 @@
 					]
 	"category": "distribution",
 	"shake": 1,
-	"shootSound": "pew",
+	"shootSound": "shootDuo",
 	"elevation":0,
 	"research":{
 		"parent":"mass-driver"

@@ -54,7 +54,7 @@
 	},
 	"category": "crafting",
 	"ambientSoundVolume": 0.2,
-	"ambientSound": "smelter",
+	"ambientSound": "loopSmelter",
 	"craftEffect": {
 			"type": "MultiEffect",
 			"effects": [

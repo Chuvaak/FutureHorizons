@@ -67,9 +67,8 @@
     
 	},
 	"category": "crafting",
-	"ambientSoundVolume": 0.05,
-	"ambientSound": "techloop",
-	"idleSoundVolume": 0.05,
+	"ambientSound": "loopTech",
+	"ambientSoundVolume": 0.1,
 	"itemCapacity": 30,
 	"liquidCapacity": 600,
 	"outputItem": {"item":"phase-fabric", "amount": 1},

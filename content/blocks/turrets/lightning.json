@@ -10,7 +10,7 @@
 	"targetGround": false,
 	"recoil": 2,
 	"rotateSpeed": 6,
-	"shootSound": "spark",
+	"shootSound": "shootArc",
 	"shootEffect": "lightningShoot",
 	"shoot": {
 		"shots": 4,

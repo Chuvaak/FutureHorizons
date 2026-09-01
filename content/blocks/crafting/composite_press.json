@@ -24,7 +24,7 @@
 					]
     "updateEffect": "pulverizeSmall",
 	"category": "crafting",
-	"ambientSound": "machine",
+	"ambientSound": "loopMachine",
 	"ambientSoundVolume": 0.1,
 	"itemCapacity": 30,
 	"outputItem": {"item": "composite_plate", "amount": 1},

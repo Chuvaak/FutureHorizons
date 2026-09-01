@@ -43,9 +43,9 @@
     
 	},
 	"category": "crafting",
-	"idleSoundVolume": 0.05,
 	"itemCapacity": 30,
-	"SoundVolume": 0.1,
+	"ambientSound": "loopSmelter",
+	"ambientSoundVolume": 0.1,
 	"liquidCapacity": 60,
 	"outputItem": {"item":"silicon", "amount": 3},
 	 "research":{

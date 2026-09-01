@@ -1,6 +1,5 @@
 {
-	"type": "multicraft.MultiCrafter",
-	"menu": "simple",
+	"type": "MultiCrafter",
 	"health": 630,
 	"size": 3,
 	"drawer": {
@@ -19,70 +18,13 @@
     {
     "type": "DrawDefault"
 	},
-
    {	
     "type": "DrawFade"
    },
-   {
-  "type": "multicraft.DrawRecipe",
-  "drawers": [
-    {
-    "type": "DrawCrucibleFlame",
-	"flameColor": "edae87",
-	"particles": 80,
-	"particleRad": 14,
-    },
-    {
-    "type": "DrawCrucibleFlame",
-	"flameColor": "9d81d4",
-	"particles": 80,
-	"particleRad": 14,
-    },
-    {
-    "type": "DrawCrucibleFlame",
-	"flameColor": "404747",
-	"alpha": 0.8,
-	"particles": 80,
-	"particleRad": 14,
-    },
-	{
-    "type": "DrawCrucibleFlame",
-	"flameColor": "f2cbaa",
-	"particles": 80,
-	"particleRad": 14,
-    },
-	{
-    "type": "DrawCrucibleFlame",
-	"flameColor": "7b96ed",
-	"particles": 80,
-	"particleRad": 14,
-    },
-	{
-    "type": "DrawCrucibleFlame",
-	"flameColor": "ed6dc9",
-	"particles": 80,
-	"particleRad": 14,
-    },
-	{
-	"type": "DrawMulti",
-    "drawers":	[
-	{
-    "type": "DrawCrucibleFlame",
-	"flameColor": "7b219c",
-	"particles": 80,
-	"particleRad": 14,
-    },
-	{
-        "type": "DrawBlackHole",
-		"size": 0, 
-		"edge": 27,
-		"color": "7b219c",
-    },
+   {	
+    "type": "DrawRecipe"
+   },
 	]
-    }
-	],
-    },
-    ]
 	},
 	"requirements": 	[
     { "item": "electrum", "amount": 440},
@@ -94,74 +36,135 @@
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": true,
-	"recipes": [
+	"jsonRecipes": [
     {
+		"name": "1"
         "input": {"power": 420}
         "output":{
             "items":[
 				{"item": "copper", "amount": 11},
 					]
+
 			              	}
-        "craftTime": 60
+        "craftTime": 60,
+		"drawer": {
+			"type": "DrawCrucibleFlame",
+			"flameColor": "edae87",
+			"particles": 80,
+			"particleRad": 14,
+			},
     },
     {
+		"name": "2"
         "input": {"power": 470}
         "output":{
             "items":[
 				{"item": "lead", "amount": 10},
 					]
 			              	}
-        "craftTime": 60
+        "craftTime": 60,
+		"drawer": {
+			"type": "DrawCrucibleFlame",
+			"flameColor": "9d81d4",
+			"particles": 80,
+			"particleRad": 14,
+			},
     },
     {
+		"name": "3"
         "input": {"power": 190}
         "output":{
             "items":[
 				{"item": "coal", "amount": 8},
 					]
 				              }
-        "craftTime": 30
+        "craftTime": 30,
+		"drawer": {
+			"type": "DrawCrucibleFlame",
+			"flameColor": "404747",
+			"particles": 80,
+			"particleRad": 14,
+			},
     },
    {
+	   "name": "4"
         "input": {"power": 260}
         "output":{
             "items":[
 				{"item": "sand", "amount": 9},
 					]
 				              }
-        "craftTime": 45
+        "craftTime": 45,
+		"drawer": {
+			"type": "DrawCrucibleFlame",
+			"flameColor": "f2cbaa",
+			"particles": 80,
+			"particleRad": 14,
+			},
     },
     {
+		"name": "5"
         "input": {"power": 560}
         "output":{
             "items":[
 				{"item": "titanium", "amount": 2},
 					]
 			              	}
-        "craftTime": 15
+        "craftTime": 15,
+		"drawer": {
+			"type": "DrawCrucibleFlame",
+			"flameColor": "7b96ed",
+			"particles": 80,
+			"particleRad": 14,
+			},
     },
     {
+		"name": "6"
         "input": {"power": 630}
         "output":{
             "items":[
 				{"item": "thorium", "amount": 14},
 					]
 			              	}
-        "craftTime": 120
+        "craftTime": 120,
+		"drawer": {
+			"type": "DrawCrucibleFlame",
+			"flameColor": "ed6dc9",
+			"particles": 80,
+			"particleRad": 14,
+			},
     },
     {
+		"name": "7"
         "input": {"power": 1500}
         "output":{
-			"fluids":["futurehorizons-exotic_matter/0.25"]
+			"liquids":["futurehorizons-exotic_matter/0.25"]
 				              }
-        "craftTime": 30
+        "craftTime": 30,
+		"drawer": {
+			"type": "DrawMulti",
+			"drawers":	[
+				{
+					"type": "DrawCrucibleFlame",
+					"flameColor": "7b219c",
+					"particles": 80,
+					"particleRad": 14,
+				},
+				{
+					"type": "DrawBlackHole",
+					"size": 0, 
+					"edge": 27,
+					"color": "7b219c",
+				},
+				]
+			},
     },
 	]
 	"category": "crafting",
 	"idleSoundVolume": 0.08,
 	"itemCapacity": 60,
-	"sound": "click",
-	"SoundVolume": 0.1,
+	"ambientSound": "loopCircuit",
+	"ambientSoundVolume": 0.1,
 	"liquidCapacity": 600,
 	"research":{
 		"parent":"quantum_assembler"

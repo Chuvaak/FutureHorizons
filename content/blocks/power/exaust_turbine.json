@@ -1,0 +1,45 @@
+{
+	"type": "ConsumeGenerator",
+"health": 210,
+"liquidCapacity": 60,
+"size": 2,
+"drawer": {
+	  "type": "DrawMulti",
+	"drawers": 	[
+	{
+    "type": "drawRegion",
+    "suffix": "-bottom"    
+    },  
+      {
+	"type": "DrawRegion",
+		"suffix": "-rotator",
+		"rotateSpeed": 20,
+		"spinSprite": true
+   },
+	{
+	"type": "DrawDefault"
+	},
+				]
+			},
+"requirements": [
+    { "item": "lead", "amount": 60},
+	{ "item": "graphite", "amount": 40},
+	{ "item": "silicon", "amount": 30}
+	{ "item": "composite_plate", "amount": 10},
+  ],
+"hasLiquids": true,
+"powerProduction": 3,
+"generateEffect": "magmasmoke",
+"effectChance": 0.1,
+"consumes":{
+	"liquid": {
+		"liquid": "exaust", "amount": 0.11
+			}
+	},	
+"category": "power",
+"ambientSoundVolume": 0.02,
+"ambientSound": "loopMachineSpin",
+"research":{
+		"parent":"petrochemical_generator"
+	}
+}

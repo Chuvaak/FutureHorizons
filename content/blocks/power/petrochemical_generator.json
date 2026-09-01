@@ -1,0 +1,50 @@
+{
+	"type": "ConsumeGenerator",
+"health": 470,
+"liquidCapacity": 60,
+"rebuildable": false,
+"size": 3,
+"drawer": {
+	  "type": "DrawMulti",
+	"drawers": 	[
+	{
+    "type": "drawRegion",
+    "suffix": "-bottom"    
+    },  
+	{
+    "type": "DrawLiquidTile",
+    "drawLiquid": "oil"
+   },
+	{
+	"type": "DrawDefault"
+	},
+	{
+	"type": "DrawFade"
+	},
+				]
+			},
+"requirements": [
+    { "item": "lead", "amount": 120},
+	{ "item": "graphite", "amount": 100},
+	{ "item": "silicon", "amount": 80}
+	{ "item": "metaglass", "amount": 80}
+	{ "item": "plastanium", "amount": 60},
+  ],
+"hasLiquids": true,
+"powerProduction": 28,
+"generateEffect": "generatespark",
+"effectChance": 0.04,
+"explodeOnFull": true,
+"consumes":{
+	"liquid": {
+		"liquid": "oil", "amount": 0.16666666666
+			}
+	},	
+"outputLiquid": {"liquid":"exaust", "amount": 0.5},
+"category": "power",
+"ambientSoundVolume": 0.05,
+"ambientSound": "loopSmelter",
+"research":{
+		"parent":"steam-generator"
+	}
+}

@@ -32,7 +32,8 @@
 	}
 },	
 "category": "power",
-"ambientSoundVolume": 0.5,
+"ambientSoundVolume": 0.08,
+"ambientSound": "loopHum",
 "research":{
 		"parent":"battery"
 	}

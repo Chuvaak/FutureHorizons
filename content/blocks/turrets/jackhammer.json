@@ -35,7 +35,7 @@
   "targetAir": true,
   "recoil": 7,
   "rotateSpeed": 1,
-  "shootSound": "shotgun",
+  "shootSound": "shootFuse",
   "unitSort": "strongest",
   "ammoPerShot": 100,
   "maxAmmo": 200,
